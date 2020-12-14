@@ -1,4 +1,5 @@
 # UW Kendo Web UI
+# [General View](https://pages.github.com/LINNI2017/uw-kendo-website/)
 # For first-time initialization:
 - `yarn install`
 - `yarn start`
