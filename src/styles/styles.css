@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 
 body {
   margin: 0;
-  font-family: "Montserrat", sans-serif;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  /* override bootstrap font family */
+  font-family: "Montserrat", sans-serif !important; 
 }
 
 .logo-title-layout {
@@ -20,6 +16,7 @@ code {
   font-weight: 700;
   font-size: 48px;
   color: #5B3080;
+  margin: 0;
 }
 
 .top-bar-layout {
@@ -28,13 +25,10 @@ code {
   justify-content: space-between;
 }
 
-.nav-bar-font {
+.nav-bar-font li a, .nav-bar-font a {
+  color: #171717;
   font-weight: 500;
   font-size: 20px;
-}
-
-.nav-bar-font li a {
-  color: #171717;
 }
 
 .home-join-font {
@@ -45,7 +39,7 @@ code {
 
 .home-join-layout {
   margin: auto;
-  width: 51%;
+  width: 60%;
   text-align: center;
 }
 
@@ -53,5 +47,3 @@ code {
   font-weight: 700;
   font-size: 18px;
 }
-
-
