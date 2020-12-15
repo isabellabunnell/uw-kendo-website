@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from "react"
 import { Button, Col, Container, Row } from "react-bootstrap"
+import DropdownNav from "../components/DropdownNav"
 import LogoTitle from "../components/LogoTitle"
 import NavBar from "../components/NavBar"
 
 const HomePage = () => {
    const [screenHeight, setScreenHeight] = useState(window.innerHeight)
+   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
    useEffect(() => {
       window.addEventListener("resize", () => {
          setScreenHeight(window.innerHeight)
+         setScreenWidth(window.innerWidth)
       })
    }, [])
 
@@ -22,7 +25,12 @@ const HomePage = () => {
                   style={{ marginTop: screenHeight * 0.1 }}
                >
                   <LogoTitle />
-                  <NavBar />
+                  {
+                     screenWidth < 1192 ?
+                     <DropdownNav />
+                     :
+                     <NavBar />
+                  }
                </div>
                <div
                   style={{
@@ -39,6 +47,7 @@ const HomePage = () => {
                   </p>
                   <Button
                      className="home-join-button-font"
+                     variant="primary"
                      style={{ backgroundColor: "#5B3080", borderColor: "#5B3080" }}
                   >
                      Join our mailing list
