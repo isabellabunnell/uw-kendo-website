@@ -16,13 +16,13 @@ const NavBar = () => {
             <Nav.Link href="/about" disabled={activePage === pageList[0]}>About Us</Nav.Link>
          </Nav.Item>
          <Nav.Item as="li">
-            <Nav.Link href="" disabled={activePage === pageList[1]}>What is Kendo?</Nav.Link>
+            <Nav.Link href="/" disabled={activePage === pageList[1]}>What is Kendo?</Nav.Link>
          </Nav.Item>
          <Nav.Item as="li">
-            <Nav.Link href="" disabled={activePage === pageList[2]}>Join</Nav.Link>
+            <Nav.Link href="/" disabled={activePage === pageList[2]}>Join</Nav.Link>
          </Nav.Item>
          <Nav.Item as="li">
-            <Nav.Link href="" disabled={activePage === pageList[3]}>Resources</Nav.Link>
+            <Nav.Link href="/" disabled={activePage === pageList[3]}>Resources</Nav.Link>
          </Nav.Item>
       </Nav>
    )

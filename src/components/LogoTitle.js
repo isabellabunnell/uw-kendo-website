@@ -4,7 +4,7 @@ import { IMAGE_PATH } from "../views/App"
 
 const LogoTitle = () => {
    return (
-      <Link className="logo-title-layout" to="">
+      <Link className="logo-title-layout" to="/">
          <img
             alt="kendo uw logo"
             width="113"
