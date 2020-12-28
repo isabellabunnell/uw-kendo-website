@@ -1,5 +1,5 @@
 # UW Kendo Web UI
-### [General View](https://linni2017.github.io/uw-kendo-website/)
+### [General View](https://git.heroku.com/uw-kendo-web.git)
 ### Developer Usage:
    - For first-time initialization:
      - `yarn install`
