@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Pagination } from '@material-ui/lab'
 import EventAwards from "./EventAwards"
-import { Accordion, Button } from "react-bootstrap"
+import { Accordion, Button, Row } from "react-bootstrap"
 
 const AwardsBlock = () => {
    const awardsMap = require("../data/awards")
@@ -9,28 +9,47 @@ const AwardsBlock = () => {
    const [activePage, setActivePage] = useState(1)
    const activeYear = yearList[activePage-1]
    const activeAwards = awardsMap[activeYear]
+   const [displayMore, setDisplayMore] = useState(true)
+
+   const DisplayToggle = () => (
+      <Accordion.Toggle
+         as={Button}
+         variant="link"
+         eventKey="0"
+         onClick={() => setDisplayMore(!displayMore)}
+      >
+         {displayMore ? "Display More" : "Display Less"}
+      </Accordion.Toggle>
+   )
 
    return (
       <>
-         <Pagination
-            size="large"
-            count={yearList.length}
-            defaultPage={1}
-            color="primary"
-            onChange={(_, page) => setActivePage(page)}
-            style={{ float: "right"}}
-         />
+         <div>
+            <h3 style={{ display: "inline" }}>
+               Awards
+            </h3>
+            <Pagination
+               size="large"
+               count={yearList.length}
+               defaultPage={1}
+               color="primary"
+               onChange={(_, page) => setActivePage(page)}
+               style={{ float: "right"}}
+            />
+         </div>
          {
             activeAwards.length > 0 &&
-            <EventAwards key={0} event={activeAwards[0]} /> 
+            <div style={{ marginTop: "1rem" }}>
+            <EventAwards key={0} event={activeAwards[0]} />
+            </div>
          }
          {
             activeAwards.length > 1 &&
             <Accordion>
-               <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                  Read More
-               </Accordion.Toggle>
-               
+               {
+                  displayMore &&
+                  <DisplayToggle />
+               }
                <Accordion.Collapse eventKey="0">
                   <>
                   {
@@ -40,6 +59,10 @@ const AwardsBlock = () => {
                   }
                   </>
                </Accordion.Collapse>
+               {
+                  !displayMore &&
+                  <DisplayToggle />
+               }
             </Accordion>
          }
          {
