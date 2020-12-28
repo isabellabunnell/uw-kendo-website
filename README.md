@@ -4,7 +4,7 @@
    - For first-time initialization:
      - `yarn install`
      - `yarn start`
-     - run on `http://localhost:3000/uw-kendo-website/`
+     - run on `http://localhost:3000`
    - For test:
      - `yarn test`
    - DON'T PUSH `build/`, which will block heroku auto deployment.

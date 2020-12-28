@@ -1,10 +1,10 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import { IMAGE_PATH, WEB_URL } from "../views/App"
+import { IMAGE_PATH } from "../views/App"
 
 const LogoTitle = () => {
    return (
-      <Link className="logo-title-layout" to={`${WEB_URL}`}>
+      <Link className="logo-title-layout" to="">
          <img
             alt="kendo uw logo"
             width="113"
