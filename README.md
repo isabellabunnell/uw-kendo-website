@@ -4,7 +4,7 @@
    - For first-time initialization:
      - `yarn install`
      - `yarn start`
-     - run on `https://linni2017.github.io/uw-kendo-website/`
+     - run on `http://localhost:3000/uw-kendo-website/`
    - For test:
      - `yarn test`
    - For Github build doc
