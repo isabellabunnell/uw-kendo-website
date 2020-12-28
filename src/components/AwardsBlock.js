@@ -6,6 +6,8 @@ const AwardsBlock = () => {
    const awardsMap = require("../data/awards")
    const yearList = Object.keys(awardsMap).map(yearString => parseInt(yearString)).reverse()
    const [activePage, setActivePage] = useState(1)
+   const activeYear = yearList[activePage-1]
+   const activeAwards = awardsMap[activeYear]
 
    return (
       <>
@@ -18,9 +20,13 @@ const AwardsBlock = () => {
             style={{ float: "right"}}
          />
          {
-            awardsMap[yearList[activePage-1]].map((event, idx) => (
+            activeAwards.map((event, idx) => (
                <EventAwards key={idx} event={event} />
             ))
+         }
+         {
+            activeAwards.length === 0 &&
+            <h3>{`No event record in ${activeYear}`}</h3>
          }
       </>
    )
