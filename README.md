@@ -1,5 +1,5 @@
 # UW Kendo Web UI
-### [General View](https://git.heroku.com/uw-kendo-web.git)
+### [Heroku Deployed View](https://git.heroku.com/uw-kendo-web.git)
 ### Developer Usage:
    - For first-time initialization:
      - `yarn install`
