@@ -12,6 +12,10 @@ body {
   align-items: center;
 }
 
+.logo-title-layout:hover {
+  text-decoration: none;
+}
+
 .logo-title-font {
   font-weight: 700;
   font-size: 48px;
