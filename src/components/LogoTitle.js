@@ -1,9 +1,10 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import { IMAGE_PATH } from "../views/App"
 
 const LogoTitle = () => {
    return (
-      <div className="logo-title-layout">
+      <Link className="logo-title-layout" to="/home">
          <img
             alt="kendo uw logo"
             width="113"
@@ -12,7 +13,7 @@ const LogoTitle = () => {
             style={{ marginRight: "1rem" }}
          />
          <p className="logo-title-font">UW Kendo</p>
-      </div>
+      </Link>
    )
 }
 
