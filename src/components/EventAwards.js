@@ -5,7 +5,6 @@ import { Table } from "react-bootstrap"
 const EventAwards = ({
    event
 }) => {
-   console.log(event)
    const title = Object.keys(event)[0]
    const awards = event[title]
 

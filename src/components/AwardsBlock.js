@@ -7,8 +7,6 @@ const AwardsBlock = () => {
    const yearList = Object.keys(awardsMap).map(yearString => parseInt(yearString)).reverse()
    const [activePage, setActivePage] = useState(1)
 
-   console.log(activePage, yearList[activePage-1], awardsMap[yearList[activePage-1]])
-
    return (
       <>
          <Pagination
