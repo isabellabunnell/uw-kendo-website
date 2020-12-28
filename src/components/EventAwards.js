@@ -25,9 +25,9 @@ const EventAwards = ({
                {
                   awards.map((info, idx) => (
                      <tr key={idx}>
-                        <td>{info.name}</td>
-                        <td>{info.division}</td>
-                        <td>{info.place}</td>
+                        <td>{info.name ? info.name : "-"}</td>
+                        <td>{info.division ? info.division : "-"}</td>
+                        <td>{info.place ? info.place : "-"}</td>
                      </tr>
                   ))
                }

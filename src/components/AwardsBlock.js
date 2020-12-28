@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { Pagination } from '@material-ui/lab'
 import EventAwards from "./EventAwards"
+import { Accordion, Button } from "react-bootstrap"
 
 const AwardsBlock = () => {
    const awardsMap = require("../data/awards")
@@ -20,9 +21,26 @@ const AwardsBlock = () => {
             style={{ float: "right"}}
          />
          {
-            activeAwards.map((event, idx) => (
-               <EventAwards key={idx} event={event} />
-            ))
+            activeAwards.length > 0 &&
+            <EventAwards key={0} event={activeAwards[0]} /> 
+         }
+         {
+            activeAwards.length > 1 &&
+            <Accordion>
+               <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                  Read More
+               </Accordion.Toggle>
+               
+               <Accordion.Collapse eventKey="0">
+                  <>
+                  {
+                     activeAwards.slice(1).map((event, idx) => (
+                        <EventAwards key={idx+1} event={event} />
+                     ))
+                  }
+                  </>
+               </Accordion.Collapse>
+            </Accordion>
          }
          {
             activeAwards.length === 0 &&
