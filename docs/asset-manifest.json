@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/uw-kendo-website/static/css/main.ff94c698.chunk.css",
-    "main.js": "/uw-kendo-website/static/js/main.6cefb79a.chunk.js",
-    "main.js.map": "/uw-kendo-website/static/js/main.6cefb79a.chunk.js.map",
+    "main.js": "/uw-kendo-website/static/js/main.5412fd66.chunk.js",
+    "main.js.map": "/uw-kendo-website/static/js/main.5412fd66.chunk.js.map",
     "runtime-main.js": "/uw-kendo-website/static/js/runtime-main.ca0b844d.js",
     "runtime-main.js.map": "/uw-kendo-website/static/js/runtime-main.ca0b844d.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/uw-kendo-website/static/css/2.20aa2d7b.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.0c1a6ca8.chunk.js",
     "static/css/main.ff94c698.chunk.css",
-    "static/js/main.6cefb79a.chunk.js"
+    "static/js/main.5412fd66.chunk.js"
   ]
 }
