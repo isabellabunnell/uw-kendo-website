@@ -16,9 +16,9 @@ const InfoBlock = ({
             </h3>
             {
                content.split("\n").map((part, partIdx) => (
-                  <h5 key={partIdx} style={{ marginBottom: "1rem" }}>
+                  <p key={partIdx} style={{ marginBottom: "1rem" }}>
                      {part}
-                  </h5>
+                  </p>
                ))
             }
          </Col>

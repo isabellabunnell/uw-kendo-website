@@ -10,9 +10,9 @@ const EventAwards = ({
 
    return (
       <div>
-         <h3>
+         <h5>
             {title}
-         </h3>
+         </h5>
          <Table striped bordered hover>
             <thead>
                <tr>
