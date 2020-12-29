@@ -6,7 +6,6 @@ import { getDateStr } from "../functions/utils"
 import EventBlock from "../components/EventBlock"
 import { Row, Col } from "react-bootstrap"
 
-
 const JoinPage = () => {
    const [dateValue, setDateValue] = useState(new Date())
    const calendarMap = require("../data/calendar")
