@@ -1,11 +1,12 @@
 import React, { useState } from "react"
-import { Nav } from "react-bootstrap"
+import { Dropdown, Nav } from "react-bootstrap"
 import { useLocation } from "react-router-dom"
 
 const NavBar = () => {
    const location = useLocation().pathname.split("/").pop()
    const [activePage, setActivePage] = useState(location)
-   const pageList = ["about", "what-is-kendo", "join", "resources"]
+   const pageList = ["about", "what-is-kendo", "join", ["faq", "vocab", "warm-up", "etiquette", "useful-link"]]
+   const [defBtn, setDefBtn] = useState(false)
 
    return (
       <Nav
@@ -22,7 +23,26 @@ const NavBar = () => {
             <Nav.Link href={`/${pageList[2]}`} disabled={activePage === pageList[2]}>Join</Nav.Link>
          </Nav.Item>
          <Nav.Item as="li">
-            <Nav.Link href={`/${pageList[3]}`} disabled={activePage === pageList[3]}>Resources</Nav.Link>
+            <Dropdown className="nav-dropdown">
+               <Dropdown.Toggle
+                  onClickCapture={() => setDefBtn(!defBtn)}
+                  id="nav-resource-dropdown"
+                  style={{
+                     boxShadow: "none",
+                     backgroundColor: "transparent",
+                     color: defBtn ? "gray" : "#171717"
+                  }}
+               >
+                  Resources
+               </Dropdown.Toggle>
+               <Dropdown.Menu>
+                  <Dropdown.Item href={`/${pageList[3][0]}`}>FAQ</Dropdown.Item>
+                  <Dropdown.Item href="/">Vocab</Dropdown.Item>
+                  <Dropdown.Item href="/">Warm Up</Dropdown.Item>
+                  <Dropdown.Item href="/">Etiquette</Dropdown.Item>
+                  <Dropdown.Item href="/">Useful Links</Dropdown.Item>
+               </Dropdown.Menu>
+            </Dropdown>
          </Nav.Item>
       </Nav>
    )
