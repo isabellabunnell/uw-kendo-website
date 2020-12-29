@@ -14,7 +14,7 @@ const InfoPage = () => {
                         <InfoBlock
                            title={info.title}
                            content={info.content}
-                           img={info.img}
+                           image={info.img}
                            key={`info-${idx}`}
                            textRight={idx % 2 === 1}
                         />

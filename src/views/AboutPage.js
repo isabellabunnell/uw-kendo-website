@@ -15,7 +15,7 @@ const AboutPage = () => {
                   <InfoBlock
                      title={clubInfo.title}
                      content={clubInfo.content}
-                     img={clubInfo.img}
+                     image={clubInfo.img}
                      textRight={false}
                   />
                </div>

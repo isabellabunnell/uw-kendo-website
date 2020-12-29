@@ -16,6 +16,7 @@ const PositionBlock = ({
                `${IMAGE_PATH}/officers/placeholder.png`
             }
             className="position-image"
+            alt={people.image}
          />
          <div>
             <h5>{people.name}</h5>

@@ -6,7 +6,7 @@ import { IMAGE_PATH } from "../views/App"
 const InfoBlock = ({
    title,
    content,
-   img,
+   image,
    textRight
 }) => {
    const TextBlock = () => (
@@ -27,8 +27,9 @@ const InfoBlock = ({
    const ImgBlock = () => (
       <Col sm={6}>
          <img
-            src={`${IMAGE_PATH}/${img}`}
+            src={`${IMAGE_PATH}/${image}`}
             style={{ objectFit: "cover" }}
+            alt={image}
             width="100%"
          />
       </Col>
@@ -45,7 +46,7 @@ const InfoBlock = ({
 InfoBlock.propTypes = {
    title: PropTypes.string,
    content: PropTypes.string,
-   img: PropTypes.string,
+   image: PropTypes.string,
    textRight: PropTypes.bool
 }
 
