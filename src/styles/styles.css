@@ -51,3 +51,10 @@ body {
   font-weight: 700;
   font-size: 18px;
 }
+
+.position-block-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
