@@ -72,3 +72,25 @@ body {
   padding: 2rem;
   width: 100% !important;
 }
+
+.faq-accordion {
+  width: 100%;
+  border-bottom: 2px solid lightgray;
+  margin-bottom: 1rem;
+}
+
+.faq-button {
+  color: #5B3080;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.faq-accordion button:hover, .faq-accordion button:focus {
+  text-decoration: none;
+}
+
+.faq-accordion button:focus {
+  box-shadow: none;
+}
