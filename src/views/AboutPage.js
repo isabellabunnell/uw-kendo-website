@@ -15,6 +15,7 @@ const AboutPage = () => {
                      title={clubInfo.title}
                      content={clubInfo.content}
                      img={clubInfo.img}
+                     textRight={false}
                   />
                </div>
                <div style={{ marginTop: "2rem" }}>
