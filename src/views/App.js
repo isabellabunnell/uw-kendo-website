@@ -1,7 +1,7 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-import AboutPage from './AboutPage';
+import AboutPage from "./AboutPage"
 import HomePage from "./HomePage"
 export const IMAGE_PATH = process.env.PUBLIC_URL + "/images"
 
