@@ -1,8 +1,6 @@
 import React from "react"
-import AwardsBlock from "../components/AwardsBlock"
 import InfoBlock from "../components/InfoBlock"
 import PageStructure from "../components/PageStructure"
-import PeopleBlock from "../components/PeopleBlock"
 import { sportInfo } from "../data/info"
 
 const InfoPage = () => {
