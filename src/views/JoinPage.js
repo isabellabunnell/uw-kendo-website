@@ -2,9 +2,9 @@ import "react-calendar/dist/Calendar.css"
 import React, { useState } from "react"
 import PageStructure from "../components/PageStructure"
 import Calendar from "react-calendar"
-import { getDateStr } from "../functions/utils"
 import EventBlock from "../components/EventBlock"
 import { Row, Col } from "react-bootstrap"
+import { getDateStr } from "../functions/utils"
 
 const JoinPage = () => {
    const [dateValue, setDateValue] = useState(new Date())

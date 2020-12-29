@@ -1,17 +1,10 @@
 import "react-calendar/dist/Calendar.css"
-import React, { useState } from "react"
+import React from "react"
 import PageStructure from "../components/PageStructure"
-import Calendar from "react-calendar"
-import { getDateStr } from "../functions/utils"
-import EventBlock from "../components/EventBlock"
-import { Row, Col, Accordion, Button } from "react-bootstrap"
+import { Accordion, Button } from "react-bootstrap"
 import { faqList } from "../data/info"
 
 const ResourcePage = () => {
-   const [dateValue, setDateValue] = useState(new Date())
-   const calendarMap = require("../data/calendar")
-   const dateStr = getDateStr(dateValue)
-
    return (
       <PageStructure
          content={

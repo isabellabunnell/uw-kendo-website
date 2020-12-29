@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react"
-import { Col, Container, Row } from "react-bootstrap"
 import DropdownNav from "./DropdownNav"
 import LogoTitle from "./LogoTitle"
 import NavBar from "./NavBar"
 import PropTypes from "prop-types"
+import { Col, Container, Row } from "react-bootstrap"
 
 const PageStructure = ({
    content

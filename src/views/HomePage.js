@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
-import { Button} from "react-bootstrap"
 import PageStructure from "../components/PageStructure"
+import { Button} from "react-bootstrap"
 
 const HomePage = () => {
    const JOIN_MAIL_URL = "http://mailman13.u.washington.edu/mailman/listinfo/uwkendo"

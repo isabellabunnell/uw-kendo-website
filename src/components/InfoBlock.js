@@ -1,7 +1,7 @@
 import React from "react"
+import PropTypes from "prop-types"
 import { Col, Row } from "react-bootstrap"
 import { IMAGE_PATH } from "../views/App"
-import PropTypes from "prop-types"
 
 const InfoBlock = ({
    title,

@@ -1,7 +1,8 @@
 import React, { useState } from "react"
+import PositionBlock from "./PositionBlock"
 import { Pagination } from "@material-ui/lab"
 import { Row, Col } from "react-bootstrap"
-import PositionBlock from "./PositionBlock"
+
 
 const PeopleBlock = () => {
    const cntPerPage = 9

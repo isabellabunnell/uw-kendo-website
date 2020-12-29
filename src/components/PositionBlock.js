@@ -2,7 +2,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import { IMAGE_PATH } from "../views/App"
 
-
 const PositionBlock = ({
    people
 }) => {

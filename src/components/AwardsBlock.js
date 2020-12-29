@@ -1,7 +1,7 @@
 import React, { useState } from "react"
-import { Pagination } from "@material-ui/lab"
 import EventAwards from "./EventAwards"
-import { Accordion, Button, Row } from "react-bootstrap"
+import { Pagination } from "@material-ui/lab"
+import { Accordion, Button } from "react-bootstrap"
 
 const AwardsBlock = () => {
    const awardsMap = require("../data/awards")
