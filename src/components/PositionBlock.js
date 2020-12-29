@@ -16,7 +16,7 @@ const PositionBlock = ({
                `${IMAGE_PATH}/${people.image}` :
                `${IMAGE_PATH}/officers/placeholder.png`
             }
-            style={{ objectFit: "cover", borderRadius: "50%" }}
+            className="position-image"
          />
          <div>
             <h5>{people.name}</h5>
