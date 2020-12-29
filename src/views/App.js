@@ -1,10 +1,11 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css"
 import React from "react"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import AboutPage from "./AboutPage"
 import HomePage from "./HomePage"
-import InfoPage from "./InfoPage";
-import JoinPage from "./JoinPage";
+import InfoPage from "./InfoPage"
+import JoinPage from "./JoinPage"
+import ResourcePage from "./ResourcePage"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
 export const IMAGE_PATH = process.env.PUBLIC_URL + "/images"
 
@@ -23,6 +24,10 @@ const App = () => {
         <Route
           path="/join"
           component={JoinPage}
+        />
+        <Route
+          path="/resources"
+          component={ResourcePage}
         />
         <Route
           path="/"
