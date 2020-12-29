@@ -1,13 +1,12 @@
 import "react-calendar/dist/Calendar.css"
 import React, { useState } from "react"
-import PageStructure from "../components/PageStructure"
 import { Accordion, Button } from "react-bootstrap"
 import { faqList } from "../data/info"
 import { BsChevronDown, BsChevronUp } from "react-icons/bs"
 
 const FAQBlock = () => {
    return (
-      <div style={{ marginTop: "2rem" }}>
+      <div style={{ marginTop: "3rem" }}>
          <h3 style={{ marginBottom: "1rem" }}>
             FAQ
          </h3>
@@ -16,7 +15,7 @@ const FAQBlock = () => {
                const [open, setOpen] = useState(false)
                return (
                   <div className="faq-accordion" key={`faq-${idx}`}>
-                     <Accordion onClick={() => setOpen(!open)} >
+                     <Accordion onClick={() => setOpen(!open)} defaultActiveKey={idx === 0 && "0"}>
                         <Accordion.Toggle
                            as={Button}
                            variant="link"
