@@ -14,7 +14,7 @@ const JoinPage = () => {
    return (
       <PageStructure
          content={
-            <div style={{ marginTop: "2rem" }}>
+            <div style={{ marginTop: "3rem" }}>
                <h3>
                   Calendar
                </h3>
