@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react"
-import { Button, Container, Row } from "react-bootstrap"
+import { Button} from "react-bootstrap"
 import PageStructure from "../components/PageStructure"
 
 const HomePage = () => {
+   const JOIN_MAIL_URL = "http://mailman13.u.washington.edu/mailman/listinfo/uwkendo"
    const [screenHeight, setScreenHeight] = useState(window.innerHeight)
    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
@@ -36,6 +37,7 @@ const HomePage = () => {
                className="home-join-button-font"
                variant="primary"
                style={{ backgroundColor: "#5B3080", borderColor: "#5B3080" }}
+               onClick={() => window.location=JOIN_MAIL_URL}
             >
                Join our mailing list
             </Button>
