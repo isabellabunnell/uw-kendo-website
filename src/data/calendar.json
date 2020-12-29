@@ -1,0 +1,38 @@
+{
+   "2020-12-23": [
+      {
+         "start": "7:00 PM",
+         "end": "9:00 PM",
+         "event": "Kendo Practice",
+         "room": "IMA Gym B"
+      },
+      {
+
+      }
+   ],
+   "2020-12-25": [
+      {
+         "start": "7:00 PM",
+         "end": "9:00 PM",
+         "event": "Kendo Practice",
+         "room": "IMA Studio 216"
+      },
+      {
+
+      }
+   ],
+   "2020-12-30": [
+      {
+         "start": "7:00 PM",
+         "end": "9:00 PM",
+         "event": "Kendo Practice",
+         "room": "IMA Gym B"
+      },
+      {
+         "start": "9:00 AM",
+         "end": "10:00 AM",
+         "event": "Desert Celebration",
+         "room": "zoom"
+      }
+   ]
+}
