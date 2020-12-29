@@ -1,6 +1,7 @@
 import React from "react"
 import AwardsBlock from "../components/AwardsBlock"
 import InfoBlock from "../components/InfoBlock"
+import InstructorsBlock from "../components/InstructorsBlock"
 import PageStructure from "../components/PageStructure"
 import PeopleBlock from "../components/PeopleBlock"
 import { clubInfo } from "../data/info"
@@ -20,6 +21,9 @@ const AboutPage = () => {
                </div>
                <div style={{ marginTop: "2rem" }}>
                   <AwardsBlock />
+               </div>
+               <div style={{ marginTop: "2rem" }}>
+                  <InstructorsBlock />
                </div>
                <div style={{ marginTop: "2rem" }}>
                   <PeopleBlock />

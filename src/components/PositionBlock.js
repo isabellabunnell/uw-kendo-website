@@ -19,6 +19,7 @@ const PositionBlock = ({
          />
          <div>
             <h5>{people.name}</h5>
+            <h5 style={{ fontStyle: "italic" }}>{people.place}</h5>
             <h5 style={{ fontWeight: "bolder" }}>{people.position}</h5>
          </div>
          

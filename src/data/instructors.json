@@ -1,0 +1,26 @@
+{
+   "Club Advisor": [
+      {
+         "name": "Darrick Lew",
+         "place": "Kendo 4th Dan, Iaido 3rd Dan",
+         "image": "instructors/lew.jpg"
+      }
+   ],
+   "Guest Instructors": [
+      {
+         "name": "Jeffrey Marsten",
+         "place": "Kendo 5th Dan",
+         "image": "instructors/jeffy.jpg"
+      },
+      {
+         "name": "Thomas Bolling",
+         "place": "Kendo 4th Dan, Iaido 5th Dan",
+         "image": "instructors/bolling.jpg"
+      },
+      {
+         "name": "CJ Chaney",
+         "place": "Kendo 4th Dan",
+         "image": "instructors/cj_chaney.jpg"
+      }
+   ]
+}

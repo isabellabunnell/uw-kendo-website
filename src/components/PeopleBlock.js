@@ -3,7 +3,6 @@ import PositionBlock from "./PositionBlock"
 import { Pagination } from "@material-ui/lab"
 import { Row, Col } from "react-bootstrap"
 
-
 const PeopleBlock = () => {
    const cntPerPage = 9
    const peopleMap = require("../data/people")
