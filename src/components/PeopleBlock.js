@@ -11,7 +11,6 @@ const PeopleBlock = () => {
       [...res, ...peopleMap[position].map(people => ({...people, position}))], [])
    const [activePage, setActivePage] = useState(1)
    const activePeople = peopleList.slice((activePage-1) * cntPerPage, activePage * cntPerPage)
-   console.log(peopleList, peopleList.length, parseInt(peopleList.length / cntPerPage))
 
    return (
       <>
