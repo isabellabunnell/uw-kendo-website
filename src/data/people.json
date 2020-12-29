@@ -2,63 +2,57 @@
    "President": [
       {
          "name": "Jane Higa",
-         "image": "Officers/jane.jpg"
+         "image": "officers/jane.jpg"
       }
    ],
    "Vice President": [
-         {
+      {
          "name": "Brian Wong",
-         "image": "Officers/brian.jpg"
-      }
-   ],
-   "Webmaster": [
-      {
-         "name": "Ajay Kristipati",
-         "quote": "In hindsight I probably should have started working on this website in November",
-         "image": "Officers/ajay.jpg"
-      },
-      {
-         "name": "Linni Cai",
-         "image": "Officers/linni.jpg"
+         "image": "officers/brian.jpg"
       }
    ],
    "Treasurer": [
       {
          "name": "Andy Yuen",
-         "image": "Officers/andy.jpg"
+         "image": "officers/andy.jpg"
       }
    ],
    "Safety Officer": [
       {
          "name": "Cian Alexander Chu",
          "quote": "clip your toenails",
-         "image": "Officers/cian.jpg"
+         "image": "officers/cian.jpg"
       },
       {
-         "name": "Welson Nguyen",
-         "image": "Officers/welson.jpg"
+         "name": "Welson Nguyen"
+      }
+   ],
+   "Webmaster": [
+      {
+         "name": "Ajay Kristipati",
+         "quote": "In hindsight I probably should have started working on this website in November",
+         "image": "officers/ajay.jpg"
+      },
+      {
+         "name": "Linni Cai"
       }
    ],
    "Staff": [
       {
          "name":"Juno Lee",
-         "image":"Officers/juno.jpg"
+         "image":"officers/juno.jpg"
       },
       {
-         "name":"AJ Chau",
-         "image":"Officers/aj.jpg"
+         "name":"AJ Chau"
       },
       {
-         "name":"Brian Hong",
-         "image":"Officers/brian_h.jpg"
+         "name":"Brian Hong"
       },
       {
-         "name":"Camille Miller",
-         "image":"Officers/camille.jpg"
+         "name":"Camille Miller"
       },
       {
-         "name":"Kyle Fukuda",
-         "image":"Officers/kyle.jpg"
+         "name":"Kyle Fukuda"
       }
    ]
 }
