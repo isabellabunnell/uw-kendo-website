@@ -6,34 +6,38 @@ import PropTypes from "prop-types"
 const InfoBlock = ({
    title,
    content,
-   img
+   img,
+   textRight
 }) => {
+   const TextBlock = () => (
+      <Col sm={6}>
+         <h3 style={{ marginTop: "1rem" }}>
+            {title}
+         </h3>
+         {
+            content.split("\n").map((part, partIdx) => (
+               <p key={`info-${partIdx}`} style={{ marginBottom: "1rem" }}>
+                  {part}
+               </p>
+            ))
+         }
+      </Col>
+   )
+
+   const ImgBlock = () => (
+      <Col sm={6}>
+         <img
+            src={`${IMAGE_PATH}/${img}`}
+            style={{ objectFit: "cover" }}
+            width="100%"
+         />
+      </Col>
+   )
+
    return (
-      <Row>
-         <Col sm={6}>
-            <h3 style={{ marginTop: "1rem" }}>
-               {title}
-            </h3>
-            {
-               content.split("\n").map((part, partIdx) => (
-                  <p key={`info-${partIdx}`} style={{ marginBottom: "1rem" }}>
-                     {part}
-                  </p>
-               ))
-            }
-         </Col>
-         <Col sm={6}>
-            <div
-               style={{
-                  backgroundImage: `url(${IMAGE_PATH}/${img})`,
-                  backgroundSize: "contain",
-                  backgroundRepeat: "no-repeat",
-                  backgroundPositionX: "right",
-                  height: "100%",
-                  width: "100%"
-               }}
-            />
-         </Col>
+      <Row style={{ marginBottom: "4rem" }}>
+         {textRight ? <ImgBlock /> : <TextBlock />}
+         {textRight ? <TextBlock /> : <ImgBlock />}
       </Row>
    )
 }
@@ -41,7 +45,8 @@ const InfoBlock = ({
 InfoBlock.propTypes = {
    title: PropTypes.string,
    content: PropTypes.string,
-   img: PropTypes.string
+   img: PropTypes.string,
+   textRight: PropTypes.bool
 }
 
 export default InfoBlock
