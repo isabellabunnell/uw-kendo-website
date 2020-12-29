@@ -1,14 +1,11 @@
-import React, { useState } from "react"
+import React from "react"
 import PositionBlock from "./PositionBlock"
-import { Pagination } from "@material-ui/lab"
 import { Row, Col } from "react-bootstrap"
+import { reducePeopleMapToList } from "../functions/utils"
 
 const InstructorsBlock = () => {
    const instructorsMap = require("../data/instructors")
-   const instructorsList = Object.keys(instructorsMap).reduce((res, position) =>
-      [...res, ...instructorsMap[position].map(instructor => ({...instructor, position}))], [])
-
-   console.log(instructorsList)
+   const instructorsList = reducePeopleMapToList(instructorsMap)
 
    return (
       <>

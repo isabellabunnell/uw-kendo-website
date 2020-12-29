@@ -2,12 +2,12 @@ import React, { useState } from "react"
 import PositionBlock from "./PositionBlock"
 import { Pagination } from "@material-ui/lab"
 import { Row, Col } from "react-bootstrap"
+import { reducePeopleMapToList } from "../functions/utils"
 
 const PeopleBlock = () => {
    const cntPerPage = 9
    const peopleMap = require("../data/people")
-   const peopleList = Object.keys(peopleMap).reduce((res, position) =>
-      [...res, ...peopleMap[position].map(people => ({...people, position}))], [])
+   const peopleList = reducePeopleMapToList(peopleMap)
    const [activePage, setActivePage] = useState(1)
    const activePeople = peopleList.slice((activePage-1) * cntPerPage, activePage * cntPerPage)
 

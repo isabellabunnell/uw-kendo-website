@@ -4,3 +4,8 @@ export const getDateStr = (dateValue) => {
    const dateDate = `0${dateValue.getDate()}`.slice(-2)
    return `${dateYear}-${dateMonth}-${dateDate}`
 }
+
+export const reducePeopleMapToList = (peopleMap) => (
+   Object.keys(peopleMap).reduce((res, position) =>
+      [...res, ...peopleMap[position].map(people => ({...people, position}))], [])
+)
