@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Pagination } from '@material-ui/lab'
+import { Pagination } from "@material-ui/lab"
 import EventAwards from "./EventAwards"
 import { Accordion, Button, Row } from "react-bootstrap"
 
@@ -40,7 +40,7 @@ const AwardsBlock = () => {
          {
             activeAwards.length > 0 &&
             <div style={{ marginTop: "1rem" }}>
-            <EventAwards key={0} event={activeAwards[0]} />
+            <EventAwards key="event-0" event={activeAwards[0]} />
             </div>
          }
          {
@@ -54,7 +54,7 @@ const AwardsBlock = () => {
                   <>
                   {
                      activeAwards.slice(1).map((event, idx) => (
-                        <EventAwards key={idx+1} event={event} />
+                        <EventAwards key={`event-${idx+1}`} event={event} />
                      ))
                   }
                   </>

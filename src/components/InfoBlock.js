@@ -16,7 +16,7 @@ const InfoBlock = ({
             </h3>
             {
                content.split("\n").map((part, partIdx) => (
-                  <p key={partIdx} style={{ marginBottom: "1rem" }}>
+                  <p key={`info-${partIdx}`} style={{ marginBottom: "1rem" }}>
                      {part}
                   </p>
                ))

@@ -24,7 +24,7 @@ const EventAwards = ({
             <tbody>
                {
                   awards.map((info, idx) => (
-                     <tr key={idx}>
+                     <tr key={`awards-table-row-${idx}`}>
                         <td>{info.name ? info.name : "-"}</td>
                         <td>{info.division ? info.division : "-"}</td>
                         <td>{info.place ? info.place : "-"}</td>
