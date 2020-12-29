@@ -94,3 +94,11 @@ body {
 .faq-accordion button:focus {
   box-shadow: none;
 }
+
+.nav-dropdown button {
+  background-color: transparent;
+  border: none;
+  color: #171717;
+  font-weight: 500;
+  font-size: 20px;
+}
