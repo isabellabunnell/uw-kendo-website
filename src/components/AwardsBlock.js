@@ -67,7 +67,7 @@ const AwardsBlock = () => {
          }
          {
             activeAwards.length === 0 &&
-            <h3>{`No event record in ${activeYear}`}</h3>
+            <h6 style={{ marginTop: "1rem" }}>{`No event record in ${activeYear}`}</h6>
          }
       </>
    )
