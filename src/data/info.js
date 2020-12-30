@@ -1,5 +1,44 @@
 export const JOIN_MAIL_URL = "http://mailman13.u.washington.edu/mailman/listinfo/uwkendo"
 
+export const annList = [
+   {
+      title: "COVID-19 Update",
+      content: "No Practice duringm 2020 spring quarter.",
+      img: "ann/protect-from-covid-19.png",
+      date: "2020-04-01"
+   },
+   {
+      title: "Zoom Practice",
+      content: "2020 Autumn Practice is on zoom weekly.",
+      img: "ann/kendo-zoom.jpeg",
+      date: "2020-09-01"
+   },
+   {
+      title: "Zoom Practice",
+      content: "2021 Winter Practice is on zoom weekly.",
+      img: "ann/sakura-uw.jpg",
+      date: "2020-12-01"
+   },
+   {
+      title: "COVID-19 Update",
+      content: "2021 Spring Practice is on zoom weekly.",
+      img: "gallery/27164185_1855723571126030_2268295408836291744_o.jpg",
+      date: "2021-04-01"
+   },
+   {
+      title: "Practice",
+      content: "2021 Autumn Practice is weekly.",
+      img: "gallery/54516523_10108870961748448_42511775274369024_o.jpg",
+      date: "2021-09-01"
+   },
+   {
+      title: "Practice",
+      content: "2022 Winter Practice is weekly.",
+      img: "gallery/54771008_10108876152880378_735473206244147200_n.jpg",
+      date: "2022-12-01"
+   }
+]
+
 export const clubInfo = {
    title: "The Club",
    content: `The Kendo Club at University of Washington (UW) is a sports club sponsored by the Department of Recreational Sports Programs. We're open to currently enrolled UW students and faculty/staff members that have purchased a quarterly or annual IMA Membership Card.
