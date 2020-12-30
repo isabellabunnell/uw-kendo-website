@@ -47,7 +47,7 @@ body {
   text-align: center;
 }
 
-.home-join-button-font {
+.home-join-button-font, join-button-font {
   font-weight: 700;
   font-size: 18px;
 }
