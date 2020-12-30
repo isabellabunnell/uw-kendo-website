@@ -5,7 +5,7 @@ import { useLocation } from "react-router-dom"
 const NavBar = () => {
    const location = useLocation().pathname.split("/").pop()
    const [activePage, setActivePage] = useState(location)
-   const pageList = ["about", "what-is-kendo", "join", ["faq", "vocab", "warm-up", "etiquette", "useful-link"]]
+   const pageList = ["", "about", "what-is-kendo", "announcement", "join", ["faq", "vocab", "warm-up", "etiquette", "useful-link"]]
    const [defBtn, setDefBtn] = useState(false)
 
    return (
@@ -14,13 +14,19 @@ const NavBar = () => {
          className="nav-bar-font"
       >
          <Nav.Item as="li">
-            <Nav.Link href={`/${pageList[0]}`} disabled={activePage === pageList[0]}>About Us</Nav.Link>
+            <Nav.Link href={`/${pageList[0]}`} disabled={activePage === pageList[0]}>Home</Nav.Link>
          </Nav.Item>
          <Nav.Item as="li">
-            <Nav.Link href={`/${pageList[1]}`} disabled={activePage === pageList[1]}>What is Kendo?</Nav.Link>
+            <Nav.Link href={`/${pageList[1]}`} disabled={activePage === pageList[1]}>About Us</Nav.Link>
          </Nav.Item>
          <Nav.Item as="li">
-            <Nav.Link href={`/${pageList[2]}`} disabled={activePage === pageList[2]}>Join</Nav.Link>
+            <Nav.Link href={`/${pageList[2]}`} disabled={activePage === pageList[2]}>What is Kendo?</Nav.Link>
+         </Nav.Item>
+         <Nav.Item as="li">
+            <Nav.Link href={`/${pageList[3]}`} disabled={activePage === pageList[3]}>Announcement</Nav.Link>
+         </Nav.Item>
+         <Nav.Item as="li">
+            <Nav.Link href={`/${pageList[4]}`} disabled={activePage === pageList[4]}>Join</Nav.Link>
          </Nav.Item>
          <Nav.Item as="li">
             <Dropdown className="nav-dropdown">
@@ -36,11 +42,11 @@ const NavBar = () => {
                   Resources
                </Dropdown.Toggle>
                <Dropdown.Menu>
-                  <Dropdown.Item href={`/${pageList[3][0]}`}>FAQ</Dropdown.Item>
-                  <Dropdown.Item href={`/${pageList[3][1]}`}>Vocab</Dropdown.Item>
-                  <Dropdown.Item href={`/${pageList[3][2]}`}>Warm Up</Dropdown.Item>
-                  <Dropdown.Item href={`/${pageList[3][3]}`}>Etiquette</Dropdown.Item>
-                  <Dropdown.Item href={`/${pageList[3][4]}`}>Useful Links</Dropdown.Item>
+                  <Dropdown.Item href={`/${pageList[5][0]}`}>FAQ</Dropdown.Item>
+                  <Dropdown.Item href={`/${pageList[5][1]}`}>Vocab</Dropdown.Item>
+                  <Dropdown.Item href={`/${pageList[5][2]}`}>Warm Up</Dropdown.Item>
+                  <Dropdown.Item href={`/${pageList[5][3]}`}>Etiquette</Dropdown.Item>
+                  <Dropdown.Item href={`/${pageList[5][4]}`}>Useful Links</Dropdown.Item>
                </Dropdown.Menu>
             </Dropdown>
          </Nav.Item>
