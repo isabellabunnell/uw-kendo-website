@@ -73,13 +73,13 @@ body {
   width: 100% !important;
 }
 
-.faq-accordion {
+.toggleb-block-accordion {
   width: 100%;
   border-bottom: 2px solid lightgray;
   margin-bottom: 1rem;
 }
 
-.faq-button {
+.toggleb-block-button {
   color: #5B3080;
   display: flex;
   flex-direction: row;
@@ -87,11 +87,11 @@ body {
   width: 100%;
 }
 
-.faq-accordion button:hover, .faq-accordion button:focus {
+.toggleb-block-accordion button:hover, .toggleb-block-accordion button:focus {
   text-decoration: none;
 }
 
-.faq-accordion button:focus {
+.toggleb-block-accordion button:focus {
   box-shadow: none;
 }
 
