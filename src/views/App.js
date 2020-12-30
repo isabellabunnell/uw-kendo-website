@@ -5,6 +5,7 @@ import HomePage from "./HomePage"
 import InfoPage from "./InfoPage"
 import JoinPage from "./JoinPage"
 import FAQPage from "./FAQPage"
+import VocabPage from "./VocabPage"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
 export const IMAGE_PATH = process.env.PUBLIC_URL + "/images"
@@ -28,6 +29,10 @@ const App = () => {
         <Route
           path="/faq"
           component={FAQPage}
+        />
+        <Route
+          path="/vocab"
+          component={VocabPage}
         />
         <Route
           path="/"
