@@ -1,20 +1,21 @@
-import "react-calendar/dist/Calendar.css"
 import React, { useState } from "react"
+import PropTypes from "prop-types"
 import { Accordion, Button } from "react-bootstrap"
-import { faqList } from "../data/info"
 import { BsChevronDown, BsChevronUp } from "react-icons/bs"
 
-const FAQBlock = () => {
+const ToggleBlock = ({
+   infoList,
+   toggleName,
+   collapseName
+}) => {
    return (
-      <div style={{ marginTop: "3rem" }}>
-         <h3 style={{ marginBottom: "1rem" }}>
-            FAQ
-         </h3>
+      <>
          {
-            faqList.map((faq, idx) => {
+            infoList.map((info, idx) => {
                const [open, setOpen] = useState(false)
+               const collapse = info[collapseName] 
                return (
-                  <div className="faq-accordion" key={`faq-${idx}`}>
+                  <div className="toggleb-block-accordion" key={`toggleb-block-${idx}`}>
                      <Accordion onClick={() => setOpen(!open)} defaultActiveKey={idx === 0 && "0"}>
                         <Accordion.Toggle
                            as={Button}
@@ -22,21 +23,30 @@ const FAQBlock = () => {
                            eventKey="0"
                            style={{ paddingLeft: "0", width: "100%" }} // need inline override
                         >
-                           <div className="faq-button">
-                              <h6 style={{ fontWeight: "bold" }}>{faq.Q}</h6>
+                           <div className="toggleb-block-button">
+                              <h6 style={{ fontWeight: "bold" }}>{info[toggleName]}</h6>
                               <h5>{ open ? <BsChevronUp /> : <BsChevronDown />}</h5>
                            </div>
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="0">
-                           <p>{faq.A}</p>
+                           {
+                              typeof collapse === "object" ?
+                              collapse : <p>{collapse}</p>
+                           }
                         </Accordion.Collapse>
                      </Accordion>
                   </div>
                )
             })
          }
-      </div>
+      </>
    )
 }
 
-export default FAQBlock
+ToggleBlock.propTypes = {
+   infoList: PropTypes.array,
+   toggleName: PropTypes.string,
+   collapseName: PropTypes.string
+}
+
+export default ToggleBlock
