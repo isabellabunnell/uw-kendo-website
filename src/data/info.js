@@ -102,43 +102,103 @@ export const faqList = [
    }
 ]
 
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export const warmUpList = [
+   {
+      abstract: "Wrist Shakes",
+      detail: "Arms to sides, hands below center of gravity, as if shaking water off hands, relax, breath normally."
+   },
+   {
+      abstract: "Knee Lifts",
+      detail: `Lift knee straight to front toward shoulder, alternate sides, exhale.
+      \n
+      Lift heels up in back, kick butt with heels, keep knees down, inhale.`
+   },
+   {
+      abstract: "Spinal Flexion and Extension",
+      detail: `Tuck chin to chest, flex the whole spine forward (don't lean forward), cross arms in front, spread shoulder blades apart, exhale.
+      \n
+      Look up at ceiling and down the wall in back of you (don't lean back), spread arms to sides and back, press shoulder blades together, inhale.`
+   },
+   {
+      abstract: "Jumping",
+      detail: "In place with feet straight ahead, then forward and back, then side to side"
+   },
+   {
+      abstract: "Up and Over",
+      detail: `Swing arms to front up over head (elbows straight but not stiff), palms front, knees and ankles extend, relax hands and wrists, inhale.
+      \n
+      Swing arms down and back behind (palms back), knees and ankles bend, exhale.`
+   },
+   {
+      abstract: "Knee Series",
+      detail: `Heels & toes together, hands on knees, bend knees forward/back, side/side, circle.
+      \n
+      Keep heels on floor, carefully stretch Achilles when bending knees.
+      \n
+      Stretch hamstrings when straightening knees.
+      \n
+      Keep back straight (extended), don 't round (flex) spine.
+      \n
+      Spine more vertical when bending knees, more horizontal when straightening knees.
+      \n
+      Exhale as knees bend, inhale as knees straighten.`
+   },
+   {
+      abstract: "Twist",
+      detail: `Feet straight ahead, shoulders width apart
+      \n
+      Rotate hips, shoulders and head left and right, look left and right as far as comfortably possible, don't force the range of motion.
+      \n
+      Front arm slaps opposite shoulder, back of back hand hits opposite butt cheek.
+      \n
+      Inhale as you twist back, exhale as you return to the front.`
+   },
+   {
+      abstract: "Jumping",
+      detail: "In place with feet straight ahead, then both forward and back, then both side to side, count every other bounce."
+   },
+   {
+      abstract: "Spinal Side Bend",
+      detail: `Feet straight ahead, shoulders width apart, hands on hips, fingers & thumbs point forward.
+      \n
+      Lean shoulders to one side, push hips to the other, touch ear toward shoulder, exhale, inhale as you come up.`
+   },
+   {
+      abstract: "Leg stretches",
+      detail: `Starting by turning to the side
+      \n
+      calf
+      \n
+      achillies
+      \n
+      groin
+      \n
+      hamstring
+      \n
+      other side`
+   },
+   {
+      abstract: "Arm Circles",
+      detail: `Heels shoulders width apart, toes pointing 45 degree to outside.
+      \n
+      Arms to sides, make large circles in both directions, elbows straight, hands relaxed.
+      \n
+      Inhale and exhale on every other circle.`
+   },
+   {
+      abstract: "Jougeburi x20",
+      detail: "1/4 Suburi"
+   },
+   {
+      abstract: "Men-uchi x30",
+      detail: "2/4 Suburi"
+   },
+   {
+      abstract: "Sayu-men x20",
+      detail: "3/4 Suburi"
+   },
+   {
+      abstract: "Haya-suburi 5x20",
+      detail: "4/4 Suburi"
+   }
+]

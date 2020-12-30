@@ -11,12 +11,12 @@ const ToggleBlock = ({
    return (
       <>
          {
-            infoList.map((info, idx) => {
+            infoList.map((info, infoIdx) => {
                const [open, setOpen] = useState(false)
                const collapse = info[collapseName] 
                return (
-                  <div className="toggleb-block-accordion" key={`toggleb-block-${idx}`}>
-                     <Accordion onClick={() => setOpen(!open)} defaultActiveKey={idx === 0 && "0"}>
+                  <div className="toggleb-block-accordion" key={`toggleb-block-${infoIdx}`}>
+                     <Accordion onClick={() => setOpen(!open)} defaultActiveKey={infoIdx === 0 && "0"}>
                         <Accordion.Toggle
                            as={Button}
                            variant="link"
@@ -31,7 +31,12 @@ const ToggleBlock = ({
                         <Accordion.Collapse eventKey="0">
                            {
                               typeof collapse === "object" ?
-                              collapse : <p>{collapse}</p>
+                              collapse :
+                              <div>
+                                 {collapse.split("\n").map((sentence, sentenceIdx) => (
+                                    <p key={`info-${infoIdx}-sentence-${sentenceIdx}`}>{sentence}</p>
+                                 ))}
+                              </div>
                            }
                         </Accordion.Collapse>
                      </Accordion>
