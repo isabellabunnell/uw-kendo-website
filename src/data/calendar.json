@@ -42,5 +42,13 @@
          "name": "New Year Celebration",
          "location": "zoom"
       }
+   ],
+   "2021-01-05": [
+      {
+         "start": "1:00 PM",
+         "end": "2:00 PM",
+         "name": "Kendo Web Check-in",
+         "location": "zoom"
+      }
    ]
 }

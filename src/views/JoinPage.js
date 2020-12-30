@@ -5,6 +5,7 @@ import Calendar from "react-calendar"
 import EventBlock from "../components/EventBlock"
 import { Row, Col, Button } from "react-bootstrap"
 import { getDateStr } from "../functions/utils"
+import { JOIN_MAIL_URL } from "../data/info"
 
 const JoinPage = () => {
    const [dateValue, setDateValue] = useState(new Date())
