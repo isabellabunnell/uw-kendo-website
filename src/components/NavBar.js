@@ -39,8 +39,8 @@ const NavBar = () => {
                   <Dropdown.Item href={`/${pageList[3][0]}`}>FAQ</Dropdown.Item>
                   <Dropdown.Item href={`/${pageList[3][1]}`}>Vocab</Dropdown.Item>
                   <Dropdown.Item href={`/${pageList[3][2]}`}>Warm Up</Dropdown.Item>
-                  <Dropdown.Item href="/">Etiquette</Dropdown.Item>
-                  <Dropdown.Item href="/">Useful Links</Dropdown.Item>
+                  <Dropdown.Item href={`/${pageList[3][3]}`}>Etiquette</Dropdown.Item>
+                  <Dropdown.Item href={`/${pageList[3][4]}`}>Useful Links</Dropdown.Item>
                </Dropdown.Menu>
             </Dropdown>
          </Nav.Item>

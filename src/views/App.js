@@ -7,6 +7,8 @@ import JoinPage from "./JoinPage"
 import FAQPage from "./FAQPage"
 import VocabPage from "./VocabPage"
 import WarmUpPage from "./WarmUpPage"
+import EtiquettePage from "./EtiquettePage"
+import LinkPage from "./LinkPage"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 
 export const IMAGE_PATH = process.env.PUBLIC_URL + "/images"
@@ -38,6 +40,14 @@ const App = () => {
         <Route
           path="/warm-up"
           component={WarmUpPage}
+        />
+        <Route
+          path="/etiquette"
+          component={EtiquettePage}
+        />
+        <Route
+          path="/useful-link"
+          component={LinkPage}
         />
         <Route
           path="/"
