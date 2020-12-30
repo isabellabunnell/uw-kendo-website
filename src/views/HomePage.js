@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react"
 import PageStructure from "../components/PageStructure"
 import { Button} from "react-bootstrap"
+import { JOIN_MAIL_URL } from "../data/info"
 
 const HomePage = () => {
-   const JOIN_MAIL_URL = "http://mailman13.u.washington.edu/mailman/listinfo/uwkendo"
    const [screenHeight, setScreenHeight] = useState(window.innerHeight)
    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 

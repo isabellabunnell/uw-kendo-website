@@ -1,3 +1,5 @@
+export const JOIN_MAIL_URL = "http://mailman13.u.washington.edu/mailman/listinfo/uwkendo"
+
 export const clubInfo = {
    title: "The Club",
    content: `The Kendo Club at University of Washington (UW) is a sports club sponsored by the Department of Recreational Sports Programs. We're open to currently enrolled UW students and faculty/staff members that have purchased a quarterly or annual IMA Membership Card.
