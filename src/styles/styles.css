@@ -101,4 +101,27 @@ body {
   color: #171717;
   font-weight: 500;
   font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.ann-block-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ann-popover-layout {
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  width: 200%;
+  display: block;
+  max-width: 50%;
+}
+
+.ann-popover-layout.popover {
+  max-width: 30%;
 }
