@@ -18,7 +18,9 @@ const AwardsBlock = () => {
          eventKey="0"
          onClick={() => setDisplayMore(!displayMore)}
       >
-         {displayMore ? "Display More" : "Display Less"}
+         <Button style={{ backgroundColor: "#5B3080", color: "white", border: "none" }}>
+            {displayMore ? "Display More" : "Display Less"}
+         </Button>
       </Accordion.Toggle>
    )
 
