@@ -29,10 +29,36 @@ body {
   justify-content: space-between;
 }
 
-.nav-bar-font li a, .nav-bar-font a {
+.nav-bar-font li a, .nav-bar-font a, .nav-dropdown button {
   color: #171717;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1rem;
+}
+
+@media (max-width: 1577px) {
+  .nav-bar-font li a, .nav-bar-font a, .nav-dropdown button {
+    font-size: 0.9rem;
+  }
+
+  .logo-title-font {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 1499px) {
+  .logo-title-font {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 1460px) {
+  .nav-bar-font li a, .nav-bar-font a, .nav-dropdown button {
+    font-size: 0.8rem;
+  }
+
+  .logo-title-font {
+    font-size: 36px;
+  }
 }
 
 .home-join-font {
@@ -98,9 +124,6 @@ body {
 .nav-dropdown button {
   background-color: transparent;
   border: none;
-  color: #171717;
-  font-weight: 500;
-  font-size: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;

@@ -1,11 +1,11 @@
 import React, { useState } from "react"
 import { Dropdown, Nav } from "react-bootstrap"
 import { useLocation } from "react-router-dom"
+import { pageList } from "../data/info"
 
 const NavBar = () => {
    const location = useLocation().pathname.split("/").pop()
    const [activePage, setActivePage] = useState(location)
-   const pageList = ["", "about", "what-is-kendo", "announcement", "join", ["faq", "vocab", "warm-up", "etiquette", "useful-link"]]
    const [defBtn, setDefBtn] = useState(false)
 
    return (

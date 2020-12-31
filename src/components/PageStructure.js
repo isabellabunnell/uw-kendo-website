@@ -29,7 +29,7 @@ const PageStructure = ({
                >
                   <LogoTitle />
                   {
-                     screenWidth < 1192 ?
+                     screenWidth < 1400 ?
                      <DropdownNav />
                      :
                      <NavBar />

@@ -1,5 +1,7 @@
 export const JOIN_MAIL_URL = "http://mailman13.u.washington.edu/mailman/listinfo/uwkendo"
 
+export const pageList = ["", "about", "what-is-kendo", "announcement", "join", ["faq", "vocab", "warm-up", "etiquette", "useful-link"]]
+
 export const annList = [
    {
       title: "COVID-19 Update",
