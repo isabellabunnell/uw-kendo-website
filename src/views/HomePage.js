@@ -26,7 +26,9 @@ const HomePage = () => {
             style={{
                backgroundImage: `url(${IMAGE_PATH}/info/home.png)`,
                backgroundRepeat: "no-repeat",
-               minHeight: `calc(100vh - 92px)`,
+               backgroundSize: "cover",
+               backgroundPosition: "center",
+               height: `calc(100vh - 75px)`,
             }}
          >
             <Row>
@@ -35,14 +37,14 @@ const HomePage = () => {
                   <div className="top-bar-layout" style={{ marginTop: screenHeight * 0.06 }}>
                      <LogoTitle image="/info/club-logo-white.png" white />
                   </div>
-                  <div className="home-join-layout" style={{ marginTop: `calc((100vh - 92px) / 2)` }}>
+                  <div className="home-join-layout" style={{ marginTop: "35vh" }}>
                      <p className="home-join-font">
                         Come join the Kendo Club at the University of Washington today!
                      </p>
                      <Button
                         className="home-join-button-font"
                         variant="primary"
-                        style={{ backgroundColor: "white", color: "#5B3080" }}
+                        style={{ backgroundColor: "white", color: "#5B3080", border: "none" }}
                         onClick={() => window.location=JOIN_MAIL_URL}
                      >
                         Join our mailing list
