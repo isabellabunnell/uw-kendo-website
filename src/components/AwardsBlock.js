@@ -17,6 +17,7 @@ const AwardsBlock = () => {
          variant="link"
          eventKey="0"
          onClick={() => setDisplayMore(!displayMore)}
+         style={{ padding: 0 }}
       >
          <Button style={{ backgroundColor: "#5B3080", color: "white", border: "none" }}>
             {displayMore ? "Display More" : "Display Less"}
