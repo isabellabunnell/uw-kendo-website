@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react"
-import PageStructure from "../components/PageStructure"
-import { Button} from "react-bootstrap"
+import NavBar from "../components/NavBar"
+import LogoTitle from "../components/LogoTitle"
+import { Button, Col, Container, Row } from "react-bootstrap"
 import { JOIN_MAIL_URL } from "../data/info"
+import { IMAGE_PATH } from "./App"
 
 const HomePage = () => {
    const [screenHeight, setScreenHeight] = useState(window.innerHeight)
@@ -14,37 +16,43 @@ const HomePage = () => {
       })
    }, [])
 
+   document.body.style.backgroundColor = "#5B3080"
+   document.body.style.innerHeight = "1000px"   
+
    return (
-      <PageStructure content={
-         <>
-         <div
+      <>
+         <NavBar />
+         <Container fluid
             style={{
-               backgroundColor: "#5B3080",
-               // backgroundImage: `url(${IMAGE_PATH}/home.png)`,
-               // backgroundSize: "contain",
-               // backgroundRepeat: "no-repeat",
-               width: "100%",
-               height: screenHeight * 0.5,
-               marginTop: "2.4rem",
-               marginBottom: "2.4rem"
+               backgroundImage: `url(${IMAGE_PATH}/info/home.png)`,
+               backgroundRepeat: "no-repeat",
+               minHeight: `calc(100vh - 92px)`,
             }}
-         />
-         <div className="home-join-layout">
-            <p className="home-join-font">
-               Come join the Kendo Club at the University of Washington today!
-            </p>
-            <Button
-               className="home-join-button-font"
-               variant="primary"
-               style={{ backgroundColor: "#5B3080", borderColor: "#5B3080" }}
-               onClick={() => window.location=JOIN_MAIL_URL}
-            >
-               Join our mailing list
-            </Button>
-         </div>
-         </>
-      }
-      />
+         >
+            <Row>
+               <Col sm={1} />
+               <Col sm={10}>
+                  <div className="top-bar-layout" style={{ marginTop: screenHeight * 0.06 }}>
+                     <LogoTitle image="/info/club-logo-white.png" white />
+                  </div>
+                  <div className="home-join-layout" style={{ marginTop: `calc((100vh - 92px) / 2)` }}>
+                     <p className="home-join-font">
+                        Come join the Kendo Club at the University of Washington today!
+                     </p>
+                     <Button
+                        className="home-join-button-font"
+                        variant="primary"
+                        style={{ backgroundColor: "white", color: "#5B3080" }}
+                        onClick={() => window.location=JOIN_MAIL_URL}
+                     >
+                        Join our mailing list
+                     </Button>
+                  </div>
+               </Col>
+               <Col sm={1} />
+            </Row>
+         </Container>
+      </>
    )
 }
 

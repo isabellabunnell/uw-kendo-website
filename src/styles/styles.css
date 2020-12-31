@@ -3,7 +3,7 @@
 body {
   margin: 0;
   /* override bootstrap font family */
-  font-family: "Montserrat", sans-serif !important; 
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .logo-title-layout {
@@ -16,11 +16,19 @@ body {
   text-decoration: none;
 }
 
-.logo-title-font {
+.logo-title-font, .logo-title-font-white {
   font-weight: 700;
   font-size: 48px;
-  color: #5B3080;
+  
   margin: 0;
+}
+
+.logo-title-font {
+  color: #5B3080;
+}
+
+.logo-title-font-white {
+  color: white;
 }
 
 .top-bar-layout {
@@ -49,14 +57,19 @@ body {
 
 .home-join-font {
   font-weight: 400;
-  font-size: 25px;
-  color: #171717;
+  font-size: 32px;
+  color: white;
 }
 
 .home-join-layout {
   margin: auto;
   width: 60%;
   text-align: center;
+}
+
+.home-img {
+  margin: auto;
+  display: block;
 }
 
 .home-join-button-font, join-button-font {
