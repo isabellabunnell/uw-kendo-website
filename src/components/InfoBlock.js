@@ -36,7 +36,7 @@ const InfoBlock = ({
    )
 
    return (
-      <Row style={{ marginBottom: "4rem" }}>
+      <Row style={{ marginBottom: "4rem", alignItems: "center" }}>
          {textRight ? <ImgBlock /> : <TextBlock />}
          {textRight ? <TextBlock /> : <ImgBlock />}
       </Row>
