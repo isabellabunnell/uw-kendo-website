@@ -1,56 +1,54 @@
-import React, { useState } from "react"
-import { Dropdown, Nav } from "react-bootstrap"
+import React from "react"
+import { Navbar, Nav, NavDropdown } from "react-bootstrap"
 import { useLocation } from "react-router-dom"
 import { pageList } from "../data/info"
+import { IMAGE_PATH } from "../views/App"
 
 const NavBar = () => {
    const location = useLocation().pathname.split("/").pop()
-   const [activePage, setActivePage] = useState(location)
-   const [defBtn, setDefBtn] = useState(false)
 
    return (
-      <Nav
-         as="ul"
-         className="nav-bar-font"
-      >
-         <Nav.Item as="li">
-            <Nav.Link href={`/${pageList[0]}`} disabled={activePage === pageList[0]}>Home</Nav.Link>
-         </Nav.Item>
-         <Nav.Item as="li">
-            <Nav.Link href={`/${pageList[1]}`} disabled={activePage === pageList[1]}>About Us</Nav.Link>
-         </Nav.Item>
-         <Nav.Item as="li">
-            <Nav.Link href={`/${pageList[2]}`} disabled={activePage === pageList[2]}>What is Kendo?</Nav.Link>
-         </Nav.Item>
-         <Nav.Item as="li">
-            <Nav.Link href={`/${pageList[3]}`} disabled={activePage === pageList[3]}>Announcement</Nav.Link>
-         </Nav.Item>
-         <Nav.Item as="li">
-            <Nav.Link href={`/${pageList[4]}`} disabled={activePage === pageList[4]}>Join</Nav.Link>
-         </Nav.Item>
-         <Nav.Item as="li">
-            <Dropdown className="nav-dropdown">
-               <Dropdown.Toggle
-                  onClickCapture={() => setDefBtn(!defBtn)}
-                  id="nav-resource-dropdown"
-                  style={{
-                     boxShadow: "none",
-                     backgroundColor: "transparent",
-                     color: defBtn ? "gray" : "#171717"
-                  }}
+      <Navbar variant="dark" expand="xl" className="nav-bar-layout">
+         <Navbar.Brand href={`/${pageList[0]}`}>
+            <img
+               alt="uw logo"
+               height="40"
+               src={`${IMAGE_PATH}/info/uw-logo.png`}
+               style={{ marginRight: "1rem" }}
+            />
+         </Navbar.Brand>
+         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+         <Navbar.Collapse id="basic-navbar-nav">
+            <Nav>
+               <Nav.Link href={`/${pageList[0]}`} disabled={location === pageList[0]}>Home</Nav.Link>
+               <Nav.Link href={`/${pageList[1]}`} disabled={location === pageList[1]}>About Us</Nav.Link>
+               <Nav.Link href={`/${pageList[2]}`} disabled={location === pageList[2]}>What is Kendo?</Nav.Link>
+               <Nav.Link href={`/${pageList[3]}`} disabled={location === pageList[3]}>Announcement</Nav.Link>
+               <Nav.Link href={`/${pageList[4]}`} disabled={location === pageList[4]}>Join</Nav.Link>
+               <NavDropdown
+                  title="Resources"
+                  id="basic-nav-dropdown"
+                  className="nav-resource-menu"
                >
-                  Resources
-               </Dropdown.Toggle>
-               <Dropdown.Menu>
-                  <Dropdown.Item href={`/${pageList[5][0]}`}>FAQ</Dropdown.Item>
-                  <Dropdown.Item href={`/${pageList[5][1]}`}>Vocab</Dropdown.Item>
-                  <Dropdown.Item href={`/${pageList[5][2]}`}>Warm Up</Dropdown.Item>
-                  <Dropdown.Item href={`/${pageList[5][3]}`}>Etiquette</Dropdown.Item>
-                  <Dropdown.Item href={`/${pageList[5][4]}`}>Useful Links</Dropdown.Item>
-               </Dropdown.Menu>
-            </Dropdown>
-         </Nav.Item>
-      </Nav>
+                  <NavDropdown.Item href={`/${pageList[5][0]}`} disabled={location === pageList[5][0]}>
+                     FAQ
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href={`/${pageList[5][1]}`} disabled={location === pageList[5][1]}>
+                     Vocab
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href={`/${pageList[5][2]}`} disabled={location === pageList[5][2]}>
+                     Warm Up
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href={`/${pageList[5][3]}`} disabled={location === pageList[5][3]}>
+                     Etiquette
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href={`/${pageList[5][4]}`} disabled={location === pageList[5][4]}>
+                     Useful Links
+                  </NavDropdown.Item>
+               </NavDropdown>
+            </Nav>
+         </Navbar.Collapse>
+      </Navbar>
    )
 }
 
