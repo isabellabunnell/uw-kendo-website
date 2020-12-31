@@ -10,7 +10,7 @@ const InfoBlock = ({
    textRight
 }) => {
    const TextBlock = () => (
-      <Col sm={6}>
+      <Col lg={6}>
          <h3 style={{ marginTop: "1rem" }}>
             {title}
          </h3>
@@ -25,7 +25,7 @@ const InfoBlock = ({
    )
 
    const ImgBlock = () => (
-      <Col sm={6}>
+      <Col lg={6}>
          <img
             src={`${IMAGE_PATH}/${image}`}
             style={{ objectFit: "cover" }}
