@@ -7,9 +7,8 @@ const LogoTitle = () => {
       <Link className="logo-title-layout" to="/">
          <img
             alt="kendo uw logo"
-            width="113"
             height="113"
-            src={`${IMAGE_PATH}/logo.png`}
+            src={`${IMAGE_PATH}/info/club-logo.png`}
             style={{ marginRight: "1rem" }}
          />
          <p className="logo-title-font">UW Kendo</p>
