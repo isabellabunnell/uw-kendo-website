@@ -23,7 +23,7 @@ const HistoryBlock = () => {
          <h3>
             The History
          </h3>
-         <Timeline>
+         <Timeline align="alternate">
             {
                historyList.map((history, historyIdx) => (
                   <TimelineItem key={`history-${historyIdx}`}>
