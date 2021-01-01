@@ -1,5 +1,6 @@
 import React from "react"
 import AwardsBlock from "../components/AwardsBlock"
+import HistoryBlock from "../components/HistoryBlock"
 import InfoBlock from "../components/InfoBlock"
 import InstructorsBlock from "../components/InstructorsBlock"
 import PageStructure from "../components/PageStructure"
@@ -18,6 +19,9 @@ const AboutPage = () => {
                      image={clubInfo.img}
                      textRight={false}
                   />
+               </div>
+               <div style={{ marginTop: "2rem" }}>
+                  <HistoryBlock />
                </div>
                <div style={{ marginTop: "2rem" }}>
                   <AwardsBlock />

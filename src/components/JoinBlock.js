@@ -1,13 +1,6 @@
-import React, { useState } from "react"
-import PageStructure from "../components/PageStructure"
-import Calendar from "react-calendar"
-import EventBlock from "../components/EventBlock"
-import GalleryBlock from "../components/GalleryBlock"
-import CalendarBlock from "../components/CalendarBlock"
-import { Row, Col, Button } from "react-bootstrap"
-import { getDateStr } from "../functions/utils"
+import React from "react"
+import { Button } from "react-bootstrap"
 import { JOIN_MAIL_URL } from "../data/info"
-
 
 const JoinBlock = () => {
    return (
