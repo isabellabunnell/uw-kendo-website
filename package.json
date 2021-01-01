@@ -1,6 +1,6 @@
 {
   "homepage": "https://linni2017.github.io/uw-kendo-website/",
-  "name": "uw-kendo-website",
+  "name": "uwkc",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
