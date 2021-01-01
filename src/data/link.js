@@ -1,4 +1,4 @@
-export const UWKC = "uwkc"
+export const UWKC = "uw-kendo-website"
 export const ABOUT = "about"
 export const WHAT_IS_KENDO = "what-is-kendo"
 export const JOIN = "join"
