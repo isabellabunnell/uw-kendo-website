@@ -16,8 +16,6 @@ import * as LINK from "../data/link"
 export const IMAGE_PATH = process.env.PUBLIC_URL + "/images"
 
 const App = () => {
-  console.log(process.env.PUBLIC_URL)
-
   return (
     <Router>
       <Switch>

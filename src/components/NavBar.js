@@ -8,9 +8,7 @@ import * as LINK from "../data/link"
 const NavBar = ({
    transparent
 }) => {
-   const orig_loc = useLocation()
-   const location = orig_loc.pathname.split("/").pop()
-   console.log("orig_loc", orig_loc)
+   const location = useLocation().pathname.split("/").pop()
 
    return (
       <Navbar
