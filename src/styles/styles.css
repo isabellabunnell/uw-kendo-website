@@ -130,8 +130,15 @@ body {
 }
 
 .dropdown-menu {
-  background-color: transparent !important;
   border: none !important;
+}
+
+.nav-resource-menu > div {
+  background-color: #5B3080 !important;
+}
+
+.nav-resource-menu-transparent > div {
+  background-color: transparent !important;
 }
 
 .dropdown-item:focus,

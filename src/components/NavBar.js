@@ -34,7 +34,7 @@ const NavBar = ({
                <NavDropdown
                   title="Resources"
                   id="basic-nav-dropdown"
-                  className="nav-resource-menu"
+                  className={`nav-resource-menu${transparent ? "-transparent" : ""}`}
                >
                   <NavDropdown.Item href={`/${pageList[5][0]}`} disabled={location === pageList[5][0]}>
                      FAQ
