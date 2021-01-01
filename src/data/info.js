@@ -56,14 +56,14 @@ export const sportInfo = [
       img: "info/sport.jpg"
    },
    {
-      title: "Warm Up",
-      content: "A warmup gradually revs up your cardiovascular system by raising your body temperature and increasing blood flow to your muscles. Warming up may also help reduce muscle soreness and lessen your risk of injury. Cooling down after your workout allows for a gradual recovery of preexercise heart rate and blood pressure.",
-      img: "info/warm-up.jpg"
-   },
-   {
       title: "Iaido",
       content: "Iaido (or iai) is the Japanese sword-based martial art that focuses on being able to quickly draw the sword in response to a sudden attack. Students use wooden and metal practice swords to do different forms known as kata.",
       img: "info/iaido.jpg"
+   },
+   {
+      title: "Warm Up",
+      content: "A warmup gradually revs up your cardiovascular system by raising your body temperature and increasing blood flow to your muscles. Warming up may also help reduce muscle soreness and lessen your risk of injury. Cooling down after your workout allows for a gradual recovery of preexercise heart rate and blood pressure.",
+      img: "info/warm-up.jpg"
    },
    {
       title: "Etiquette",
