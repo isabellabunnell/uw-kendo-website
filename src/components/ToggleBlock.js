@@ -21,7 +21,7 @@ const ToggleBlock = ({
                            as={Button}
                            variant="link"
                            eventKey="0"
-                           style={{ paddingLeft: "0", width: "100%" }} // need inline override
+                           style={{ paddingLeft: "0", width: "100%", textAlign: "left" }} // need inline override
                         >
                            <div className="toggleb-block-button">
                               <h6 style={{ fontWeight: "bold" }}>{info[toggleName]}</h6>
