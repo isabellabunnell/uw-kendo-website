@@ -645,3 +645,41 @@ export const galleryMap = {
       "shinsa2020 harrison.jpg"
    ]
 }
+
+export const historyList = [
+   {
+      date: "1905-03-17",
+      abstract: "First officially recorded appearance of Kendo at UW",
+      detail: "At the biggest, for the time, athletic exhibition ever given in the Pacific Northwest. two kenshi from Kyoto, Kawakami Sensei and Sugihara Sensei, thrilled the crowd of some 1, 500 people at the UW gymnasium."
+   },
+   {
+      date: "Early 1972",
+      abstract: "The Kendo Club at UW was formed",
+      detail: "The five founding charter members were Jeffrey Marsten, Peter Mizuki, Luke Shindo, John Sullivan, and Denny Wong.Practices were held in a handball court in the Hec Ed Pavilion."
+   },
+   {
+      date: "1973-01-05",
+      abstract: "An official Constitution was filed",
+      detail: "Officers were listed as John Sullivan, captain(president)and Koichi Ito, co - captain(vice president).The faculty advisor was Hitoshi Mohri, MD, a pioneer in open - heart surgery of infants with the UW Medical Center."
+   },
+   {
+      date: "1973-05-24",
+      abstract: "The first UW Kendo Tournament",
+      detail: "It had a round robin format, and the results were : 1 st place - Koichi Ito, 2 nd place - John Sullivan, 3 rd place - Peter Mizuki, 4 th place - Denny Wong, 5 th place - Jeffrey Marsten, and 6 th place - Luke Shindo.Since then the Tournament has been held annually except for 1988, 1990, and 2008."
+   },
+   {
+      date: "1974",
+      abstract: "Major role in WSKF and host on campus",
+      detail: "Members of the Club played a major role in the 1974 founding of the Washington State Kendo Federation(since 1991 known as the Pacific Northwest Kendo Federation), and hosted the first WSKF Tournament on UW campus."
+   },
+   {
+      date: "1984",
+      abstract: "The Third United States Kendo Championships",
+      detail: "Thanks to the Club 's standing as a UW Recreational Sports Club, it was held in the Hec Ed Addition Gym, dorms, and supporting facilities, with then - President of the WSKF, David S.Yotsuuye, in charge of all the arrangements."
+   },
+   {
+      date: "Now",
+      abstract: "Great impact on Kendo developemnt and leadership",
+      detail: "The Kendo Club at UW has had a regional, national, and international impact on Kendo development and leadership far beyond the proportion mere numbers might suggest.Kendo Club at UW alumni have gone on to such world - class offices as President of the All - United States Kendo Federation and Director of the International Kendo Federation.Countless great kenshi from far and wide have come under Seattle and UW 's enchantment, to return again and again."
+   }
+]
