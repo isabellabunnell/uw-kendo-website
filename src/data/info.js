@@ -24,19 +24,19 @@ export const annList = [
    {
       title: "COVID-19 Update",
       content: "2021 Spring Practice is on zoom weekly.",
-      img: "gallery/27164185_1855723571126030_2268295408836291744_o.jpg",
+      img: "ann/uw2019warmups.jpg",
       date: "2021-04-01"
    },
    {
       title: "Practice",
       content: "2021 Autumn Practice is weekly.",
-      img: "gallery/54516523_10108870961748448_42511775274369024_o.jpg",
+      img: "ann/zoom.png",
       date: "2021-09-01"
    },
    {
       title: "Practice",
       content: "2022 Winter Practice is weekly.",
-      img: "gallery/54771008_10108876152880378_735473206244147200_n.jpg",
+      img: "ann/steveston2020 masa.jpg",
       date: "2022-12-01"
    }
 ]
@@ -514,5 +514,134 @@ export const linkMap = {
          address: "http://twitter.com/worldkendo",
          abstract: "Live PNKF tournament coverage via twitter"
       }
+   ]
+}
+
+export const galleryMap = {
+   "2016 Tacoma": [
+      "Bernice 2.jpg",
+      "Bernice 3.jpg",
+      "Bernice.jpg",
+      "Bolling.jpg",
+      "Caleb.jpg",
+      "Erica.jpg",
+      "Erica2.jpg"
+   ],
+   "2017 Steveston": [
+      "Blin.jpg",
+      "Blin2.jpg",
+      "Caleb.jpg",
+      "Raf.jpg"
+   ],
+   "2017 Highline": [
+      "Anthony.jpg",
+      "Raf.jpg",
+      "highline.jpg",
+      "Khang.jpg",
+      "crazy highline.jpg",
+      "trophy 2.jpg",
+      "Picture.jpg",
+      "group.jpg",
+      "trophy.jpg"
+   ],
+   "2017 UW": [
+      "Abby.jpg",
+      "Kote!.jpg",
+      "Leo.jpg",
+      "Picture.jpg",
+      "Banner.jpg",
+      "Kyle W.jpg",
+      "Marco.jpg"
+   ],
+   "2017 PNKF": [
+      "Jason.jpg",
+      "UWKC.jpg",
+      "cool.jpg",
+      "uwck funny.jpg",
+      "uwkcgroup.jpg"
+   ],
+   "2018 Intercollegiate": [
+      "received_1485061365032665.jpeg",
+      "received_3508100032620243.jpeg",
+      "received_783090072274932.jpeg",
+      "received_219657716322404.jpeg",
+      "received_417521959446819.jpeg",
+      "received_825450581518878.jpeg"
+   ],
+   "2018 Kent": [
+      "kent2018squad.jpg",
+      "kent22018bollingmodel.jpg"
+   ],
+   "2018 UW": [
+      "anthony 2.jpg",
+      "anthony 3.jpg",
+      "anthony.jpg",
+      "group.jpg",
+      "jane.jpg",
+      "minari 2.jpg"
+   ],
+   "2019 Highline": [
+      "highline2019espensleeps.jpg",
+      "highline2019gangang.jpg",
+      "highline2019warmup2.jpg",
+      "highline2019gang.jpg",
+      "highline2019warmup.jpg"
+   ],
+   "2019 UW": [
+      "uw2019ajaylookingatknees.jpg",
+      "uw2019okbrian.jpg",
+      "uw2019eesther.jpg",
+      "uw2019squad.jpg",
+      "uw2019janecheese.jpg",
+      "uw2019squad2.jpg",
+      "uw2019jasonscopingcompetition.jpg",
+      "uw2019twinsentiredofwarmups.jpg",
+      "uw2019leomodel.jpg"
+   ],
+   "2019 Jodan Seminar": [
+      "jodan2019benddd.jpg",
+      "jodan2019besties.jpg",
+      "jodan2019jason.jpg"
+   ],
+   "2019 Harvard": [
+      "Akira Do 2.jpg",
+      "Akira Kote.jpg",
+      "Brian Harvard.jpg",
+      "akira harvard 2.jpg",
+      "Akira Do.jpg",
+      "Akira Men.jpg",
+      "Jane Kote.jpg",
+      "akira harvard.jpg",
+      "Akira Kiai.jpg",
+      "Brian Harvard 2.jpg",
+      "Leo Do.jpg",
+      "harvard.jpg",
+   ],
+   "2019 PNKF": [
+      "pnkf2019bettystare.jpg",
+      "pnkf2019janeblock.jpg",
+      "pnkf2019squadup.jpg",
+      "pnkf2019brian.jpg",
+      "pnkf2019junosleeping.jpg",
+      "pnkf2019teamshot.jpg",
+      "pnkf2019conradcatchingflies.jpg",
+      "pnkf2019masa.jpg",
+      "pnkf2019thewholegang.jpg",
+      "pnkf2019damnjunowinningalot.jpg",
+      "pnkf2019masabetty.jpg",
+      "pnkf2019thiscute.jpg",
+      "pnkf2019dooo.jpg",
+      "pnkf2019masatrophy.jpg",
+      "pnkf2019double!!!!!.jpg",
+      "pnkf2019raisetheroof.jpg"
+   ],
+   "2020 Steveston": [
+      "steveston2020 masa.jpg",
+      "steveston2020jane.jpg",
+      "steveston2020brianwhyarentyoulookingdown.jpg",
+      "steveston2020juno.jpg"
+   ],
+   "2020 Shinsa": [
+      "shinsa2020 harrison.jpg"
    ]
 }
