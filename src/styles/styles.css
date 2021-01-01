@@ -130,13 +130,13 @@ body {
 }
 
 .dropdown-menu {
-  background-color: #5B3080 !important;
+  background-color: transparent !important;
   border: none !important;
 }
 
 .dropdown-item:focus,
 .dropdown-item:hover {
-  background-color: #5B3080 !important;
+  background-color: transparent !important;
 }
 
 .ann-block-layout {
