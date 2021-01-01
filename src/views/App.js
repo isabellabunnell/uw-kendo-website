@@ -10,14 +10,13 @@ import WarmUpPage from "./WarmUpPage"
 import EtiquettePage from "./EtiquettePage"
 import LinkPage from "./LinkPage"
 import AnnPage from "./AnnPage"
-import { BrowserRouter as Router, Route, Switch, useLocation } from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import * as LINK from "../data/link"
 
 export const IMAGE_PATH = process.env.PUBLIC_URL + "/images"
 
 const App = () => {
-  const location = useLocation()
-  console.log(process.env.PUBLIC_URL, location)
+  console.log(process.env.PUBLIC_URL)
 
   return (
     <Router basename={process.env.PUBLIC_URL}>
