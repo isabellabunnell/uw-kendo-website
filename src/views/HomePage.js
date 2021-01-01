@@ -28,14 +28,14 @@ const HomePage = () => {
          }}
       >
          <NavBar transparent />
-         <Container>
+         <Container fluid>
             <Row>
                <Col sm={1} />
                <Col sm={10}>
                   <div className="top-bar-layout" style={{ marginTop: screenHeight * 0.06 }}>
                      <LogoTitle image="/info/club-logo-white.png" white />
                   </div>
-                  <div className="home-join-layout" style={{ marginTop: "30%" }}>
+                  <div className="home-join-layout" style={{ marginTop: "27%" }}>
                      <p className="home-join-font">
                         Come join the Kendo Club at the University of Washington today!
                      </p>
