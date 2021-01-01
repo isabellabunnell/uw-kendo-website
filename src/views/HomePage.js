@@ -28,7 +28,7 @@ const HomePage = () => {
          }}
       >
          <NavBar transparent />
-         <Container fluid>
+         <Container>
             <Row>
                <Col sm={1} />
                <Col sm={10}>
