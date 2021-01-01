@@ -1,9 +1,17 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import InfoBlock from "../components/InfoBlock"
 import PageStructure from "../components/PageStructure"
 import { sportInfo } from "../data/info"
 
 const InfoPage = () => {
+   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+
+   useEffect(() => {
+      window.addEventListener("resize", () => {
+         setScreenWidth(window.innerWidth)
+      })
+   }, [])
+
    return (
       <PageStructure
          content={
@@ -16,7 +24,7 @@ const InfoPage = () => {
                            content={info.content}
                            image={info.img}
                            key={`info-${idx}`}
-                           textRight={idx % 2 === 1}
+                           textRight={screenWidth >= 992 && idx % 2 === 1}
                         />
                      ))
                   }
