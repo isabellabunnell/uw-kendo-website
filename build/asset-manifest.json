@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/uw-kendo-website/static/css/main.ab3ad082.chunk.css",
+    "main.js": "/uw-kendo-website/static/js/main.8a800b77.chunk.js",
+    "main.js.map": "/uw-kendo-website/static/js/main.8a800b77.chunk.js.map",
+    "runtime-main.js": "/uw-kendo-website/static/js/runtime-main.5c710dca.js",
+    "runtime-main.js.map": "/uw-kendo-website/static/js/runtime-main.5c710dca.js.map",
+    "static/css/2.0acc7611.chunk.css": "/uw-kendo-website/static/css/2.0acc7611.chunk.css",
+    "static/js/2.ee42c1e1.chunk.js": "/uw-kendo-website/static/js/2.ee42c1e1.chunk.js",
+    "static/js/2.ee42c1e1.chunk.js.map": "/uw-kendo-website/static/js/2.ee42c1e1.chunk.js.map",
+    "static/js/3.b5593019.chunk.js": "/uw-kendo-website/static/js/3.b5593019.chunk.js",
+    "static/js/3.b5593019.chunk.js.map": "/uw-kendo-website/static/js/3.b5593019.chunk.js.map",
+    "index.html": "/uw-kendo-website/index.html",
+    "static/css/2.0acc7611.chunk.css.map": "/uw-kendo-website/static/css/2.0acc7611.chunk.css.map",
+    "static/css/main.ab3ad082.chunk.css.map": "/uw-kendo-website/static/css/main.ab3ad082.chunk.css.map",
+    "static/js/2.ee42c1e1.chunk.js.LICENSE.txt": "/uw-kendo-website/static/js/2.ee42c1e1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c710dca.js",
+    "static/css/2.0acc7611.chunk.css",
+    "static/js/2.ee42c1e1.chunk.js",
+    "static/css/main.ab3ad082.chunk.css",
+    "static/js/main.8a800b77.chunk.js"
+  ]
+}
