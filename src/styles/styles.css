@@ -65,6 +65,7 @@ body {
   margin: auto;
   width: 70%;
   text-align: center;
+  margin-top: 27%;
 }
 
 .home-img {
@@ -184,6 +185,12 @@ body {
 @media (max-width: 375px) {
   .home-join-font {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .home-join-layout {
+    margin-top: 30%;
   }
 }
 
