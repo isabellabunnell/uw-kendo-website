@@ -11,6 +11,7 @@ import EtiquettePage from "./EtiquettePage"
 import LinkPage from "./LinkPage"
 import AnnPage from "./AnnPage"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import * as LINK from "../data/link"
 
 export const IMAGE_PATH = process.env.PUBLIC_URL + "/images"
 
@@ -19,43 +20,43 @@ const App = () => {
     <Router>
       <Switch>
         <Route
-          path="/about"
+          path={LINK.ABOUT_URL}
           component={AboutPage}
         />
         <Route
-          path="/what-is-kendo"
+          path={LINK.WHAT_IS_KENDO_URL}
           component={InfoPage}
         />
         <Route
-          path="/join"
+          path={LINK.JOIN_URL}
           component={JoinPage}
         />
         <Route
-          path="/announcement"
+          path={LINK.ANN_URL}
           component={AnnPage}
         />
         <Route
-          path="/faq"
+          path={LINK.FAQ_URL}
           component={FAQPage}
         />
         <Route
-          path="/vocab"
+          path={LINK.VOCAB_URL}
           component={VocabPage}
         />
         <Route
-          path="/warm-up"
+          path={LINK.WARM_UP_URL}
           component={WarmUpPage}
         />
         <Route
-          path="/etiquette"
+          path={LINK.ETIQ_URL}
           component={EtiquettePage}
         />
         <Route
-          path="/useful-link"
+          path={LINK.USEFUL_LINK_URL}
           component={LinkPage}
         />
         <Route
-          path="/"
+          path={LINK.BASE_URL}
           component={HomePage}
         />
       </Switch>

@@ -1,7 +1,5 @@
 export const JOIN_MAIL_URL = "http://mailman13.u.washington.edu/mailman/listinfo/uwkendo"
 
-export const pageList = ["", "about", "what-is-kendo", "announcement", "join", ["faq", "vocab", "warm-up", "etiquette", "useful-link"]]
-
 export const annList = [
    {
       title: "COVID-19 Update",
@@ -51,7 +49,7 @@ export const clubInfo = {
 
 export const sportInfo = [
    {
-      title: "The Sport",
+      title: "The Martial Art",
       content: "Kendo is a modern Japanese sword-based martial art that uses bamboo swords and protective armor. The techniques are based on methods of samurai warfare and is practiced by 1.66 million people in Japan.",
       img: "info/sport.jpg"
    },
