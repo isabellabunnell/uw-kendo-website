@@ -35,7 +35,7 @@ const HomePage = () => {
                   <div className="top-bar-layout" style={{ marginTop: screenHeight * 0.06 }}>
                      <LogoTitle image="/info/club-logo-white.png" white />
                   </div>
-                  <div className="home-join-layout" style={{ marginTop: "27%" }}>
+                  <div className="home-join-layout" style={{ marginTop: "30%" }}>
                      <p className="home-join-font">
                         Come join the Kendo Club at the University of Washington today!
                      </p>
