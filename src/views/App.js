@@ -19,9 +19,9 @@ const App = () => {
   console.log(process.env.PUBLIC_URL)
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
-        <Route
+        <Route exact
           path={LINK.ABOUT_URL}
           component={AboutPage}
         />
