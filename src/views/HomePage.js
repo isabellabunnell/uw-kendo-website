@@ -37,18 +37,31 @@ const HomePage = () => {
                   <div className="top-bar-layout" style={{ marginTop: screenHeight * 0.06 }}>
                      <LogoTitle image="/info/club-logo-white.png" white />
                   </div>
-                  <div className="home-join-layout" style={{ marginTop: `calc(50vh - 75px)` }}>
+                  <div className="home-join-layout" style={{ marginTop: `calc(45vh - 100px)` }}>
                      <p className="home-join-font">
                         Come join the Kendo Club at the University of Washington today!
                      </p>
-                     <Button
-                        className="home-join-button-font"
-                        variant="primary"
-                        style={{ backgroundColor: "white", color: "#5B3080", border: "none" }}
-                        onClick={() => window.location=JOIN_MAIL_URL}
-                     >
-                        Join our mailing list
-                     </Button>
+                     <div>
+                        <Button
+                           className="home-join-button-font margin-right-1"
+                           variant="primary"
+                           style={{ backgroundColor: "white", color: "#5B3080", border: "none" }}
+                           onClick={() => window.location=JOIN_MAIL_URL}
+                        >
+                           Join our mailing list
+                        </Button>
+                        <div className="home-social-media-block">
+                           <a href="https://www.facebook.com/uwkendoclub">
+                              <img
+                                 src={`${IMAGE_PATH}/info/fb-logo.png`}
+                                 width="45px" className="margin-right-1"
+                              />
+                           </a>
+                           <a href="https://www.instagram.com/kendo_uw/">
+                              <img src={`${IMAGE_PATH}/info/ins-logo.png`} width="45px" />
+                           </a>
+                        </div>
+                     </div>
                   </div>
                </Col>
                <Col sm={1} />
