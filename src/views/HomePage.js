@@ -16,28 +16,26 @@ const HomePage = () => {
       })
    }, [])
 
-   document.body.style.backgroundColor = "#5B3080"
-   document.body.style.innerHeight = "1000px"   
-
    return (
-      <>
-         <NavBar />
-         <Container fluid
-            style={{
-               backgroundImage: `url(${IMAGE_PATH}/info/home.png)`,
-               backgroundRepeat: "no-repeat",
-               backgroundSize: "cover",
-               backgroundPosition: "center",
-               height: `calc(100vh - 75px)`,
-            }}
-         >
+      <div
+         style={{
+            backgroundColor: "#5B3080",
+            backgroundImage: `url(${IMAGE_PATH}/info/home.png)`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            height: "100vh"
+         }}
+      >
+         <NavBar transparent />
+         <Container fluid>
             <Row>
                <Col sm={1} />
                <Col sm={10}>
                   <div className="top-bar-layout" style={{ marginTop: screenHeight * 0.06 }}>
                      <LogoTitle image="/info/club-logo-white.png" white />
                   </div>
-                  <div className="home-join-layout" style={{ marginTop: `calc(45vh - 100px)` }}>
+                  <div className="home-join-layout" style={{ marginTop: "30%" }}>
                      <p className="home-join-font">
                         Come join the Kendo Club at the University of Washington today!
                      </p>
@@ -67,7 +65,7 @@ const HomePage = () => {
                <Col sm={1} />
             </Row>
          </Container>
-      </>
+      </div>
    )
 }
 
