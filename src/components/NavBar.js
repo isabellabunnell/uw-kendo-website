@@ -31,8 +31,8 @@ const NavBar = ({
                <Nav.Link href={LINK.BASE_URL} disabled={location === LINK.UWKC}>Home</Nav.Link>
                <Nav.Link href={LINK.ABOUT_URL} disabled={location === LINK.ABOUT}>About Us</Nav.Link>
                <Nav.Link href={LINK.WHAT_IS_KENDO_URL} disabled={location === LINK.WHAT_IS_KENDO}>What is Kendo?</Nav.Link>
-               <Nav.Link href={LINK.JOIN_URL} disabled={location === LINK.ANNOUNCEMENT}>Announcement</Nav.Link>
-               <Nav.Link href={LINK.ANN_URL} disabled={location === LINK.JOIN}>Join</Nav.Link>
+               <Nav.Link href={LINK.ANN_URL} disabled={location === LINK.ANNOUNCEMENT}>Announcement</Nav.Link>
+               <Nav.Link href={LINK.JOIN_URL} disabled={location === LINK.JOIN}>Join</Nav.Link>
                <NavDropdown
                   title="Resources"
                   id="basic-nav-dropdown"
