@@ -157,3 +157,44 @@ body {
 .ann-popover-layout.popover {
   max-width: 30%;
 }
+
+.home-social-media-block {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.margin-right-1 {
+  margin-right: 1rem;
+}
+
+@media (max-width: 480px) {
+  .home-join-font {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .home-join-font {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .home-join-font {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .home-join-font {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .home-join-font {
+    font-size: 56px;
+  }
+}
+
