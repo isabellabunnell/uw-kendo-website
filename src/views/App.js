@@ -19,7 +19,7 @@ const App = () => {
   console.log(process.env.PUBLIC_URL)
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Switch>
         <Route exact
           path={LINK.ABOUT_URL}
@@ -58,7 +58,7 @@ const App = () => {
           component={LinkPage}
         />
         <Route
-          path={LINK.BASE_URL}
+          path="*"
           component={HomePage}
         />
       </Switch>
