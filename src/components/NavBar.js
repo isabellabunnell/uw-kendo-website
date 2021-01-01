@@ -1,14 +1,20 @@
 import React from "react"
+import PropTypes from "prop-types"
 import { Navbar, Nav, NavDropdown } from "react-bootstrap"
 import { useLocation } from "react-router-dom"
 import { pageList } from "../data/info"
 import { IMAGE_PATH } from "../views/App"
 
-const NavBar = () => {
+const NavBar = ({
+   transparent
+}) => {
    const location = useLocation().pathname.split("/").pop()
 
    return (
-      <Navbar variant="dark" expand="xl" className="nav-bar-layout">
+      <Navbar
+         variant="dark" expand="xl" className="nav-bar-layout"
+         style={{ backgroundColor: transparent && "transparent" }}
+      >
          <Navbar.Brand href={`/${pageList[0]}`}>
             <img
                alt="uw logo"
@@ -50,6 +56,10 @@ const NavBar = () => {
          </Navbar.Collapse>
       </Navbar>
    )
+}
+
+NavBar.propTypes = {
+   transparent: PropTypes.bool
 }
 
 export default NavBar
