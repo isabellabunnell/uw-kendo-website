@@ -4,28 +4,10 @@ export const JOIN_MAIL_URL = "http://mailman13.u.washington.edu/mailman/listinfo
 
 export const annList = [
    {
-      title: "COVID-19 Update",
-      content: "No Practice duringm 2020 spring quarter.",
-      img: "ann/protect-from-covid-19.png",
-      date: "2020-04-01"
-   },
-   {
-      title: "Zoom Practice",
-      content: "2020 Autumn Practice is on zoom weekly.",
-      img: "ann/kendo-zoom.jpeg",
-      date: "2020-09-01"
-   },
-   {
-      title: "Zoom Practice",
-      content: "2021 Winter Practice is on zoom weekly.",
-      img: "ann/sakura-uw.jpg",
-      date: "2020-12-01"
-   },
-   {
-      title: "COVID-19 Update",
-      content: "2021 Spring Practice is on zoom weekly.",
-      img: "ann/uw2019warmups.jpg",
-      date: "2021-04-01"
+      title: "Practice",
+      content: "2022 Winter Practice is weekly.",
+      img: "ann/steveston2020 masa.jpg",
+      date: "2021-12-01"
    },
    {
       title: "Practice",
@@ -34,10 +16,28 @@ export const annList = [
       date: "2021-09-01"
    },
    {
-      title: "Practice",
-      content: "2022 Winter Practice is weekly.",
-      img: "ann/steveston2020 masa.jpg",
-      date: "2021-12-01"
+      title: "COVID-19 Update",
+      content: "2021 Spring Practice is on zoom weekly.",
+      img: "ann/uw2019warmups.jpg",
+      date: "2021-04-01"
+   },
+   {
+      title: "Zoom Practice",
+      content: "2021 Winter Practice is on zoom weekly.",
+      img: "ann/sakura-uw.jpg",
+      date: "2020-12-01"
+   },
+   {
+      title: "Zoom Practice",
+      content: "2020 Autumn Practice is on zoom weekly.",
+      img: "ann/kendo-zoom.jpeg",
+      date: "2020-09-01"
+   },
+   {
+      title: "COVID-19 Update",
+      content: "No Practice during 2020 spring quarter.",
+      img: "ann/protect-from-covid-19.png",
+      date: "2020-04-01"
    }
 ]
 
