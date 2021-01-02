@@ -1,3 +1,5 @@
+import React from "react"
+
 export const JOIN_MAIL_URL = "http://mailman13.u.washington.edu/mailman/listinfo/uwkendo"
 
 export const annList = [
@@ -246,94 +248,157 @@ export const warmUpList = [
 
 export const etiqList = [
    {
+      abstract: "Etiquette Description",
+      detail: "Etiquette and Respect is a key characteristic of Kendo and is extremely important. The way we treat our Sensei, Senpai, our peers, even our opponents are all founded on respect. Following these etiquette guidelines and respecting all those around you and the equipment and the space we use will allow you to grow and practice Kendo in a safe and respectful environment."
+   },
+   {
       abstract: "The Concept of Kendo",
       detail: `The concept of Kendo is to discipline the human character through the application of the principles of the Katana.`
    },
    {
       abstract: "The purpose of practicing Kendo",
-      detail: `To mold the mind and body.
+      detail: `To mold the mind and body,
       \n
-      To cultivate a vigorous spirit.
+      To cultivate a vigorous spirit,
       \n
-      And through correct and rigid training.
+      And through correct and rigid training,
       \n
-      To strive for improvement in the art of Kendo.
+      To strive for improvement in the art of Kendo;
       \n
-      To hold in esteem human courtesy and honor.
+      To hold in esteem human courtesy and honor,
       \n
-      To associate with others with sincerity.
+      To associate with others with sincerity,
       \n
-      To forever pursue the cultivation of oneself.
+      And to forever pursue the cultivation of oneself.
       \n
-      To love his country and society.
+      Thus will one be able
       \n
-      To contribute to the development of culture.
+      To love his country and society,
       \n
-      To promote peace and prosperity among all peoples.`
+      To contribute to the development of culture,
+      \n
+      And to promote peace and prosperity among all peoples.
+      `
    },
    {
       abstract: "Kendo Safety Guidelines",
-      detail: `Alertness, awareness, foresight, clear assessment of the total situation all times, responsibility, and careful preparedness are among the major goals of kendo training and tradition, in one word, SAFETY ... safety for oneself, for others, for the community, and ultimately for the entire human family. Accordingly, in the dojo (training facility) and during training, safety will be uppermost in our agenda at all times, and all kenshi kendo participants of all levels both students and instructors) are required learn and practice the following.`
+      detail: (
+         <p>
+            Alertness, awareness, foresight, clear assessment of the total situation at all times, responsibility, and careful preparedness are among the major goals of kendo training and tradition, in one word, SAFETY ... safety for oneself, for others, for the community, and ultimately for the entire human family. Accordingly, in the dojo (training facility) and during training, safety will be uppermost in our agenda at all times, and all kenshi kendo participants of all levels both students and instructors) are required to learn and practice in a way that keeps EVERYONE safe. During practice every kenshi must try hard not to injure fellow kenshi in any way. <b>Abusive kendo is prohibited.</b> If done properly, Kendo should result in no injury, other than the occasional bruises. If injury does occur, STOP IMMEDIATELY, step off of the practice floor, notify the Instructor and Safety Officers.
+         </p>
+      )
    },
    {
       abstract: "Manners",
-      detail: `1. Courteous manners are required by Kendo tradition. All kenshi must show respect to their seniors in the art, especially senior sensei (instructors). Fostering respect and concern for fellow kenshi - helping each other train and develop physically and spiritually - is the purpose for studying kendo, and must motivate every consideration in the dojo.
-      \n
-      2. Shoes must be removed prior to entering the dojo, and neatly arranged so as not to create a hazard, or kept in one"s equipment bag.
-      \n
-      3. Horseplay, fooling around, waving or throwing equipment, lounging, casual conversation during practice, or behaving carelessly in the dojo is strictly forbidden.
-      \n
-      4. Smoking, eating, chewing gum, or drinking of any beverage whatsoever is strictly forbidden inside the dojo. This applies to visitors or guests as well as kenshi.
-      \n
-      5. The dojo floor must be carefully cleaned and inspected for hazards prior to the beginning of every practice and all trash picked up. Sweeping the floor is the duty of all junior kenshi, supervised by the ranking kenshi.
-      \n
-      6. All chairs, tables, benches and other loose furniture must moved well away from the practice area, and all personal baggage neatly arranged against the wall.
-      \n
-      7. It is forbidden to kick, step on, or step over any kendo equipment at any time.`
+      detail: "Courteous manners are required by Kendo tradition. All kenshi must show respect to their seniors in the art, especially senior sensei (instructors). Fostering respect and concern for fellow kenshi - helping each other train and develop physically and spiritually - is the purpose for studying kendo, and must motivate every consideration in the dojo."
    },
    {
-      abstract: "Preparation",
-      detail: `8. Excellent bodily hygiene and cleanliness is required of every kenshi. Toenails and fingernails must be clean and neatly trimmed, hair clean and combed. Ill or injured kenshi are not allowed to practice without specific permission of the instructor on a case-by-case basis.
-      \n
-      9. No rings, necklaces, earrings, br /acelets or other jewelry are permitted during practice, because they are very dangerous to both wearer and partner. There is also a tradition of stripping away worldly trappings and insignia of status before entering any dojo.
-      \n
-      10. The proper kendo clothing, keikogi (jacket) and hakama (trousers) must be worn correctly at all times during practice, because the design of the hakama creates a large cushioning airspace and the keikogi features special heavy knit, both specifically for absorbing the occasional misdirected blow.
-      \n
-      11. Beginners who have not yet entered the sparring practice are not required to wear keikogi and hakama, and are permitted to wear ordinary loose clothing, subject to review by an instructor, while they are learning.
-      \n
-      12. All keikogi, hakama, and bogu (protective armor) must be kept clean and in good repair. Neatly patched or mended equipment, subject to review by an instructor, is quite acceptable and respected. Kenshi must learn to pack their bogu (complete set of all equipment) properly, and also to pack the bogu of senior sensei.
-      \n
-      13. Kenshi must first obtain permission before using tape, elastic supporters, elbow pads, or other standard athletic supplies.`
+      abstract: "Dojo",
+      detail: "Shoes must be removed prior to entering the dojo, and neatly arranged so as not to create a hazard, or kept in one’s equipment bag. All chairs, tables, benches and other loose furniture must move well away from the practice area, and all personal baggage neatly arranged against the wall. The dojo floor must be carefully cleaned and inspected for hazards prior to the beginning of every practice and all trash picked up. Sweeping the floor is the duty of all junior kenshi, supervised by the ranking kenshi."
    },
    {
-      abstract: "Practice",
-      detail: `14. The classic kendo body posture is taught for technical reasons basic to the art. Kenshi are urged to bear in mind the important health and safety benefits that result from keeping this posture. br /eathing is deep-, blood circulates freely, all the muscles are relaxed and poised, and the eyes are able to take in all surroundings easily. Constantly remaining in this classic stance makes it easy to accurately hit the desired target and minimizes or eliminates entirely "wild shots&quot which sting or br /uise one"s partner in inappropriate places. It also prevents twisting straining, or pulling one"s body painfully. Most injuries are immediate feedback letting you know that you are not doing what you were taught. The same may be said of ordinary everyday life. All kendo is based on the hypothesis that there is a "Force&quot (ki) which every individual can learn to tap. Without the proper posture, the "Force&quot can never flow freely or be fully available.
-      \n
-      15. In particular, the special foot positions and footwork movements have very serious health and safety ramifications and must be learned thoroughly as the very first stage of kendo training. It is extremely important that both feet be pointed straight ahead at all times. The untrained tendency to turn or twist the left foot out must be altered consciously, as serious damage to the Achilles tendon may result from this action due to the heavy pressure advanced kendo movements br /ing to bear upon the left tendon. The orthodox kendo footwork also prevents blisters cracks, tears, and other minor foot injuries. The toes must slide or skim across the floor in the manner prescribed. This allows the kenshi to "feel&quot the terrain while keeping eye contact with the partner. It also keeps the toes from snagging on the skirt of the hakama, which may result in falling down, pulling a leg muscle, br /eaking toes, ankles, or other bones, etc. In other words, correct posture and correct footwork are absolutely essential to the safe as well as beautiful performance of kendo. Kendo can never be mastered without them, and it is dangerous to depart from them.
-      \n
-      16. Consistent attendance is essential to development in kendo. It also an important factor in safety. Absenteeism without adequate reason cannot be tolerated. Prolonged absence can only jeopardize the thinking other kenshi thus causing a weak dojo both physically and spiritually. You must notify the instructor or assistant instructor prior to any absences.
-      \n
-      17. All kenshi must take part in the regular warmup and stretching routine which begins every class or event. Late comers are required to bow in properly and go through the warmup routine on their own before they join the group practice. These warmups follow a careful plan and are not optional.
-      \n
-      18. When kenshi visit other clubs or attend tournaments they assume full responsibility for warming up and stretching properly, using the routine learned at our practice if necessary.
-      \n
-      19. The shinai (bamboo sword) must be carefully and thoroughly maintained by the kenshi on a continuous basis, and every shinai must be inspected for cracks, splinters, tom or br /oken leather fittings, or other damage, at the beginning of practice. Only perfect shinai may be used actual practice.
-      \n
-      20. During practice all kenshi must be vigilant about any damage which may occur to the shinai. Stop immediately to repair or replace any substandard shinai.
-      \n
-      21. During practice all kenshi must alertly listen for the command "YAME&quot (stop), and instantly stop whatever they"re doing and look at instructor as soon as they hear it.
-      \n
-      22. For intermediate and advanced kenshi the correct wearing of bogu is required. Every kenshi must watch alertly to make sure his or own bogu and that of fellow kenshi has not become untied, tangled or br /oken, and every kenshi has the responsibility to tell others of equipment problem.
-      \n
-      23. The design of the men (face guard) provides excellent protection for the eyes, but it is still possible for particles or splinters to enter the grillwork. Therefore kenshi are encouraged to consider the option of obtaining shatterproof plastic eyeglasses or a special plastic shield which snaps inside the grill for added defense of the eyes.
-      \n
-      24. During practice every kenshi must try hard not to injure fellow kenshi in any way, and must stop immediately if injury does occur. Abusive kendo is prohibited.
-      \n
-      25. Actions taken in anger are never permitted. However, because the symbolic combative mode of kendo, sometimes people accidentally become temporarily angry. We are willing to bear risking a remote possibility of anger, because this training helps us learn to remain cool in real life situations. However, the concept is to learn never to lose control. Thus anger must be actively guarded against, and all kenshi must honestly stop if they become angry, or perceive that their partner is angry.`
+      abstract: "Actions",
+      detail: (
+         <>
+            <p>
+               Horseplay, fooling around, waving or throwing equipment, lounging, casual conversation during practice, or behaving carelessly in the dojo is <b>strictly forbidden</b>. Smoking, eating, chewing gum, or drinking of any beverage other than water is strictly forbidden inside the dojo. This also applies to visitors or guests. Furthermore, it is forbidden to kick, step on, or step over any kendo equipment at any time.
+            </p>
+            <p>
+               {`During practice all kenshi must alertly listen for the command "YAME” (stop), and instantly stop whatever they’re doing and look at the instructor as soon as they hear it. If an instructor or Senpai has something to say, utmost respect and attention is required. Not listening or disrespect will not be tolerated.`}
+            </p>
+         </>
+      )
+   },
+   {
+      abstract: "Physical Preparation",
+      detail: (
+         <>
+            <p>
+               Excellent bodily hygiene and cleanliness is required of every kenshi. Toenails and fingernails must be clean and neatly trimmed, hair clean and combed. Ill or injured kenshi are not allowed to practice without specific permission of the instructor on a case-by-case basis.
+            </p>
+            <p>
+               No rings, necklaces, earrings, bracelets or other jewelry are permitted during practice, because they are very dangerous to both wearer and partner. There is also a tradition of stripping away worldly trappings and insignia of status before entering any dojo.
+            </p>
+         </>
+      )
+   },
+   {
+      abstract: "Posture",
+      detail: "The classic kendo body posture is taught for technical reasons basic to the art. Kenshi are urged to bear in mind the important health and safety benefits that result from keeping this posture. Breathing is deep-, blood circulates freely, all the muscles are relaxed and poised, and the eyes are able to take in all surroundings easily. Constantly remaining in the correct stance makes it easy to accurately hit the desired target and minimizes or eliminates entirely \"wild shots\” which sting or bruise one’s partner in inappropriate places. It also prevents twisting, straining or pulling one’s body painfully. Most injuries are immediate feedback letting you know that you are not doing what you were taught."
+   },
+   {
+      abstract: "Footwork",
+      detail: "In particular, the special foot positions and footwork movements have very serious health and safety ramifications and must be learned thoroughly as the very first stage of kendo training. It is extremely important that both feet be pointed straight ahead at all times. The untrained tendency to turn or twist the left foot out must be altered consciously, as serious damage to the Achilles tendon may result from this action due to the heavy pressure advanced kendo movements bring to bear upon the left tendon. The orthodox kendo footwork also prevents blisters, cracks, tears, and other minor foot injuries. The toes must slide or skim across the floor in the manner prescribed. This allows the kenshi to \"feel\" the terrain while keeping eye contact with the partner. It also keeps the toes from snagging on the skirt of the hakama, which may result in falling down, pulling a leg muscle, breaking toes, ankles, or other bones, etc. In other words, correct posture and correct footwork are absolutely essential to the safe as well as beautiful performance of kendo. Kendo can never be mastered without them, and it is dangerous to depart from them."
+   },
+   {
+      abstract: "Attendance",
+      detail: (
+         <>
+            <p>
+               Consistent attendance is essential to development in kendo. It is also an important factor in safety, as proper forms and technique are built upon each other, requiring proper and consistent practice to completely learn and understand the concepts. Absenteeism without adequate reason cannot be tolerated. As Kendo is largely a partner/group martial art, when not consistent with attending practice, you are hurting the development and practice of your club and team. Prolonged absence can only jeopardize the thinking other kenshi thus causing a weak dojo both physically and spiritually. <b>You must notify the instructor or assistant instructor prior to any absences.</b>
+            </p>
+            <p>
+               If late to practice, all kenshi must take part in bowing in and the regular warmup and stretching routine which begins every class or event. Late comers are required to bow in properly and go through the warmup routine on their own before they join the group practice. These warmups follow a careful plan and are not optional.
+            </p>
+         </>
+      )
+   },
+   {
+      abstract: "Apparel",
+      detail: (
+         <>
+            <p>
+               The proper kendo clothing, keikogi (jacket) and hakama (trousers) must be worn correctly at all times during practice, because the design of the hakama creates a large cushioning airspace and the keikogi features special heavy knit, both specifically for absorbing the occasional misdirected blow.
+            </p>
+            <p>
+               Beginners who have not yet entered the sparring practice are not required to wear keikogi and hakama, and are permitted to wear ordinary loose clothing, subject to review by an instructor, while they are learning.
+            </p>
+            <p>
+               All keikogi, hakama, and bogu (protective armor) must be kept clean, neat, and in good repair. Neatly patched or mended equipment, subject to review by an instructor, is quite acceptable and respected.
+            </p>
+         </>
+      )
+   },
+   {
+      abstract: "Shinai",
+      detail: "The shinai (bamboo sword) must be carefully and thoroughly maintained by the kenshi on a continuous basis, and every shinai must be inspected for cracks, splinters, torn or broken leather fittings, or other damage, at the beginning of practice. Only perfect shinai may be used in actual practice for the safety of everyone. During practice all kenshi must be vigilant about any damage which may occur to the shinai. Stop immediately to repair or replace any substandard shinai."
+   },
+   {
+      abstract: "Bogu",
+      detail: (
+         <>
+            <p>
+               For intermediate and advanced kenshi the correct wearing of bogu is required. Every kenshi must watch alertly to make sure his or her bogu and that of fellow kenshi has not become untied, tangled or broken, and every kenshi has the responsibility to tell others of equipment problems.
+            </p>
+            <p>
+               Kenshi must learn to pack their bogu (complete set of all equipment) properly, and also to pack the bogu of senior sensei.
+            </p>
+            <p>
+               The design of the men (face guard) provides excellent protection for the eyes, but it is still possible for particles or splinters to enter the grillwork. Therefore kenshi are encouraged to consider the option of obtaining shatterproof plastic eyeglasses or a special plastic shield which snaps inside the grill for added defense of the eyes.
+            </p>
+         </>
+      )
+   },
+   {
+      abstract: "Shiai (Tournaments)",
+      detail: (
+         <>
+            <p>
+               Everyone is expected to be on time and remain for the whole tournament. Whether or not you only had one match or go all the way to the finals, everyone is expected to support one another and stay for the whole tournament. If the tournament is hosted by your dojo, you are expected to help out with setting up, cleaning up, and managing various tasks that help the tournament run.
+            </p>
+            <p>
+               During a match, all kenshi need to show respect to everyone, including your opponent and shinpan (judges). Any inappropriate behavior, fist bumping, celebration, commenting on the judges decisions, etc. can result in a penalty (loss of 0.5 point). When addressed by the head judge, conduct yourself with respect and listen to what they have to say. If you have questions, ask respectfully.
+            </p>
+         </>
+      )
+   },
+   {
+      abstract: "Competitiveness",
+      detail: "Kendo is a martial art, and in all sports or martial arts, there is a level of competitiveness that may be different for everyone. Some actions and practice may result in anger. Actions taken in anger are never permitted. However, because of the symbolic combative mode of kendo, sometimes people accidentally become temporarily angry. We are willing to bear risking a remote possibility of anger, because this training helps us learn to remain cool in real life situations. However, the concept is to learn never to lose control. Thus anger must be actively guarded against, and all kenshi must honestly stop if they become angry, or perceive that their partner is angry."
    },
    {
       abstract: "Summary",
-      detail: `Proper kendo techniques will be carefully taught to every kenshi, but ultimate responsibility for safe and correct conduct of the art of kendo lies with the individual. To study kendo is to accept the challenge taking active responsibility for your own life and for the well-being those around you. If you have any special circumstances which might prohibit you from following any safety guidelines, please inform one of the sensei.`
+      detail: "Proper kendo techniques will be carefully taught to every kenshi, but ultimate responsibility for safe and correct conduct of the art of kendo lies with the individual. To study kendo is to accept the challenge of taking active responsibility for your own life and for the well-being of those around you. If you have any special circumstances which might prohibit you from following any safety guidelines, please inform one of the sensei."
    }
 ]
 

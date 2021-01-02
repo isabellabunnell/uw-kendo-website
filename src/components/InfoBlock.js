@@ -16,6 +16,11 @@ const InfoBlock = ({
          </h3>
          {
             content.split("\n").map((part, partIdx) => (
+               typeof part === "object" ?
+               <div key={`info-${partIdx}`} style={{ marginBottom: "1rem" }}>
+                  {part}
+               </div>
+               :
                <p key={`info-${partIdx}`} style={{ marginBottom: "1rem" }}>
                   {part}
                </p>
