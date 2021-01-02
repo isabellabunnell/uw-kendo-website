@@ -26,7 +26,7 @@ const NavBar = ({
          <Navbar.Toggle aria-controls="basic-navbar-nav" />
          <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
-               <Nav.Link href={LINK.BASE_URL} disabled={location === LINK.UWKC}>Home</Nav.Link>
+               <Nav.Link href={LINK.BASE_URL} disabled={location === LINK.UWKC || location === ""}>Home</Nav.Link>
                <Nav.Link href={LINK.ABOUT_URL} disabled={location === LINK.ABOUT}>About Us</Nav.Link>
                <Nav.Link href={LINK.WHAT_IS_KENDO_URL} disabled={location === LINK.WHAT_IS_KENDO}>What is Kendo?</Nav.Link>
                <Nav.Link href={LINK.ANN_URL} disabled={location === LINK.ANNOUNCEMENT}>Announcement</Nav.Link>
