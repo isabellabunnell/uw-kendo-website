@@ -37,7 +37,7 @@ export const annList = [
       title: "Practice",
       content: "2022 Winter Practice is weekly.",
       img: "ann/steveston2020 masa.jpg",
-      date: "2022-12-01"
+      date: "2021-12-01"
    }
 ]
 
