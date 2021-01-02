@@ -405,19 +405,11 @@ export const etiqList = [
 export const linkMap = {
    "Affiliated Federations": [
       {
-         name: "All United States Kendo Federation (AUSKF)",
-         address: "http://www.auskf.info/"
-      },
-      {
-         name: "Pacific Northwest Kendo Federation (PNKF)",
-         address: "http://www.kendo-pnkf.org/"
-      },
-      {
-         name: "AUSKF Dojo List",
+         name: "All United States Kendo Federation Dojo List",
          address: "https://www.auskf.org/dojos"
       },
       {
-         name: "PNKF Dojo List",
+         name: "Pacific Northwest Kendo Federation Dojo List",
          address: "https://www.pnkf.org/dojo-list/"
       }
    ],
