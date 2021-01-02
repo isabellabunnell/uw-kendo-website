@@ -17,7 +17,7 @@ const CalendarBlock = () => {
             Calendar
          </h3>
          <p>
-            Lorem ipsum dolor sit amet, consectetur aipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut placera orci nulla pellentesque dignissim enim.   
+            The events will be hosted on the calendar dates.   
          </p>
          <Row style={{ marginTop: "2rem" }}>
             <Col lg={6}>
