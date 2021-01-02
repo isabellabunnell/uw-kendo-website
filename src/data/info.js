@@ -53,22 +53,26 @@ export const sportInfo = [
    {
       title: "The Martial Art",
       content: "Kendo is a modern Japanese sword-based martial art that uses bamboo swords and protective armor. The techniques are based on methods of samurai warfare and is practiced by 1.66 million people in Japan.",
-      img: "info/sport.jpg"
+      img: "info/sport.jpg",
+      video: "https://www.youtube.com/embed/a8v79oql2B0"
    },
    {
       title: "Iaido",
       content: "Iaido (or iai) is the Japanese sword-based martial art that focuses on being able to quickly draw the sword in response to a sudden attack. Students use wooden and metal practice swords to do different forms known as kata.",
-      img: "info/iaido.jpg"
+      img: "info/iaido.jpg",
+      video: "https://www.youtube.com/embed/NpIIUqKCN0g"
    },
    {
       title: "Warm Up",
       content: "A warmup gradually revs up your cardiovascular system by raising your body temperature and increasing blood flow to your muscles. Warming up may also help reduce muscle soreness and lessen your risk of injury. Cooling down after your workout allows for a gradual recovery of preexercise heart rate and blood pressure.",
-      img: "info/warm-up.jpg"
+      img: "info/warm-up.jpg",
+      video: "https://www.youtube.com/embed/FdeeFxGgegc"
    },
    {
       title: "Etiquette",
       content: "Having an opponent is extremely important, and it is crucial to have a sense of gratitude and respect. The “etiquette” of kendo are expressions in which those inner feelings are reflected visibly.",
-      img: "info/etiquette.jpg"
+      img: "info/etiquette.jpg",
+      video: "https://www.youtube.com/embed/LLByUy_1crM"
    }
 ]
 

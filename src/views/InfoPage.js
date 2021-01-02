@@ -23,6 +23,7 @@ const InfoPage = () => {
                            title={info.title}
                            content={info.content}
                            image={info.img}
+                           video={info.video}
                            key={`info-${idx}`}
                            textRight={screenWidth >= 992 && idx % 2 === 1}
                         />
