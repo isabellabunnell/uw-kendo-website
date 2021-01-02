@@ -20,19 +20,19 @@ const CalendarBlock = () => {
             Lorem ipsum dolor sit amet, consectetur aipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut placera orci nulla pellentesque dignissim enim.   
          </p>
          <Row style={{ marginTop: "2rem" }}>
-            <Col sm={6}>
+            <Col lg={6}>
                <Calendar
                   className="join-calendar-layout"
                   onChange={setDateValue}
                   value={dateValue}
                />
             </Col>
-            <Col sm={1} />
-            <Col sm={5}
+            <Col lg={1} style={{ marginTop: "2rem" }} />
+            <Col lg={5}
                style={{
                   display: "flex",
                   justifyContent: hasEvent ? "flex-start" : "center",
-                  flexDirection: "column"
+                  flexDirection: "column",
                }}
             >
             {
