@@ -14,15 +14,12 @@ const GalleryBlock = () => {
                Object.keys(galleryMap).map((group, groupIdx) => (
                   galleryMap[group].map((image, imageIdx) => (
                      <Carousel.Item key={`gallery-group-${groupIdx}-image-${imageIdx}`}>
-                        {/* <div style={{ borderRadius: "1rem" }}> */}
-                           <img
-                              className="d-block w-100"
-                              src={`${IMAGE_PATH}/gallery/${group}/${image}`}
-                              alt={`${group}/${image}`}
-                              style={{ borderRadius: "5px" }}
-                           />
-                        {/* </div> */}
-                        
+                        <img
+                           className="d-block w-100"
+                           src={`${IMAGE_PATH}/gallery/${group}/${image}`}
+                           alt={`${group}/${image}`}
+                           style={{ borderRadius: "5px" }}
+                        />
                         <Carousel.Caption>
                            <h3>{group}</h3>
                         </Carousel.Caption>
