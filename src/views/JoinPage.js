@@ -10,8 +10,8 @@ const JoinPage = () => {
       <PageStructure
          content={
             <div style={{ marginTop: "3rem" }}>
-               <LocationBlock />
                <JoinBlock />
+               <LocationBlock />
                <CalendarBlock />
                <GalleryBlock />
             </div>
