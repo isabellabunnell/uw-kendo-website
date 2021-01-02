@@ -1,5 +1,5 @@
 # UW Kendo Web UI
-### [Heroku Deployed View](https://uw-kendo-web.herokuapp.com/)
+### [UW Deployed View](http://students.washington.edu/uwkc/)
 ### Developer Usage:
    - For first-time initialization:
      - `yarn install`
