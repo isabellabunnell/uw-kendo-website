@@ -4,7 +4,7 @@
    - For first-time initialization:
      - `yarn install`
      - `yarn start`
-     - run on `http://localhost:3000`
+     - run on `http://localhost:3000/uwkc/`
    - For test:
      - `yarn test`
    - DON'T PUSH `build/`, which will block heroku auto deployment.
