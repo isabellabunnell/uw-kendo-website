@@ -16,7 +16,7 @@ const LogoTitle = ({
             src={`${IMAGE_PATH}${image || "/info/club-logo.png"}`}
             style={{ marginRight: "1rem" }}
          />
-         <p className={`logo-title-font${white ? "-white" : ""}`}>UW Kendo</p>
+         <p className={`logo-title-font${white ? "-white" : ""}`}>Kendo Club</p>
       </Link>
    )
 }
