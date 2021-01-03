@@ -716,7 +716,7 @@ export const galleryMap = {
 export const historyList = [
    {
       date: "1905-03-17",
-      abstract: "First officially recorded appearance of Kendo at UW",
+      abstract: "The first official appearance of Kendo at UW",
       detail: "At the biggest, for the time, athletic exhibition ever given in the Pacific Northwest. two kenshi from Kyoto, Kawakami Sensei and Sugihara Sensei, thrilled the crowd of some 1, 500 people at the UW gymnasium."
    },
    {
@@ -726,7 +726,7 @@ export const historyList = [
    },
    {
       date: "1973-01-05",
-      abstract: "An official Constitution was filed",
+      abstract: "Official Constitution was filed",
       detail: "Officers were listed as John Sullivan, captain(president)and Koichi Ito, co - captain(vice president).The faculty advisor was Hitoshi Mohri, MD, a pioneer in open - heart surgery of infants with the UW Medical Center."
    },
    {

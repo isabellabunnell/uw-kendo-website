@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/uwkc/static/css/main.6b80eebe.chunk.css",
-    "main.js": "/uwkc/static/js/main.a8a9ec4f.chunk.js",
-    "main.js.map": "/uwkc/static/js/main.a8a9ec4f.chunk.js.map",
+    "main.js": "/uwkc/static/js/main.0a9bf3df.chunk.js",
+    "main.js.map": "/uwkc/static/js/main.0a9bf3df.chunk.js.map",
     "runtime-main.js": "/uwkc/static/js/runtime-main.5dbaba27.js",
     "runtime-main.js.map": "/uwkc/static/js/runtime-main.5dbaba27.js.map",
     "static/css/2.0acc7611.chunk.css": "/uwkc/static/css/2.0acc7611.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.0acc7611.chunk.css",
     "static/js/2.a4623bc6.chunk.js",
     "static/css/main.6b80eebe.chunk.css",
-    "static/js/main.a8a9ec4f.chunk.js"
+    "static/js/main.0a9bf3df.chunk.js"
   ]
 }
