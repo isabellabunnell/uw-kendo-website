@@ -1,4 +1,4 @@
-{
+export const calendarMap = {
    "2020-12-23": [
       {
          "start": "7:00 PM",
