@@ -2,12 +2,12 @@ import "react-calendar/dist/Calendar.css"
 import React, { useState } from "react"
 import Calendar from "react-calendar"
 import EventBlock from "../components/EventBlock"
-import { Row, Col, Button } from "react-bootstrap"
+import { Row, Col } from "react-bootstrap"
 import { getDateStr } from "../functions/utils"
+import { calendarMap } from "../data/calendar"
 
 const CalendarBlock = () => {
    const [dateValue, setDateValue] = useState(new Date())
-   const calendarMap = require("../data/calendar")
    const dateStr = getDateStr(dateValue)
    const hasEvent = dateStr in calendarMap
 
