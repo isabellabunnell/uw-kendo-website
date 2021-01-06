@@ -180,13 +180,16 @@ body {
 #gallery-drop-menu {
   padding: 0;
   border: none;
-  /* border: 2px solid #5B3080 !important; */
+}
+
+#gallery-drop-menu .dropdown-item:focus,
+#gallery-drop-menu .dropdown-item:hover {
+  color: #5B3080 !important;
 }
 
 #gallery-drop-menu .dropdown-item {
   color: white !important;
   background-color: #5B3080;
-  /* border: 2px solid #5B3080; */
 }
 
 .nav-resource-menu > div {
