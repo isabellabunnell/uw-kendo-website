@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import React from "react"
-import AboutPage from "./AboutPage"
 import HomePage from "./HomePage"
 import InfoPage from "./InfoPage"
 import JoinPage from "./JoinPage"
@@ -10,6 +9,10 @@ import WarmUpPage from "./WarmUpPage"
 import EtiquettePage from "./EtiquettePage"
 import LinkPage from "./LinkPage"
 import AnnPage from "./AnnPage"
+import PeoplePage from "./PeoplePage"
+import AwardsPage from "./AwardsPage"
+import GalleryPage from "./GalleryPage"
+import ClubPage from "./ClubPage"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import * as LINK from "../data/link"
 
@@ -19,10 +22,23 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact
-          path={LINK.ABOUT_URL}
-          component={AboutPage}
+        <Route
+          path={LINK.PEOPLE_URL}
+          component={PeoplePage}
         />
+        <Route
+          path={LINK.AWARDS_URL}
+          component={AwardsPage}
+        />
+        <Route
+          path={LINK.GALLERY_URL}
+          component={GalleryPage}
+        />
+        <Route
+          path={LINK.THE_CLUB_URL}
+          component={ClubPage}
+        />
+
         <Route
           path={LINK.WHAT_IS_KENDO_URL}
           component={InfoPage}
