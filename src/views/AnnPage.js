@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import PageStructure from "../components/PageStructure"
 import { annList } from "../data/info"
 import { IMAGE_PATH } from "./App"
-import { Row, Col, OverlayTrigger, Popover } from "react-bootstrap"
+import { Row, Col, Popover } from "react-bootstrap"
 
 const AnnPage = () => {
    const [screenWidth, setScreenWidth] = useState(window.innerWidth)
@@ -38,7 +38,7 @@ const AnnPage = () => {
    return (
       <PageStructure
          content={
-            <div style={{ marginTop: "3rem" }}>
+            <>
                <h3 style={{ marginBottom: "2rem" }}>
                   Announcement
                </h3>
@@ -46,19 +46,17 @@ const AnnPage = () => {
                   {
                      annList.map((ann, annIdx) => (
                         <Col key={`ann-${annIdx}`} md={4} sm={6} className="ann-block-layout">
-                           <OverlayTrigger placement="right" overlay={popover(ann.img)}>
-                              <img
-                                 src={`${IMAGE_PATH}/${ann.img}`}
-                                 alt={ann.img}
-                                 width="100%"
-                                 height={screenWidth > 575 && "50%"}
-                                 style={{
-                                    objectFit: "cover",
-                                    marginBottom: "2rem",
-                                    float: "left"
-                                 }}
-                              />
-                           </OverlayTrigger>                     
+                           <img
+                              src={`${IMAGE_PATH}/${ann.img}`}
+                              alt={ann.img}
+                              width="100%"
+                              height={screenWidth > 575 && "50%"}
+                              style={{
+                                 objectFit: "cover",
+                                 marginBottom: "2rem",
+                                 float: "left"
+                              }}
+                           />
                            <h6>{ann.title}</h6>
                            <h6 style={{ fontWeight: "lighter" }}>{ann.date}</h6>
                            <p>{ann.content}</p>
@@ -66,7 +64,7 @@ const AnnPage = () => {
                      ))
                   }
                </Row>
-            </div>
+            </>
          }
       />
    )
