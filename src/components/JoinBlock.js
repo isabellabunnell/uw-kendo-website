@@ -13,8 +13,8 @@ const JoinBlock = () => {
          </p>
          <Button
             className="join-button-font"
+            id="join-button"
             variant="primary"
-            style={{ backgroundColor: "#5B3080", borderColor: "#5B3080" }}
             onClick={() => window.location=JOIN_MAIL_URL}
          >
             Join our mailing list

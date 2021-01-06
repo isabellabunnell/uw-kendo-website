@@ -9,7 +9,7 @@ const EventAwards = ({
    const awards = event[title]
 
    return (
-      <div>
+      <div className="awards-table">
          <h5>
             {title}
          </h5>

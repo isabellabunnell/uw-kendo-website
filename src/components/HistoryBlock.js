@@ -36,10 +36,7 @@ const HistoryBlock = () => {
                      </TimelineSeparator>
                      <TimelineContent>
                         <OverlayTrigger trigger="click" placement="bottom" overlay={popover(history)}>
-                           <Button
-                              variant="success"
-                              style={{ backgroundColor: "#5B3080", borderColor: "#5B3080" }}
-                           >
+                           <Button className="kendo-btn">
                               {history.abstract}
                            </Button>
                         </OverlayTrigger>

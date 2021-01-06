@@ -16,31 +16,59 @@ const NavBar = ({
          style={{ backgroundColor: transparent && "transparent" }}
       >
          <Navbar.Brand href={LINK.BASE_URL}>
-            <img
-               alt="uw logo"
-               height="40"
-               src={`${IMAGE_PATH}/info/uw-logo.png`}
-               style={{ marginRight: "1rem" }}
-            />
+            <div id="nav-bar-brand">
+               <img
+                  alt="club logo"
+                  height="72"
+                  src={`${IMAGE_PATH}/info/club-logo-white.png`}
+                  style={{ marginRight: "1rem" }}
+               />
+               <span
+                  style={{
+                     fontWeight: "bold",
+                     display: (location === LINK.UWKC || location === "") &&"none"
+                  }}
+               >
+                  Kendo Club
+               </span>
+            </div>
+            
          </Navbar.Brand>
          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-         <Navbar.Collapse id="basic-navbar-nav">
+         <Navbar.Collapse id="top-navbar">
             <Nav>
                <Nav.Link href={LINK.BASE_URL} disabled={location === LINK.UWKC || location === ""}>Home</Nav.Link>
-               <Nav.Link href={LINK.ABOUT_URL} disabled={location === LINK.ABOUT}>About Us</Nav.Link>
+               <NavDropdown
+                  title="About Us"
+                  id="about-us-dropdown"
+                  className={`nav-resource-menu${transparent ? "-transparent" : ""}`}
+               >
+                  <NavDropdown.Item href={LINK.THE_CLUB_URL} disabled={location === LINK.THE_CLUB}>
+                     The Club
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href={LINK.AWARDS_URL} disabled={location === LINK.AWARDS}>
+                     Awards
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href={LINK.PEOPLE_URL} disabled={location === LINK.PEOPLE}>
+                     People
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href={LINK.GALLERY_URL} disabled={location === LINK.GALLERY}>
+                     Gallery
+                  </NavDropdown.Item>
+               </NavDropdown>
                <Nav.Link href={LINK.WHAT_IS_KENDO_URL} disabled={location === LINK.WHAT_IS_KENDO}>What is Kendo?</Nav.Link>
                <Nav.Link href={LINK.ANN_URL} disabled={location === LINK.ANNOUNCEMENT}>Announcement</Nav.Link>
                <Nav.Link href={LINK.JOIN_URL} disabled={location === LINK.JOIN}>Join</Nav.Link>
                <NavDropdown
                   title="Resources"
-                  id="basic-nav-dropdown"
+                  id="resource-dropdown"
                   className={`nav-resource-menu${transparent ? "-transparent" : ""}`}
                >
                   <NavDropdown.Item href={LINK.FAQ_URL} disabled={location === LINK.FAQ}>
                      FAQ
                   </NavDropdown.Item>
                   <NavDropdown.Item href={LINK.VOCAB_URL} disabled={location === LINK.VOCAB}>
-                     Vocab
+                     Vocabulary
                   </NavDropdown.Item>
                   <NavDropdown.Item href={LINK.WARM_UP_URL} disabled={location === LINK.WARM_UP}>
                      Warm Up
