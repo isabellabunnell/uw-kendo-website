@@ -1,21 +1,10 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import NavBar from "../components/NavBar"
-import LogoTitle from "../components/LogoTitle"
 import { Button, Col, Container, Row } from "react-bootstrap"
 import { JOIN_MAIL_URL } from "../data/info"
 import { IMAGE_PATH } from "./App"
 
 const HomePage = () => {
-   const [screenHeight, setScreenHeight] = useState(window.innerHeight)
-   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
-
-   useEffect(() => {
-      window.addEventListener("resize", () => {
-         setScreenHeight(window.innerHeight)
-         setScreenWidth(window.innerWidth)
-      })
-   }, [])
-
    return (
       <div
          style={{
@@ -28,22 +17,20 @@ const HomePage = () => {
          }}
       >
          <NavBar transparent />
-         <Container fluid>
+         <Container fluid className="home-text-layout">
             <Row>
                <Col sm={1} />
                <Col sm={10}>
-                  <div className="top-bar-layout" style={{ marginTop: screenHeight * 0.06 }}>
-                     <LogoTitle image="/info/club-logo-white.png" white />
-                  </div>
+                  <p className="logo-title-font-white">Kendo Club</p>
                   <div className="home-join-layout">
                      <p className="home-join-font">
                         Come join the Kendo Club at the University of Washington today!
                      </p>
                      <div>
                         <Button
+                           id="home-join-button"
                            className="home-join-button-font margin-right-1"
                            variant="primary"
-                           style={{ backgroundColor: "white", color: "#5B3080", border: "none" }}
                            onClick={() => window.location=JOIN_MAIL_URL}
                         >
                            Join our mailing list
