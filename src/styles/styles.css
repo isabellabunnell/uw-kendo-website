@@ -268,7 +268,7 @@ body {
   margin-right: 1rem;
 }
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
   .home-text-layout {
     height: 70vh;
   }
