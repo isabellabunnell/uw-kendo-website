@@ -15,18 +15,25 @@ export const addRoutine = (book, startDate, endDate) => {
    const end = new Date(endDate)
    let res = {...book}
    for (let d = start; d <= end; d.setDate(d.getDate() + 1)) {
-      if (d.getDay() === 3) {
+      if (d.getDay() === 3 || d.getDay() === 5) {
          const dateStr = getDateStr(d)
-         const dateEvent = {
-            "start": "7:00 PM",
-            "end": "8:00 PM",
-            "name": "Winter Quarter Practice",
-            "location": "zoom"
-         }
          if (!(dateStr in res)) {
             res[dateStr] = []
          }
-         res[dateStr].push(dateEvent)
+         res[dateStr].push({
+            "start": "7:00 PM",
+            "end": "8:00 PM",
+            "name": "Kendo Practice",
+            "location": "zoom"
+         })
+         if (d.getDay() === 5) {
+            res[dateStr].push({
+               "start": "8:00 PM",
+               "end": "9:00 PM",
+               "name": "Iaido Practice",
+               "location": "zoom"
+            })
+         }
       }
    }
    return res
