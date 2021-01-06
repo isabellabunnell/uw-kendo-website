@@ -18,7 +18,7 @@ const GalleryBlock = () => {
                </Dropdown.Toggle>
                <Dropdown.Menu id="gallery-drop-menu">
                   {
-                     Object.keys(galleryMap).map((group, groupIdx) => (
+                     Object.keys(galleryMap).filter(group => group !== event).map((group, groupIdx) => (
                         <Dropdown.Item key={`gallery-drop-${groupIdx}`}
                            onSelect={(_, event) => setEvent(event.target.innerText)}
                         >{group}</Dropdown.Item>
