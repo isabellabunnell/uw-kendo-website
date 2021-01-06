@@ -9,21 +9,6 @@ const AwardsBlock = () => {
    const [activePage, setActivePage] = useState(1)
    const activeYear = yearList[activePage-1]
    const activeAwards = awardsMap[activeYear]
-   const [displayMore, setDisplayMore] = useState(true)
-
-   const DisplayToggle = () => (
-      <Accordion.Toggle
-         as={Button}
-         variant="link"
-         eventKey="0"
-         onClick={() => setDisplayMore(!displayMore)}
-         style={{ padding: 0 }}
-      >
-         <Button style={{ backgroundColor: "#5B3080", color: "white", border: "none" }}>
-            {displayMore ? "Display More" : "Display Less"}
-         </Button>
-      </Accordion.Toggle>
-   )
 
    return (
       <>
@@ -37,40 +22,17 @@ const AwardsBlock = () => {
                defaultPage={1}
                color="primary"
                onChange={(_, page) => setActivePage(page)}
-               style={{ float: "right"}}
+               className="awards-pagination"
             />
          </div>
          {
-            activeAwards.length > 0 &&
-            <div style={{ marginTop: "1rem" }}>
-            <EventAwards key="event-0" event={activeAwards[0]} />
-            </div>
-         }
-         {
-            activeAwards.length > 1 &&
-            <Accordion>
-               {
-                  displayMore &&
-                  <DisplayToggle />
-               }
-               <Accordion.Collapse eventKey="0">
-                  <>
-                  {
-                     activeAwards.slice(1).map((event, idx) => (
-                        <EventAwards key={`event-${idx+1}`} event={event} />
-                     ))
-                  }
-                  </>
-               </Accordion.Collapse>
-               {
-                  !displayMore &&
-                  <DisplayToggle />
-               }
-            </Accordion>
+            activeAwards.map((event, idx) => (
+               <EventAwards key={`event-${idx+1}`} event={event} />
+            ))
          }
          {
             activeAwards.length === 0 &&
-            <h6 style={{ marginTop: "1rem" }}>{`No event record in ${activeYear}`}</h6>
+            <h5 style={{ marginTop: "2rem" }}>{`No event record in ${activeYear}`}</h5>
          }
       </>
    )
