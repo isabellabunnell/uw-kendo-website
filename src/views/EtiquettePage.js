@@ -7,7 +7,7 @@ const EtiquettePage = () => {
    return (
       <PageStructure
          content={
-            <div style={{ marginTop: "3rem" }}>
+            <>
                <h3 style={{ marginBottom: "1rem" }}>
                   Etiquette
                </h3>
@@ -16,7 +16,7 @@ const EtiquettePage = () => {
                   toggleName="abstract"
                   collapseName="detail"
                />
-            </div>
+            </>
          }
       />
    )

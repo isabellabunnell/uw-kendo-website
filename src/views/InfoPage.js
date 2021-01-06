@@ -16,7 +16,7 @@ const InfoPage = () => {
       <PageStructure
          content={
             <>
-               <div style={{ marginTop: "2rem" }}>
+               <div style={{ marginBottom: "2rem" }}>
                   {
                      sportInfo.map((info, idx) => (
                         <InfoBlock

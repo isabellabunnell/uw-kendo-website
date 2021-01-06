@@ -7,7 +7,7 @@ const FAQPage = () => {
    return (
       <PageStructure
          content={
-            <div style={{ marginTop: "3rem" }}>
+            <>
                <h3 style={{ marginBottom: "1rem" }}>
                   FAQ
                </h3>
@@ -16,7 +16,7 @@ const FAQPage = () => {
                   toggleName="Q"
                   collapseName="A"
                />
-            </div>
+            </>
          }
       />
    )

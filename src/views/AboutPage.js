@@ -12,14 +12,12 @@ const AboutPage = () => {
       <PageStructure
          content={
             <>
-               <div style={{ marginTop: "2rem" }}>
-                  <InfoBlock
-                     title={clubInfo.title}
-                     content={clubInfo.content}
-                     image={clubInfo.img}
-                     textRight={false}
-                  />
-               </div>
+               <InfoBlock
+                  title={clubInfo.title}
+                  content={clubInfo.content}
+                  image={clubInfo.img}
+                  textRight={false}
+               />
                <div style={{ marginTop: "2rem" }}>
                   <HistoryBlock />
                </div>

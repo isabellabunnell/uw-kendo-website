@@ -23,7 +23,7 @@ const LinkPage = () => {
    return (
       <PageStructure
          content={
-            <div style={{ marginTop: "3rem" }}>
+            <>
                <h3 style={{ marginBottom: "1rem" }}>
                   Links
                </h3>
@@ -32,7 +32,7 @@ const LinkPage = () => {
                   toggleName="group"
                   collapseName="links"
                />
-            </div>
+            </>
          }
       />
    )

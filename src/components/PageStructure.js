@@ -20,13 +20,10 @@ const PageStructure = ({
    return (
       <>
          <NavBar />
-         <Container fluid>
+         <Container fluid style={{ marginTop: "3rem" }}>
             <Row>
                <Col sm={1} />
                <Col sm={10}>
-                  <div className="top-bar-layout" style={{ marginTop: screenHeight * 0.06 }}>
-                     <LogoTitle />
-                  </div>
                   {content}
                </Col>
                <Col sm={1} />

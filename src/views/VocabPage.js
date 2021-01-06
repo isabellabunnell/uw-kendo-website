@@ -1,7 +1,7 @@
 import React from "react"
-import { Table } from "react-bootstrap"
 import PageStructure from "../components/PageStructure"
 import ToggleBlock from "../components/ToggleBlock"
+import { Table } from "react-bootstrap"
 
 const VocabPage = () => {
    const vocabMap = require("../data/vocab")
@@ -32,7 +32,7 @@ const VocabPage = () => {
    return (
       <PageStructure
          content={
-            <div style={{ marginTop: "3rem" }}>
+            <>
                <h3 style={{ marginBottom: "1rem" }}>
                   Vocabulary
                </h3>
@@ -41,7 +41,7 @@ const VocabPage = () => {
                   toggleName="section"
                   collapseName="vocab"
                />
-            </div>
+            </>
          }
       />
    )

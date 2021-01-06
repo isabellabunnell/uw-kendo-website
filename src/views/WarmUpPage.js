@@ -7,7 +7,7 @@ const WarmUpPage = () => {
    return (
       <PageStructure
          content={
-            <div style={{ marginTop: "3rem" }}>
+            <>
                <h3 style={{ marginBottom: "1rem" }}>
                   Warm Up
                </h3>
@@ -16,7 +16,7 @@ const WarmUpPage = () => {
                   toggleName="abstract"
                   collapseName="detail"
                />
-            </div>
+            </>
          }
       />
    )
