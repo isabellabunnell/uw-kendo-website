@@ -109,10 +109,6 @@ body {
   justify-content: center;
 }
 
-.margin-bottom-1 {
-  margin-bottom: 1rem;
-}
-
 .home-join-button-font, join-button-font {
   font-weight: 700;
   font-size: 18px;

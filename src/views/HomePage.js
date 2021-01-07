@@ -30,7 +30,7 @@ const HomePage = () => {
                      <div id="home-control">
                         <Button
                            id="home-join-button"
-                           className="home-join-button-font margin-right-1 margin-bottom-1"
+                           className="home-join-button-font margin-right-1"
                            variant="primary"
                            onClick={() => window.location=JOIN_MAIL_URL}
                         >
