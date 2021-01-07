@@ -1,6 +1,5 @@
-import React, { useState } from "react"
+import React from "react"
 import PositionBlock from "./PositionBlock"
-import { Pagination } from "@material-ui/lab"
 import { Row, Col } from "react-bootstrap"
 import { reducePeopleMapToList } from "../functions/utils"
 

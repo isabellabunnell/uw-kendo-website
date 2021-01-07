@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar"
 import { Button, Col, Container, Row } from "react-bootstrap"
 import { JOIN_MAIL_URL } from "../data/info"
 import { IMAGE_PATH } from "./App"
+import SocialMediaBlock from "../components/SocialMediaBlock"
 
 const HomePage = () => {
    return (
@@ -35,17 +36,7 @@ const HomePage = () => {
                         >
                            Join our mailing list
                         </Button>
-                        <div className="home-social-media-block">
-                           <a href="https://www.facebook.com/uwkendoclub">
-                              <img
-                                 src={`${IMAGE_PATH}/info/fb-logo.png`}
-                                 width="45px" className="margin-right-1"
-                              />
-                           </a>
-                           <a href="https://www.instagram.com/kendo_uw/">
-                              <img src={`${IMAGE_PATH}/info/ins-logo.png`} width="45px" />
-                           </a>
-                        </div>
+                        <SocialMediaBlock />
                      </div>
                   </div>
                </Col>

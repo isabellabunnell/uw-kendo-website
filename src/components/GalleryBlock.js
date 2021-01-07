@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import SocialMediaBlock from "./SocialMediaBlock"
 import { Carousel, Dropdown } from "react-bootstrap"
 import { galleryMap } from "../data/info"
 import { IMAGE_PATH } from "../views/App"
@@ -12,20 +13,25 @@ const GalleryBlock = () => {
             <h3 style={{ marginBottom: "1rem", marginRight: "2rem" }}>
                Gallery
             </h3>
-            <Dropdown style={{ marginBottom: "2rem" }}>
-               <Dropdown.Toggle variant="success" id="gallery-dropdown">
-                  {event}
-               </Dropdown.Toggle>
-               <Dropdown.Menu id="gallery-drop-menu">
-                  {
-                     Object.keys(galleryMap).filter(group => group !== event).map((group, groupIdx) => (
-                        <Dropdown.Item key={`gallery-drop-${groupIdx}`}
-                           onSelect={(_, event) => setEvent(event.target.innerText)}
-                        >{group}</Dropdown.Item>
-                     ))
-                  }
-               </Dropdown.Menu>
-            </Dropdown>
+            <div id="gallery-control">
+               <div className="margin-right-1">
+                  <SocialMediaBlock color />
+               </div>
+               <Dropdown>
+                  <Dropdown.Toggle variant="success" id="gallery-dropdown">
+                     {event}
+                  </Dropdown.Toggle>
+                  <Dropdown.Menu id="gallery-drop-menu">
+                     {
+                        Object.keys(galleryMap).filter(group => group !== event).map((group, groupIdx) => (
+                           <Dropdown.Item key={`gallery-drop-${groupIdx}`}
+                              onSelect={(_, event) => setEvent(event.target.innerText)}
+                           >{group}</Dropdown.Item>
+                        ))
+                     }
+                  </Dropdown.Menu>
+               </Dropdown>
+            </div>
          </div>
          <Carousel>
             {
