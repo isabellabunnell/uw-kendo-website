@@ -27,10 +27,10 @@ const HomePage = () => {
                      <p className="home-join-font">
                         Come join the Kendo Club at the University of Washington today!
                      </p>
-                     <div>
+                     <div id="home-control">
                         <Button
                            id="home-join-button"
-                           className="home-join-button-font margin-right-1"
+                           className="home-join-button-font margin-right-1 margin-bottom-1"
                            variant="primary"
                            onClick={() => window.location=JOIN_MAIL_URL}
                         >

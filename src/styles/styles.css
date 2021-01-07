@@ -99,10 +99,23 @@ body {
   display: block;
 }
 
+#home-join-button {
+  margin-bottom: 1rem;
+}
+
+#home-control {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.margin-bottom-1 {
+  margin-bottom: 1rem;
+}
+
 .home-join-button-font, join-button-font {
   font-weight: 700;
   font-size: 18px;
-  margin-bottom: 1rem;
 }
 
 #join-button, #home-join-button {
