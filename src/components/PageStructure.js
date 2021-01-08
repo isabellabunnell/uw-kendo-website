@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react"
-import LogoTitle from "./LogoTitle"
+import React from "react"
 import NavBar from "./NavBar"
 import PropTypes from "prop-types"
 import { Col, Container, Row } from "react-bootstrap"
@@ -7,16 +6,6 @@ import { Col, Container, Row } from "react-bootstrap"
 const PageStructure = ({
    content
 }) => {
-   const [screenHeight, setScreenHeight] = useState(window.innerHeight)
-   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
-
-   useEffect(() => {
-      window.addEventListener("resize", () => {
-         setScreenHeight(window.innerHeight)
-         setScreenWidth(window.innerWidth)
-      })
-   }, [])
-
    return (
       <>
          <NavBar />
