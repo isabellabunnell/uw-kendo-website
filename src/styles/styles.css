@@ -316,9 +316,7 @@ body {
   .home-text-layout {
     height: 70vh;
   }
-}
 
-@media (max-width: 500px) {
   #home-join-button {
     margin-bottom: 1rem;
   }
