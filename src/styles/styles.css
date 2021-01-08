@@ -99,10 +99,6 @@ body {
   display: block;
 }
 
-#home-join-button {
-  margin-bottom: 1rem;
-}
-
 #home-control {
   display: inline-flex;
   flex-wrap: wrap;
@@ -114,9 +110,15 @@ body {
   font-size: 18px;
 }
 
-#join-button, #home-join-button {
+#join-button {
   background-color: white !important;
   border: 2px solid #5B3080;
+  color: #5B3080;
+}
+
+#home-join-button {
+  background-color: white !important;
+  border: none;
   color: #5B3080;
 }
 
@@ -293,9 +295,25 @@ body {
   margin-right: 1rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 339px) {
+  #gallery-control {
+    justify-content: flex-start;
+  }
+
+  #gallery-dropdown {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 386px) {
   .home-text-layout {
     height: 70vh;
+  }
+}
+
+@media (max-width: 500px) {
+  #home-join-button {
+    margin-bottom: 1rem;
   }
 }
 
