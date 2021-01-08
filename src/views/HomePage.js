@@ -1,9 +1,9 @@
 import React from "react"
 import NavBar from "../components/NavBar"
+import SocialMediaBlock from "../components/SocialMediaBlock"
 import { Button, Col, Container, Row } from "react-bootstrap"
 import { JOIN_MAIL_URL } from "../data/info"
 import { IMAGE_PATH } from "./App"
-import SocialMediaBlock from "../components/SocialMediaBlock"
 
 const HomePage = () => {
    return (
