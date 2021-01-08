@@ -298,6 +298,10 @@ body {
   margin-right: 1rem;
 }
 
+.MuiPaginationItem-textPrimary.Mui-selected {
+  background-color: #5B3080 !important;
+}
+
 @media (max-width: 339px) {
   #gallery-control {
     justify-content: flex-start;
