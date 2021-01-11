@@ -1,0 +1,58 @@
+{
+   "President": [
+      {
+         "name": "Jane Higa",
+         "image": "officers/jane.jpg"
+      }
+   ],
+   "Vice President": [
+      {
+         "name": "Brian Wong",
+         "image": "officers/brian.jpg"
+      }
+   ],
+   "Treasurer": [
+      {
+         "name": "Andy Yuen",
+         "image": "officers/andy.jpg"
+      }
+   ],
+   "Safety Officer": [
+      {
+         "name": "Cian Alexander Chu",
+         "quote": "clip your toenails",
+         "image": "officers/cian.jpg"
+      },
+      {
+         "name": "Welson Nguyen"
+      }
+   ],
+   "Webmaster": [
+      {
+         "name": "Ajay Kristipati",
+         "quote": "In hindsight I probably should have started working on this website in November",
+         "image": "officers/ajay.jpg"
+      },
+      {
+         "name": "Linni Cai"
+      }
+   ],
+   "Staff": [
+      {
+         "name":"Juno Lee",
+         "image":"officers/juno.jpg"
+      },
+      {
+         "name":"AJ Chau"
+      },
+      {
+         "name":"Brian Hong"
+      },
+      {
+         "name":"Camille Miller"
+      },
+      {
+         "name":"Kyle Fukuda"
+      }
+   ]
+}
