@@ -450,8 +450,28 @@ export const linkMap = {
          address: "http://www.kendo-pnw.org/everett/"
       },
       {
+         name: "Federal Way Kendo",
+         address: "http://www.federalwaykendo.org/"
+      },
+      {
          name: "Highline Kendo Kai",
          address: "http://www.kendo-pnw.org/bhs/hln/"
+      },
+      {
+         name: "Idaho Kendo Kai",
+         address: "http://www.idaho-kendo.com/"
+      },
+      {
+         name: "Kendo Club at Washington State University",
+         address: "http://www.kendo-pnkf.org/clubs/wsu.php"
+      },
+      {
+         name: "Kent Kendo",
+         address: "http://www.kentkendo.org/"
+      },
+      {
+         name: "Northwest Kendo Club",
+         address: "http://www.nwkendo.com/"
       },
       {
          name: "Obukan Kendo Club",
@@ -466,6 +486,10 @@ export const linkMap = {
          address: "http://www.kendo-pnw.org/renton/class.htm"
       },
       {
+         name: "Seattle Kendo Kai",
+         address: "http://www.seattlekendokai.org/"
+      },
+      {
          name: "Sno-King Kendo Club",
          address: "http://www.kendo-pnw.org/bhs/snk/"
       },
@@ -476,22 +500,6 @@ export const linkMap = {
       {
          name: "Tacoma Kendo & Iaido Club",
          address: "http://www.tacomakendo.com/"
-      },
-      {
-         name: "Idaho Kendo Kai",
-         address: "http://www.idaho-kendo.com/"
-      },
-      {
-         name: "Northwest Kendo Club",
-         address: "http://www.nwkendo.com/"
-      },
-      {
-         name: "Seattle Kendo Kai",
-         address: "http://www.seattlekendokai.org/"
-      },
-      {
-         name: "Kendo Club at Washington State University",
-         address: "http://www.kendo-pnkf.org/clubs/wsu.php"
       },
       {
          name: "Willamette University Kendo Club",
