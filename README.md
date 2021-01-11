@@ -9,7 +9,7 @@
      - `yarn test`
    - For build:
      - `yarn build`
-     - update `build/` in [Pure Build Repo](https://github.com/LINNI2017/uw-kendo-web-build)
+     - update `build/` in [Pure Build Repo](https://github.com/LINNI2017/uw-kendo-build)
      - prevent multiple image copies and limited disc space
    - For deployment:
      - `ssh xxx`
