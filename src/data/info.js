@@ -152,29 +152,34 @@ export const faqList = [
 export const warmUpList = [
    {
       abstract: "Wrist Shakes",
-      detail: "Arms to sides, hands below center of gravity, as if shaking water off hands, relax, breath normally."
+      detail: "Arms to sides, hands below center of gravity, as if shaking water off hands, relax, breath normally.",
+      image: "warmup/wrist-shake.gif"
    },
    {
       abstract: "Knee Lifts",
       detail: `Lift knee straight to front toward shoulder, alternate sides, exhale.
       \n
-      Lift heels up in back, kick butt with heels, keep knees down, inhale.`
+      Lift heels up in back, kick butt with heels, keep knees down, inhale.`,
+      image: "warmup/knee-lift.gif"
    },
    {
       abstract: "Spinal Flexion and Extension",
       detail: `Tuck chin to chest, flex the whole spine forward (don't lean forward), cross arms in front, spread shoulder blades apart, exhale.
       \n
-      Look up at ceiling and down the wall in back of you (don't lean back), spread arms to sides and back, press shoulder blades together, inhale.`
+      Look up at ceiling and down the wall in back of you (don't lean back), spread arms to sides and back, press shoulder blades together, inhale.`,
+      image: "warmup/spinal-flex.gif"
    },
    {
       abstract: "Jumping",
-      detail: "In place with feet straight ahead, then forward and back, then side to side"
+      detail: "In place with feet straight ahead, then forward and back, then side to side",
+      image: "warmup/jumping1.gif"
    },
    {
       abstract: "Up and Over",
       detail: `Swing arms to front up over head (elbows straight but not stiff), palms front, knees and ankles extend, relax hands and wrists, inhale.
       \n
-      Swing arms down and back behind (palms back), knees and ankles bend, exhale.`
+      Swing arms down and back behind (palms back), knees and ankles bend, exhale.`,
+      image: "warmup/up-and-over.gif"
    },
    {
       abstract: "Knee Series",
@@ -188,7 +193,8 @@ export const warmUpList = [
       \n
       Spine more vertical when bending knees, more horizontal when straightening knees.
       \n
-      Exhale as knees bend, inhale as knees straighten.`
+      Exhale as knees bend, inhale as knees straighten.`,
+      image: "warmup/knees.gif"
    },
    {
       abstract: "Twist",
@@ -198,17 +204,20 @@ export const warmUpList = [
       \n
       Front arm slaps opposite shoulder, back of back hand hits opposite butt cheek.
       \n
-      Inhale as you twist back, exhale as you return to the front.`
+      Inhale as you twist back, exhale as you return to the front.`,
+      image: "warmup/twist.gif"
    },
    {
       abstract: "Jumping",
-      detail: "In place with feet straight ahead, then both forward and back, then both side to side, count every other bounce."
+      detail: "In place with feet straight ahead, then both forward and back, then both side to side, count every other bounce.",
+      image: "warmup/jumping2.gif"
    },
    {
       abstract: "Spinal Side Bend",
       detail: `Feet straight ahead, shoulders width apart, hands on hips, fingers & thumbs point forward.
       \n
-      Lean shoulders to one side, push hips to the other, touch ear toward shoulder, exhale, inhale as you come up.`
+      Lean shoulders to one side, push hips to the other, touch ear toward shoulder, exhale, inhale as you come up.`,
+      image: "warmup/spinal-side-bend.gif"
    },
    {
       abstract: "Leg stretches",
@@ -230,7 +239,8 @@ export const warmUpList = [
       \n
       Arms to sides, make large circles in both directions, elbows straight, hands relaxed.
       \n
-      Inhale and exhale on every other circle.`
+      Inhale and exhale on every other circle.`,
+      image: "warmup/arm-circles.gif"
    },
    {
       abstract: "Jougeburi x20",
