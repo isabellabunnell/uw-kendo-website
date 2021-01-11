@@ -9,7 +9,7 @@
      - `yarn test`
    - For build:
      - use `build/` in [Pure Build Repo](https://github.com/LINNI2017/uw-kendo-web-build)
-     - prevent multiple image copies or limited disc space
+     - prevent multiple image copies and limited disc space
    - For deployment:
      - `ssh xxx`
      - enter password
