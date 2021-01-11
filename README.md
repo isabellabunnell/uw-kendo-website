@@ -8,8 +8,8 @@
    - For test:
      - `yarn test`
    - For build:
-     - use `build/` in https://github.com/LINNI2017/uw-kendo-web-build
-     - prevent multiple image copies or limited disc space, use pure build/ in the separate repo
+     - use `build/` in [Pure Build Repo](https://github.com/LINNI2017/uw-kendo-web-build)
+     - prevent multiple image copies or limited disc space
    - For deployment:
      - `ssh xxx`
      - enter password
