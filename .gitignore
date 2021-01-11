@@ -21,6 +21,3 @@ yarn-error.log*
 .eslintcache
 
 deploy_info.txt
-
-public/
-src/
