@@ -742,7 +742,7 @@ export const historyList = [
    {
       date: "1984",
       abstract: "The Third United States Kendo Championships",
-      detail: "Thanks to the Club 's standing as a UW Recreational Sports Club, it was held in the Hec Ed Addition Gym, dorms, and supporting facilities, with then - President of the WSKF, David S.Yotsuuye, in charge of all the arrangements."
+      detail: "Thanks to the Club's standing as a UW Recreational Sports Club, it was held in the Hec Ed Addition Gym, dorms, and supporting facilities, with the then President of the WSKF, David S.Yotsuuye, and Vicki (Yotsuuye) Marsten, UW Club President, in charge of all the arrangements."
    },
    {
       date: "Now",

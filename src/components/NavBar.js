@@ -23,14 +23,6 @@ const NavBar = ({
                   src={`${IMAGE_PATH}/info/club-logo-white.png`}
                   style={{ marginRight: "1rem" }}
                />
-               <span
-                  style={{
-                     fontWeight: "bold",
-                     display: (location === LINK.UWKC || location === "") &&"none"
-                  }}
-               >
-                  Kendo Club
-               </span>
             </div>
             
          </Navbar.Brand>
