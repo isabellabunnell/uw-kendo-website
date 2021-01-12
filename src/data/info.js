@@ -142,10 +142,6 @@ export const faqList = [
    {
       Q: "I have more questions. Who can I contact?",
       A: "For questions/issues regarding the club or this site, please visit one of our practices or visit our Facebook Page."
-   },
-   {
-      Q: "Where is Ted?",
-      A: "We're not really sure, and at this point we're not really sure who Ted is, but check here."
    }
 ]
 
