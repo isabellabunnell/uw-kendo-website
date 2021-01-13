@@ -14,7 +14,10 @@ const SocialMediaBlock = ({
             />
          </a>
          <a href="https://www.instagram.com/kendo_uw/">
-            <img src={`${IMAGE_PATH}/info/ins-logo${color ? "-color" : ""}.png`} width="45px" />
+            <img src={`${IMAGE_PATH}/info/ins-logo${color ? "-color" : ""}.png`} width="45px" className="fb-media" />
+         </a>
+       <a href="mailto:uwashington.kendo@gmail.com">
+            <img src={`${IMAGE_PATH}/info/email-logo${color ? "-color" : ""}.png`} width="45px" />
          </a>
       </div>
    )
