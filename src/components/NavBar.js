@@ -29,7 +29,6 @@ const NavBar = ({
                      display: (location === LINK.UWKC || location === "") && "none"
                   }}
                >
-                  Kendo Club @ UW
                </span>
             </div>
             
