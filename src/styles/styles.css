@@ -88,6 +88,12 @@ body {
   color: white;
 }
 
+.home-times-font {
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+}
+
 .home-join-layout {
   margin: auto;
   text-align: center;
