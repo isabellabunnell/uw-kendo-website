@@ -24,13 +24,13 @@ const NavBar = ({
                   style={{ marginRight: "1rem" }}
                />
                <span
-                    style={{
-                        fontWeight: "bold",
-                        display: (location === LINK.UWKC || location === "") && "none"
-                    }}
-                >
-                    Kendo Club @ UW
-                </span>
+                  style={{
+                     fontWeight: "bold",
+                     display: (location === LINK.UWKC || location === "") && "none"
+                  }}
+               >
+                  Kendo Club @ UW
+               </span>
             </div>
             
          </Navbar.Brand>
