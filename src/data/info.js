@@ -46,7 +46,7 @@ export const clubInfo = {
    content: `The Kendo Club at University of Washington (UW) is a sports club sponsored by the Department of Recreational Sports Programs. We're open to currently enrolled UW students and faculty/staff members that have purchased a quarterly or annual IMA Membership Card.
    \n
    We are recognized member dojo of the Pacific Northwest Kendo Federation (PNKF) and the All United States Kendo Federation (AUSKF). Members of the club are eligible to become members in good standing of both federations and are entitled to all privileges of the same.`,
-   img: "info/placeholder.jpg"
+   img: "gallery/2019 Highline/highline2019gang.jpg"
 }
 
 export const sportInfo = [
@@ -142,39 +142,40 @@ export const faqList = [
    {
       Q: "I have more questions. Who can I contact?",
       A: "For questions/issues regarding the club or this site, please visit one of our practices or visit our Facebook Page."
-   },
-   {
-      Q: "Where is Ted?",
-      A: "We're not really sure, and at this point we're not really sure who Ted is, but check here."
    }
 ]
 
 export const warmUpList = [
    {
       abstract: "Wrist Shakes",
-      detail: "Arms to sides, hands below center of gravity, as if shaking water off hands, relax, breath normally."
+      detail: "Arms to sides, hands below center of gravity, as if shaking water off hands, relax, breath normally.",
+      image: "warmup/wrist-shake.gif"
    },
    {
       abstract: "Knee Lifts",
       detail: `Lift knee straight to front toward shoulder, alternate sides, exhale.
       \n
-      Lift heels up in back, kick butt with heels, keep knees down, inhale.`
+      Lift heels up in back, kick butt with heels, keep knees down, inhale.`,
+      image: "warmup/knee-lift.gif"
    },
    {
       abstract: "Spinal Flexion and Extension",
       detail: `Tuck chin to chest, flex the whole spine forward (don't lean forward), cross arms in front, spread shoulder blades apart, exhale.
       \n
-      Look up at ceiling and down the wall in back of you (don't lean back), spread arms to sides and back, press shoulder blades together, inhale.`
+      Look up at ceiling and down the wall in back of you (don't lean back), spread arms to sides and back, press shoulder blades together, inhale.`,
+      image: "warmup/spinal-flex.gif"
    },
    {
       abstract: "Jumping",
-      detail: "In place with feet straight ahead, then forward and back, then side to side"
+      detail: "In place with feet straight ahead, then forward and back, then side to side",
+      image: "warmup/jumping1.gif"
    },
    {
       abstract: "Up and Over",
       detail: `Swing arms to front up over head (elbows straight but not stiff), palms front, knees and ankles extend, relax hands and wrists, inhale.
       \n
-      Swing arms down and back behind (palms back), knees and ankles bend, exhale.`
+      Swing arms down and back behind (palms back), knees and ankles bend, exhale.`,
+      image: "warmup/up-and-over.gif"
    },
    {
       abstract: "Knee Series",
@@ -188,7 +189,8 @@ export const warmUpList = [
       \n
       Spine more vertical when bending knees, more horizontal when straightening knees.
       \n
-      Exhale as knees bend, inhale as knees straighten.`
+      Exhale as knees bend, inhale as knees straighten.`,
+      image: "warmup/knees.gif"
    },
    {
       abstract: "Twist",
@@ -198,17 +200,20 @@ export const warmUpList = [
       \n
       Front arm slaps opposite shoulder, back of back hand hits opposite butt cheek.
       \n
-      Inhale as you twist back, exhale as you return to the front.`
+      Inhale as you twist back, exhale as you return to the front.`,
+      image: "warmup/twist.gif"
    },
    {
       abstract: "Jumping",
-      detail: "In place with feet straight ahead, then both forward and back, then both side to side, count every other bounce."
+      detail: "In place with feet straight ahead, then both forward and back, then both side to side, count every other bounce.",
+      image: "warmup/jumping2.gif"
    },
    {
       abstract: "Spinal Side Bend",
       detail: `Feet straight ahead, shoulders width apart, hands on hips, fingers & thumbs point forward.
       \n
-      Lean shoulders to one side, push hips to the other, touch ear toward shoulder, exhale, inhale as you come up.`
+      Lean shoulders to one side, push hips to the other, touch ear toward shoulder, exhale, inhale as you come up.`,
+      image: "warmup/spinal-side-bend.gif"
    },
    {
       abstract: "Leg stretches",
@@ -216,13 +221,14 @@ export const warmUpList = [
       \n
       calf
       \n
-      achillies
+      achilles
       \n
       groin
       \n
       hamstring
       \n
-      other side`
+      other side`,
+      image: "warmup/leg-stretch.jpg"
    },
    {
       abstract: "Arm Circles",
@@ -230,23 +236,28 @@ export const warmUpList = [
       \n
       Arms to sides, make large circles in both directions, elbows straight, hands relaxed.
       \n
-      Inhale and exhale on every other circle.`
+      Inhale and exhale on every other circle.`,
+      image: "warmup/arm-circles.gif"
    },
    {
       abstract: "Jougeburi x20",
-      detail: "1/4 Suburi"
+      detail: "1/4 Suburi",
+      image: "warmup/the-jougeburi.gif"
    },
    {
       abstract: "Men-uchi x30",
-      detail: "2/4 Suburi"
+      detail: "2/4 Suburi",
+      image: "warmup/the-menuchi.gif"
    },
    {
       abstract: "Sayu-men x20",
-      detail: "3/4 Suburi"
+      detail: "3/4 Suburi",
+      image: "warmup/the-sayumen.gif"
    },
    {
       abstract: "Haya-suburi 5x20",
-      detail: "4/4 Suburi"
+      detail: "4/4 Suburi",
+      image: "warmup/the-hayasuburi.gif"
    }
 ]
 
@@ -435,8 +446,28 @@ export const linkMap = {
          address: "http://www.kendo-pnw.org/everett/"
       },
       {
+         name: "Federal Way Kendo",
+         address: "http://www.federalwaykendo.org/"
+      },
+      {
          name: "Highline Kendo Kai",
          address: "http://www.kendo-pnw.org/bhs/hln/"
+      },
+      {
+         name: "Idaho Kendo Kai",
+         address: "http://www.idaho-kendo.com/"
+      },
+      {
+         name: "Kendo Club at Washington State University",
+         address: "http://www.kendo-pnkf.org/clubs/wsu.php"
+      },
+      {
+         name: "Kent Kendo",
+         address: "http://www.kentkendo.org/"
+      },
+      {
+         name: "Northwest Kendo Club",
+         address: "http://www.nwkendo.com/"
       },
       {
          name: "Obukan Kendo Club",
@@ -451,6 +482,10 @@ export const linkMap = {
          address: "http://www.kendo-pnw.org/renton/class.htm"
       },
       {
+         name: "Seattle Kendo Kai",
+         address: "http://www.seattlekendokai.org/"
+      },
+      {
          name: "Sno-King Kendo Club",
          address: "http://www.kendo-pnw.org/bhs/snk/"
       },
@@ -461,22 +496,6 @@ export const linkMap = {
       {
          name: "Tacoma Kendo & Iaido Club",
          address: "http://www.tacomakendo.com/"
-      },
-      {
-         name: "Idaho Kendo Kai",
-         address: "http://www.idaho-kendo.com/"
-      },
-      {
-         name: "Northwest Kendo Club",
-         address: "http://www.nwkendo.com/"
-      },
-      {
-         name: "Seattle Kendo Kai",
-         address: "http://www.seattlekendokai.org/"
-      },
-      {
-         name: "Kendo Club at Washington State University",
-         address: "http://www.kendo-pnkf.org/clubs/wsu.php"
       },
       {
          name: "Willamette University Kendo Club",

@@ -37,20 +37,26 @@
          "name": "Linni Cai"
       }
    ],
-   "Staff": [
+   "Secretary": [
       {
          "name":"Juno Lee",
          "image":"officers/juno.jpg"
-      },
+      }
+   ],
+   "Event Coordinator": [
       {
          "name":"AJ Chau"
       },
       {
-         "name":"Brian Hong"
-      },
-      {
          "name":"Camille Miller"
-      },
+      }
+   ],
+   "Vice President Intern": [
+      {
+         "name":"Brian Hong"
+      }
+   ],
+   "President Intern": [
       {
          "name":"Kyle Fukuda"
       }

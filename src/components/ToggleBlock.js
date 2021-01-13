@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { Accordion, Button } from "react-bootstrap"
 import { BsChevronDown, BsChevronUp } from "react-icons/bs"
+import { IMAGE_PATH } from "../views/App"
 
 const ToggleBlock = ({
    infoList,
@@ -29,6 +30,7 @@ const ToggleBlock = ({
                            </div>
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="0">
+                           <div>
                            {
                               typeof collapse === "object" ?
                               collapse :
@@ -38,6 +40,16 @@ const ToggleBlock = ({
                                  ))}
                               </div>
                            }
+                           {
+                              info.image &&
+                              <img
+                                 src={`${IMAGE_PATH}/${info.image}`}
+                                 alt={info.image}
+                                 height="300px"
+                                 style={{ marginBottom: "1rem" }}
+                              />
+                           }
+                           </div>
                         </Accordion.Collapse>
                      </Accordion>
                   </div>

@@ -50,6 +50,7 @@ const GalleryBlock = () => {
                ))
             }
          </Carousel>
+         <p style={{ marginTop: "1rem", textAlign: "center" }}>Most of our photos are taken by Kendo Photography and alumni</p>
       </div>
    )
 }
