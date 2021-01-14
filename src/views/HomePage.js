@@ -17,7 +17,7 @@ const HomePage = () => {
             height: "100vh"
          }}
       >
-         <NavBar transparent />
+         <NavBar />
          <Container fluid className="home-text-layout">
             <Row>
                <Col sm={1} />

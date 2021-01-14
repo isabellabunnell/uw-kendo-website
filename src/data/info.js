@@ -229,22 +229,22 @@ export const warmUpList = [
    },
    {
       abstract: "Jougeburi x20",
-      detail: "1/4 Suburi",
+      detail: "",
       image: "warmup/the-jougeburi.gif"
    },
    {
       abstract: "Men-uchi x30",
-      detail: "2/4 Suburi",
+      detail: "",
       image: "warmup/the-menuchi.gif"
    },
    {
       abstract: "Sayu-men x20",
-      detail: "3/4 Suburi",
+      detail: "",
       image: "warmup/the-sayumen.gif"
    },
    {
       abstract: "Haya-suburi 5x20",
-      detail: "4/4 Suburi",
+      detail: "",
       image: "warmup/the-hayasuburi.gif"
    }
 ]
