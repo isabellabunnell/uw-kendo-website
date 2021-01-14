@@ -40,7 +40,7 @@ const AnnPage = () => {
          content={
             <>
                <h3 style={{ marginBottom: "2rem" }}>
-                  Announcement
+                  Announcements
                </h3>
                <Row>
                   {

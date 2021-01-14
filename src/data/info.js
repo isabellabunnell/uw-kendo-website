@@ -4,28 +4,16 @@ export const JOIN_MAIL_URL = "http://mailman13.u.washington.edu/mailman/listinfo
 
 export const annList = [
    {
+       title: "Joint Practice with UBC",
+       content: "There'll be a joint practice with the University of British Columbia on 1/15",
+       img: "ann/zoom.png",
+       date: "2021-01-13"
+   },
+   {
       title: "Practice",
-      content: "2022 Winter Practice is weekly.",
+      content: "2021 Winter Practice is weekly.",
       img: "ann/steveston2020 masa.jpg",
       date: "2021-12-01"
-   },
-   {
-      title: "Practice",
-      content: "2021 Autumn Practice is weekly.",
-      img: "ann/zoom.png",
-      date: "2021-09-01"
-   },
-   {
-      title: "COVID-19 Update",
-      content: "2021 Spring Practice is on zoom weekly.",
-      img: "ann/uw2019warmups.jpg",
-      date: "2021-04-01"
-   },
-   {
-      title: "Zoom Practice",
-      content: "2021 Winter Practice is on zoom weekly.",
-      img: "ann/sakura-uw.jpg",
-      date: "2020-12-01"
    },
    {
       title: "Zoom Practice",
