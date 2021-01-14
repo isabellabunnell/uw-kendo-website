@@ -21,4 +21,4 @@ yarn-error.log*
 .eslintcache
 
 deploy_info.txt
-build/
+#build/
