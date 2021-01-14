@@ -29,6 +29,7 @@ const NavBar = ({
                      display: (location === LINK.UWKC || location === "") && "none"
                   }}
                >
+               Test
                </span>
             </div>
             
