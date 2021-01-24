@@ -22,7 +22,7 @@ const HomePage = () => {
             <Row>
                <Col sm={1} />
                <Col sm={10}>
-                  <p className="logo-title-font-white">Kendo Club</p>
+                  <p className="logo-title-font-white">Kendo Club @ UW</p>
                   <div className="home-join-layout">
                      <p className="home-join-font">
                         Come join the Kendo Club at the University of Washington today!
