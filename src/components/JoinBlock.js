@@ -1,10 +1,24 @@
 import React from "react"
 import { Button } from "react-bootstrap"
 import { JOIN_MAIL_URL } from "../data/info"
+import { JOIN_FB_URL } from "../data/info"
 
 const JoinBlock = () => {
    return (
       <div style={{ marginBottom: "2rem" }}>
+          <h3 style={{ marginBottom: "1rem" }}>
+           Facebook 
+         </h3>
+         <p>Our most updated information on tournaments, awards, events, and practices are also on our Facebook page! Check out our page for the latest information!
+         </p>
+         <Button
+            className="join-button-font"
+            id="join-button"
+            variant="primary"
+            onClick={() => window.location=JOIN_FB_URL}
+         >
+            Join our mailing list
+         </Button>
          <h3 style={{ marginBottom: "1rem" }}>
             Mailing List
          </h3>

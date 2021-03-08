@@ -2,6 +2,7 @@ import React from "react"
 
 export const JOIN_MAIL_URL = "http://mailman13.u.washington.edu/mailman/listinfo/uwkendo"
 
+export const JOIN_FB_URL = "https://www.facebook.com/uwkendoclub/"
 export const annList = [
    {
        title: "Joint Practice with UBC",
