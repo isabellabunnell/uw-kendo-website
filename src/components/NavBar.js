@@ -56,7 +56,7 @@ const NavBar = ({
                   </NavDropdown.Item>
                </NavDropdown>
                <Nav.Link href={LINK.WHAT_IS_KENDO_URL} disabled={location === LINK.WHAT_IS_KENDO}>What is Kendo?</Nav.Link>
-               <Nav.Link href={LINK.ANN_URL} disabled={location === LINK.ANNOUNCEMENT}>Announcements</Nav.Link>
+       {/*<Nav.Link href={LINK.ANN_URL} disabled={location === LINK.ANNOUNCEMENT}>Announcements</Nav.Link>*/}
                <Nav.Link href={LINK.JOIN_URL} disabled={location === LINK.JOIN}>Join</Nav.Link>
                <NavDropdown
                   title="Resources"

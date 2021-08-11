@@ -28,7 +28,7 @@ const HomePage = () => {
                         Come join the Kendo Club at the University of Washington today!
                      </p>
                      <p className="home-times-font">
-                        Practices at 7:00-8:00 Wednesdays and Fridays over Zoom
+                        Practices at 7:00-8:00 Wednesdays and Fridays
                     </p>
                      <div id="home-control">
                         <Button

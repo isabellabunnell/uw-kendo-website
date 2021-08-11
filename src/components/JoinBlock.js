@@ -17,9 +17,9 @@ const JoinBlock = () => {
             variant="primary"
             onClick={() => window.location=JOIN_FB_URL}
          >
-            Join our mailing list
+           Follow us on Facebook 
          </Button>
-         <h3 style={{ marginBottom: "1rem" }}>
+         <h3 style={{ marginTop:"2rem", marginBottom: "1rem" }}>
             Mailing List
          </h3>
          <p>
