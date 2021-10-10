@@ -1,14 +1,12 @@
 {
    "President": [
       {
-         "name": "Jane Higa",
-         "image": "officers/jane.jpg"
+         "name": "Kyle Fukuda"
       }
    ],
    "Vice President": [
       {
-         "name": "Brian Wong",
-         "image": "officers/brian.jpg"
+         "name": "Brian Hong"
       }
    ],
    "Treasurer": [
@@ -22,25 +20,19 @@
          "name": "Cian Alexander Chu",
          "quote": "clip your toenails",
          "image": "officers/cian.jpg"
-      },
-      {
-         "name": "Welson Nguyen"
       }
    ],
    "Webmaster": [
       {
-         "name": "Ajay Kristipati",
-         "quote": "In hindsight I probably should have started working on this website in November",
-         "image": "officers/ajay.jpg"
+         "name": "William Wang"
       },
       {
-         "name": "Linni Cai"
+         "name": "Isabella Bunnell"
       }
    ],
    "Secretary": [
       {
-         "name":"Juno Lee",
-         "image":"officers/juno.jpg"
+         "name":"TJ Okamura"
       }
    ],
    "Event Coordinator": [
@@ -49,16 +41,9 @@
       },
       {
          "name":"Camille Miller"
-      }
-   ],
-   "Vice President Intern": [
-      {
-         "name":"Brian Hong"
-      }
-   ],
-   "President Intern": [
-      {
-         "name":"Kyle Fukuda"
+      },
+      {  
+	 "name":"Mina Cheney"
       }
    ]
 }
