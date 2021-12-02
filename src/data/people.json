@@ -1,7 +1,8 @@
 {
    "President": [
       {
-         "name": "Kyle Fukuda"
+         "name": "Kyle Fukuda",
+         "image": "officers/kyle.jpg"
       }
    ],
    "Vice President": [
@@ -12,7 +13,7 @@
    "Treasurer": [
       {
          "name": "Andy Yuen",
-         "image": "officers/andy.jpg"
+         "image": "officers/andy.jpeg"
       }
    ],
    "Safety Officer": [
@@ -24,15 +25,20 @@
    ],
    "Webmaster": [
       {
-         "name": "William Wang"
+         "name": "William Wang",
+         "image": "officers/william.jpg"
       },
       {
-         "name": "Isabella Bunnell"
+         "name": "Isabella Bunnell",
+         "image": "officers/bella.jpg"
+
       }
    ],
    "Secretary": [
       {
-         "name":"TJ Okamura"
+         "name":"TJ Okamura",
+         "image": "officers/tj.jpg"
+
       }
    ],
    "Event Coordinator": [
@@ -43,7 +49,9 @@
          "name":"Camille Miller"
       },
       {  
-	 "name":"Mina Cheney"
+	 "name":"Mina Cheney",
+         "image": "officers/mina.jpeg"
+
       }
    ]
 }
