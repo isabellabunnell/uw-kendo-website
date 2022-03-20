@@ -4,6 +4,7 @@ import HomePage from "./HomePage"
 import InfoPage from "./InfoPage"
 import JoinPage from "./JoinPage"
 import FAQPage from "./FAQPage"
+import UWTaikaiPage from "./UWTaikaiPage"
 import VocabPage from "./VocabPage"
 import WarmUpPage from "./WarmUpPage"
 import EtiquettePage from "./EtiquettePage"
@@ -54,6 +55,10 @@ const App = () => {
         <Route
           path={LINK.FAQ_URL}
           component={FAQPage}
+        />
+        <Route
+          path={LINK.UW_TAIKAI_URL}
+          component={UWTaikaiPage}
         />
         <Route
           path={LINK.VOCAB_URL}

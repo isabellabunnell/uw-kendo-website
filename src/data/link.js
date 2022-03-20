@@ -12,6 +12,7 @@ export const THE_CLUB = "the-club"
 export const GALLERY = "gallery"
 export const PEOPLE = "people"
 export const AWARDS = "awards"
+export const UW_TAIKAI = "uw-taikai"
 
 export const BASE_URL = `/${UWKC}`
 export const ABOUT_URL = `${BASE_URL}/${ABOUT}`
@@ -27,3 +28,4 @@ export const THE_CLUB_URL = `${BASE_URL}/${THE_CLUB}`
 export const GALLERY_URL = `${BASE_URL}/${GALLERY}`
 export const PEOPLE_URL = `${BASE_URL}/${PEOPLE}`
 export const AWARDS_URL = `${BASE_URL}/${AWARDS}`
+export const UW_TAIKAI_URL = `${BASE_URL}/${UW_TAIKAI}`
