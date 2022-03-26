@@ -1,0 +1,38 @@
+{
+   "Autumn Quarter": [
+      {
+         "item": "Beginner Package",
+         "price": "$40 - includes bokken ($35) and sword bag ($5)"
+      },
+      {
+         "item": "Shinai",
+         "price": "$30"
+      }
+   ],
+   "Winter Quarter": [
+      {
+         "item": "Uniform",
+         "price": "$95 - includes keikogi, hakama"
+      },
+      {
+         "item": "Club tenugui (optional)",
+         "price": "$12"
+      },
+      {
+         "item": "2nd shinai",
+         "price": "$30"
+      },
+      {
+         "item": "Club jacket (optional)",
+         "price": "Varies on design (expect $40-50 minimum)"
+      },
+      {
+         "item": "Nafuda",
+         "price": "$25-35"
+      },
+      {
+         "item": "Taikai fees",
+         "price": "varies"
+      }
+   ]
+}

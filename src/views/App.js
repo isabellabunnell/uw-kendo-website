@@ -14,6 +14,7 @@ import PeoplePage from "./PeoplePage"
 import AwardsPage from "./AwardsPage"
 import GalleryPage from "./GalleryPage"
 import ClubPage from "./ClubPage"
+import CostPage from "./CostPage"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import * as LINK from "../data/link"
 
