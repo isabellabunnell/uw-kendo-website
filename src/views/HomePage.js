@@ -1,4 +1,5 @@
 import React from "react"
+import Banner from 'react-js-banner';
 import NavBar from "../components/NavBar"
 import SocialMediaBlock from "../components/SocialMediaBlock"
 import { Button, Col, Container, Row } from "react-bootstrap"
@@ -18,6 +19,11 @@ const HomePage = () => {
          }}
       >
          <NavBar />
+         <Banner 
+         title="For information about the UW Taikai in May, please click on 'UW Taikai Info'." 
+         css={{color: "#000", backgroundColor: "goldenrod", fontFamily: "verdana"}} 
+         visibleTime={60000}
+         />
          <Container fluid className="home-text-layout">
             <Row>
                <Col sm={1} />
