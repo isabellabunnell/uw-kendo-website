@@ -78,6 +78,10 @@ const App = () => {
           component={LinkPage}
         />
         <Route
+          path={LINK.COST_SHEET_URL}
+          component={CostPage}
+        />
+        <Route
           path="*"
           component={HomePage}
         />

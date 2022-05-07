@@ -78,6 +78,9 @@ const NavBar = ({
                   <NavDropdown.Item href={LINK.USEFUL_LINK_URL} disabled={location === LINK.USEFUL_LINK}>
                      Useful Links
                   </NavDropdown.Item>
+                  <NavDropdown.Item href={LINK.COST_SHEET_URL} disabled={location === LINK.COST_SHEET}>
+                     Costs
+                  </NavDropdown.Item>
                </NavDropdown>
                <Nav.Link href={LINK.UW_TAIKAI_URL} disabled={location === LINK.UW_TAIKAI}>UW Taikai Info</Nav.Link>
             </Nav>

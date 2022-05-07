@@ -11,10 +11,12 @@ const GeneralCostBlock = () => {
          </h2>
          <p>
             Federation dues: varies ($35 in 2022 for students)
+            {/*
             <ul style={{ listStyle: "none"}}>
                <li>...</li>
                <li>...</li>
             </ul>
+            */}
          </p>
          <h2>
             Quarterly Dues
