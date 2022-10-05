@@ -19,11 +19,6 @@ const HomePage = () => {
          }}
       >
          <NavBar />
-         <Banner 
-         title="For information about the UW Taikai in May, please click on 'UW Taikai Info'." 
-         css={{color: "#000", backgroundColor: "goldenrod", fontFamily: "verdana"}} 
-         visibleTime={60000}
-         />
          <Container fluid className="home-text-layout">
             <Row>
                <Col sm={1} />
