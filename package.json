@@ -54,5 +54,16 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "description": "- For first-time initialization:\r      - `yarn install`\r      - `yarn start`\r      - run on `http://localhost:3000/uwkc/`\r    - For test:\r      - `yarn test`\r    - For build:\r      - `yarn build`\r      - update `build/` in [Pure Build Repo](https://github.com/LINNI2017/uw-kendo-build)\r      - prevent multiple image copies and limited disc space\r    - For deployment:\r      - `ssh xxx`\r      - enter password\r      - run `update_website.sh`\r ### [Design Style](https://www.figma.com/file/Pk82TI8MmukIKFk7ICZ9H2/UW-Kendo?node-id=57%3A0) thanks@Saakshi Goel",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isabellabunnell/uw-kendo-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isabellabunnell/uw-kendo-website/issues"
   }
 }

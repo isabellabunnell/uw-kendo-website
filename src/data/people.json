@@ -1,57 +1,50 @@
 {
    "President": [
       {
-         "name": "Kyle Fukuda",
-         "image": "officers/kyle.jpg"
-      }
-   ],
-   "Vice President": [
-      {
-         "name": "Brian Hong"
-      }
-   ],
-   "Treasurer": [
-      {
          "name": "Andy Yuen",
          "image": "officers/andy.jpeg"
       }
    ],
+   "Vice President": [
+      {
+         "name": "Hanna Inoue",
+         "image": "officers/placeholder.png"
+      }
+   ],
+   "Treasurer": [
+      {
+         "name": "Taryn Neal",
+         "image": "officers/taryn.jpg"
+      }
+   ],
    "Safety Officer": [
       {
-         "name": "Cian Alexander Chu",
-         "quote": "clip your toenails",
-         "image": "officers/cian.jpg"
+         "name": "Yisa Wu",
+         "image": "officers/placeholder.png"
       }
    ],
    "Webmaster": [
       {
-         "name": "William Wang",
-         "image": "officers/william.jpg"
-      },
-      {
-         "name": "Isabella Bunnell",
-         "image": "officers/bella.jpg"
-
+         "name": "Nhat Le",
+         "image": "officers/nhat.jpeg"
       }
    ],
    "Secretary": [
       {
-         "name":"TJ Okamura",
-         "image": "officers/tj.jpg"
-
+         "name":"Kodee Soetamin",
+         "image": "officers/placeholder.png"
+      }
+   ],
+   "PR": [
+      {
+         "name":"Annabelle Huang",
+         "image": "officers/annabelle.jpg"
       }
    ],
    "Event Coordinator": [
       {
-         "name":"AJ Chau"
-      },
-      {
-         "name":"Camille Miller"
-      },
-      {  
-	 "name":"Mina Cheney",
-         "image": "officers/mina.jpeg"
-
+         "name": "Owen Fairbairn",
+         "image": "officers/placeholder.png"
       }
    ]
 }
