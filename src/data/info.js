@@ -780,7 +780,7 @@ export const historyList = [
    },
    {
       date: "Now",
-      abstract: "Great impact on Kendo developemnt and leadership",
+      abstract: "Great impact on Kendo development and leadership",
       detail: "The Kendo Club at UW has had a regional, national, and international impact on Kendo development and leadership far beyond the proportion mere numbers might suggest.Kendo Club at UW alumni have gone on to such world - class offices as President of the All - United States Kendo Federation and Director of the International Kendo Federation.Countless great kenshi from far and wide have come under Seattle and UW 's enchantment, to return again and again."
    }
 ]
