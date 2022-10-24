@@ -2,11 +2,11 @@
    "First Quarter": [
       {
          "item": "Beginner Package",
-         "price": "$40 - includes bokken ($35) and sword bag ($5)"
+         "price": "$60 - includes bokken ($35) and sword bag ($5) and quarterly dues ($20)"
       },
       {
          "item": "Shinai",
-         "price": "$30"
+         "price": "$35"
       }
    ],
    "Second Quarter": [
@@ -20,7 +20,7 @@
       },
       {
          "item": "2nd shinai",
-         "price": "$30"
+         "price": "$35"
       },
       {
          "item": "Club jacket (optional)",
