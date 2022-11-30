@@ -1911,5 +1911,107 @@
         }
       ]
     }
+  ],
+  "2022": [
+    {
+      "2022 Havard Intercollegiate Taikai": [
+        {
+          "division": "School Teams Round Robin",
+          "name": "UW (Andy Yuen, Cian Chu, Harrison Hu, AJ Chau, Kyle Fukuda)",
+          "place": "1st place"
+        },
+        {
+          "division": "Mixed Friendly Teams Round Robin",
+          "name": "Jabba the Hutt (Y. Lin, M. Smith, J. Moore, W. Ting, K. Fukuda)",
+          "place": "1st place"
+        }
+      ]
+    },
+    {
+      "2022 UCLA Annual Intercollegiate Yuhihai Kendo Tournament": [
+        {
+          "division": "Women’s Individuals",
+          "name": "Betty Park",
+          "place": "3rd place"
+        },
+        {
+          "division": "Kyu Team",
+          "name": "UW (Kodee Soetamin, Elizabeth Choi, Shay Cunningham)",
+          "place": "1st place"
+        },
+        {
+          "division": "Co-ed Team",
+          "name": "UW (Andy Yuen, Betty Park, Harrison Hu, Ryotaro Hayashi, Kyle Fukuda)",
+          "place": "2nd place"
+        }
+      ]
+    },
+    {
+      "2022 UW Taikai": [
+        {
+          "division": "0-4 Kyu",
+          "name": "Kodee Soetamin",
+          "place": "1st place"
+        },
+        {
+          "division": "0-4 Kyu",
+          "name": "Shay Cunningham",
+          "place": "3rd place"
+        },
+        {
+          "division": "0-4 Kyu",
+          "name": "Sean Lim",
+          "place": "3rd place"
+        },
+        {
+          "division": "1-3 Kyu",
+          "name": "Brian Wong",
+          "place": "1st place"
+        },
+        {
+          "division": "1-2 Dan",
+          "name": "Brian Liao",
+          "place": "3rd place"
+        },
+        {
+          "division": "Shoji Award",
+          "name": "TJ Okamura"
+        }
+      ]
+    },
+    {
+      "2022 PNKF Taikai": [
+        {
+          "division": "1-2 Dan",
+          "name": "Kyle Fukuda",
+          "place": "2nd place"
+        },
+        {
+          "division": "3rd Dan",
+          "name": "Andy Yuen",
+          "place": "3rd place"
+        },
+        {
+          "division": "0-4 Kyu",
+          "name": "Nhat Le",
+          "place": "2nd place"
+        },
+        {
+          "division": "0-4 Kyu",
+          "name": "Andrew Fan",
+          "place": "3rd place"
+        },
+        {
+          "division": "Women’s Kyu",
+          "name": "Yisa Wu",
+          "place": "3rd place"
+        },
+        {
+          "division": "Senior Team",
+          "name": "UW (Brian Liao, Harrison Hu, Betty Park, Andy Yuen, Kyle Fukuda)",
+          "place": "3rd place"
+        }
+      ]
+    }
   ]
 }
