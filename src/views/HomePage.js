@@ -19,6 +19,11 @@ const HomePage = () => {
          }}
       >
          <NavBar />
+         <Banner
+             title="For information about the 50th Anniversary Keiko & Mixer in January 7th 2023, please click on '50th Anniversary Info'."
+             css={{ color: "#000", backgroundColor: "goldenrod", fontFamily: "verdana" }}
+             visibleTime={60000}
+         />
          <Container fluid className="home-text-layout">
             <Row>
                <Col sm={1} />

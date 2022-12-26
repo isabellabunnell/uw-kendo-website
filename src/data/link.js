@@ -13,6 +13,7 @@ export const GALLERY = "gallery"
 export const PEOPLE = "people"
 export const AWARDS = "awards"
 export const UW_TAIKAI = "uw-taikai"
+export const FIFTIETH_ANNIVERSARY = "fiftieth-anniversary"
 export const COST_SHEET = "cost-sheet"
 
 export const BASE_URL = `/${UWKC}`
@@ -30,4 +31,5 @@ export const GALLERY_URL = `${BASE_URL}/${GALLERY}`
 export const PEOPLE_URL = `${BASE_URL}/${PEOPLE}`
 export const AWARDS_URL = `${BASE_URL}/${AWARDS}`
 export const UW_TAIKAI_URL = `${BASE_URL}/${UW_TAIKAI}`
+export const FIFTIETH_ANNIVERSARY_URL = `${BASE_URL}/${FIFTIETH_ANNIVERSARY}`
 export const COST_SHEET_URL = `${BASE_URL}/${COST_SHEET}`

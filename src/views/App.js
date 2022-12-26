@@ -5,6 +5,7 @@ import InfoPage from "./InfoPage"
 import JoinPage from "./JoinPage"
 import FAQPage from "./FAQPage"
 import UWTaikaiPage from "./UWTaikaiPage"
+import UWFiftiethAnniversaryPage from "./UWFiftiethAnniversaryPage"
 import VocabPage from "./VocabPage"
 import WarmUpPage from "./WarmUpPage"
 import EtiquettePage from "./EtiquettePage"
@@ -60,6 +61,10 @@ const App = () => {
         <Route
           path={LINK.UW_TAIKAI_URL}
           component={UWTaikaiPage}
+        />
+        <Route
+          path={LINK.FIFTIETH_ANNIVERSARY_URL}
+          component={UWFiftiethAnniversaryPage}
         />
         <Route
           path={LINK.VOCAB_URL}

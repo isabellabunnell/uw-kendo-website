@@ -784,3 +784,41 @@ export const historyList = [
       detail: "The Kendo Club at UW has had a regional, national, and international impact on Kendo development and leadership far beyond the proportion mere numbers might suggest.Kendo Club at UW alumni have gone on to such world - class offices as President of the All - United States Kendo Federation and Director of the International Kendo Federation.Countless great kenshi from far and wide have come under Seattle and UW 's enchantment, to return again and again."
    }
 ]
+
+export const fiftiethanniversaryInfo = [
+    {
+        Q: "Time and location",
+        A: `PRACTICE: \n
+            Location: UW Intramurals Activity Building gym B \n
+            Date: Saturday January 7, 2023 \n
+            Time: 12: 00 PM - 2: 00 PM \n
+            MIXER: \n
+            Location: UW Husky Union Building room 145 \n
+            Date: Same day \n
+            Time: 2: 00 PM - 7: 00 PM`
+    },
+    {
+        Q: "RSVP",
+        A: (
+             <>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSflGKIeX35Q1WFiWW9OQt_hP09EE0evLN6ptrfQhE5Bh38zxQ/viewform">Link to RSVP form</a>
+             </>
+      )
+    },
+    {
+        Q: "Raffle prizes",
+        A: (
+            <>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSexgtKdChsPx0F-IA8OI44uAU0ItMFSJ25Yvr2mOq_v1DYEEg/viewform">We are organizing a raffle during the mixer. If you wish to participate, please click here to purchase tickets.</a>
+            </>
+        )
+    },   
+    {
+        Q: "Parking",
+        A: "Parking will be available in lot E18 (next to IMA building, $7 for the day), and lot N20-N21 (Padelford Garage, $6.25 for the day)."
+    },
+    {
+        Q: "COVID-19 Restrictions",
+        A: "UW policy indicates optional masking starting March 28th 2022, but it is highly recommended."
+    }
+]

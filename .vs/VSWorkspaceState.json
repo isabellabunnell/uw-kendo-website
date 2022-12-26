@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\data",
+    "\\src\\styles",
+    "\\src\\views"
   ],
+  "SelectedNode": "\\src\\views\\UWFiftiethAnniversaryPage.js",
   "PreviewInSolutionExplorer": false
 }
