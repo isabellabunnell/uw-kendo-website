@@ -3,9 +3,10 @@
     "",
     "\\src",
     "\\src\\data",
+    "\\src\\functions",
     "\\src\\styles",
     "\\src\\views"
   ],
-  "SelectedNode": "\\src\\views\\UWFiftiethAnniversaryPage.js",
+  "SelectedNode": "\\src\\data\\info.js",
   "PreviewInSolutionExplorer": false
 }
