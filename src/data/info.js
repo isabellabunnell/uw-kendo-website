@@ -815,7 +815,7 @@ export const fiftiethanniversaryInfo = [
     },   
     {
         Q: "Parking",
-        A: "Parking will be available in lot E18 (next to IMA building, $7 for the day), and lot N20-N21 (Padelford Garage, $6.25 for the day)."
+        A: "Parking will be available in lot E18 (next to IMA building, $7 for the day)."
     },
     {
         Q: "COVID-19 Restrictions",
