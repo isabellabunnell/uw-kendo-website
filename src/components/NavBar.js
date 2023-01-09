@@ -83,7 +83,7 @@ const NavBar = ({
                   </NavDropdown.Item>
                </NavDropdown>
                {/*<Nav.Link href={LINK.UW_TAIKAI_URL} disabled={location === LINK.UW_TAIKAI}>UW Taikai Info</Nav.Link>*/}
-               {<Nav.Link href={LINK.FIFTIETH_ANNIVERSARY_URL} disabled={location === LINK.FIFTIETH_ANNIVERSARY}>50th Anniversary Info</Nav.Link>}
+               {/*<Nav.Link href={LINK.FIFTIETH_ANNIVERSARY_URL} disabled={location === LINK.FIFTIETH_ANNIVERSARY}>50th Anniversary Info</Nav.Link>*/}
             </Nav>
          </Navbar.Collapse>
       </Navbar>
