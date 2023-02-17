@@ -2013,5 +2013,64 @@
         }
       ]
     }
+  ],
+  "2023": [
+    {
+      "2023 Intercollegiate Taikai": [
+        {
+          "division": "Men's Dan",
+          "name": "Kyle Fukuda",
+          "place": "1st place"
+        },
+        {
+          "division": "Men's Dan",
+          "name": "Andy Yuen",
+          "place": "2nd place"
+        },
+        {
+          "division": "Men's Dan",
+          "name": "Ryotaro Hayashi",
+          "place": "3rd place"
+        },
+        {
+          "division": "Men's Dan",
+          "name": "TJ Okamura",
+          "place": "3rd place"
+        },
+        {
+          "division": "Teams",
+          "name": "UW A (Kodee Soetamin, Nhat Le, Andrew Fan, Ryotaro Hayashi, Betty Park, Andy Yuen, Kyle Fukuda)",
+          "place": "1st place"
+        },
+        {
+          "division": "Women's Open",
+          "name": "Betty Park",
+          "place": "1st place"
+        },
+        {
+          "division": "Men's Kyu'",
+          "name": "Nhat Le",
+          "place": "3rd place"
+        },
+        {
+          "division": "Men's Kyu",
+          "name": "Kodee Soetamin",
+          "place": "1st place"
+        },
+        {
+          "division": "Sportsmanship & Spirit",
+          "name": "Andrew Fan"
+        }
+      ]
+    },
+    {
+      "2023 Steveston Taikai": [
+        {
+          "division": "Women's Open",
+          "name": "Betty Park",
+          "place": "3rd place"
+        }
+      ]
+    }
   ]
 }
