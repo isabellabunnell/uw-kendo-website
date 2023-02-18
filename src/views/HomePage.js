@@ -34,7 +34,7 @@ const HomePage = () => {
                         Come join the Kendo Club at the University of Washington today!
                      </p>
                      <p className="home-times-font">
-                        Practices at 7:00-9:00 Wednesdays (IMA Gym B) and Fridays (IMA Gym D)
+                        Practices at 7:00-9:00 Wednesdays (IMA Gym B) and Fridays (IMA Studio 216)
                     </p>
                      <div id="home-control">
                         <Button
