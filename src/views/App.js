@@ -23,9 +23,10 @@ export const IMAGE_PATH = process.env.PUBLIC_URL + "/images"
 
 const App = () => {
   return (
+    
     <Router>
       <Switch>
-        <Route
+        {/*<Route
           path={LINK.PEOPLE_URL}
           component={PeoplePage}
         />
@@ -89,9 +90,14 @@ const App = () => {
         <Route
           path="*"
           component={HomePage}
+        />*/}
+        <Route
+          path={"sites.uw.edu/uwkc"}
+          component={PeoplePage}
         />
       </Switch>
     </Router>
+    
   )
 }
 
