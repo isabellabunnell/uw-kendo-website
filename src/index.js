@@ -6,7 +6,10 @@ import reportWebVitals from "./reportWebVitals"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/*<App />*/}
+    <div>
+      <p>The Kendo Club at University of Washington has a new website found at https://sites.uw.edu/uwkc</p>
+    </div>
   </React.StrictMode>,
   document.getElementById("root")
 )
